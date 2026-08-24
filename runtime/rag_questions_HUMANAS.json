@@ -1,0 +1,1679 @@
+[
+  {
+    "id": 1,
+    "question": "Qual é o título da disciplina apresentada no slide?",
+    "ground_truth": "Computadores, Ética e Sociedade",
+    "gold_chunks": [
+      "Computadores, Ética e Sociedade"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Quem é a professora responsável pela disciplina?",
+    "ground_truth": "Carla Lopes Rodriguez",
+    "gold_chunks": [
+      "Carla Lopes Rodriguez"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Qual é o e-mail da professora apresentado nos slides?",
+    "ground_truth": "c.rodriguez@ufabc.edu.br",
+    "gold_chunks": [
+      "c.rodriguez@ufabc.edu.br"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Qual é o tema principal da Aula 03?",
+    "ground_truth": "Tecnologia e Sociedade",
+    "gold_chunks": [
+      "Aula 03 Tecnologia e Sociedade"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Quais assuntos relacionados ao projeto foram apresentados na Aula 03?",
+    "ground_truth": "Proposta de projeto em grupos, roteiro do projeto e formação de grupos.",
+    "gold_chunks": [
+      "proposta de projeto em grupos",
+      "roteiro do projeto",
+      "formação de grupos"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "O que foi discutido na Aula 02?",
+    "ground_truth": "Ética, ética profissional, mudança de paradigma e diversidade.",
+    "gold_chunks": [
+      "Na aula 02, discutimos ética, ética profissional, mudança de paradigma e as questões de diversidade."
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Qual é o objetivo da Aula 03 segundo a apresentação?",
+    "ground_truth": "Retomar a discussão sobre tecnologia e impacto social e introduzir a proposta de projeto em grupo.",
+    "gold_chunks": [
+      "Hoje (Aula 03) retomaremos a discussão sobre tecnologia e impacto social, para introduzirmos a proposta de projeto em grupo."
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Quais tecnologias são citadas como exemplos na apresentação?",
+    "ground_truth": "Automóveis e veículos autônomos, Crisp-Cas9 (edição genética/DNA), algoritmos de recomendação, IA e IA generativa (modelos de linguagem de grande escala), Neuralink e tecnologias assistivas, redes sociais e internet, software livre e impressões 3D, equipamentos da área da saúde, celulares e computadores, IoT, computação em nuvem, drones, blockchain e PIX.",
+    "gold_chunks": [
+      "Automóveis e veículos autônomos",
+      "Crisp-cas 9 (DNA)",
+      "Algoritmos de recomendação",
+      "IA e IA generativa, modelos de linguagem de grande escala (LLMS)",
+      "Neuralink; tecnologias assistivas (acessibilidade)",
+      "Redes sociais; internet",
+      "Software livre; impressões 3D",
+      "Equipamentos área da saúde",
+      "Celulares e computadores",
+      "IoT; Computação em Nuvem; Drones; blockchain; PIX"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Quais desafios éticos relacionados às tecnologias são destacados?",
+    "ground_truth": "Educação digital, regulamentações éticas e transparentes, desenvolvimento responsável da tecnologia, segurança dos dados, políticas públicas de capacitação tecnológica, requalificação profissional, inclusão digital, lixo eletrônico e vício nos celulares e fake news.",
+    "gold_chunks": [
+      "educação digital, regulamentações éticas e transparentes, desenvolvimento RESPONSÁVEL da tecnologia…segurança dos dados",
+      "políticas públicas voltadas à capacitação tecnológica, requalificação profissional e inclusão digital",
+      "lixo eletrônico - materiais sustentáveis",
+      "vício nos celulares; fake news"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Qual reflexão é proposta sobre a tecnologia?",
+    "ground_truth": "Qual é o sentido que atribuímos à tecnologia em nossa vida?",
+    "gold_chunks": [
+      "Qual é o sentido que atribuímos à tecnologia em nossa vida?"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "O que foi discutido na Aula 01, segundo a retomada feita na Aula 03?",
+    "ground_truth": "A sociedade contemporânea e como a tecnologia está tão presente.",
+    "gold_chunks": [
+      "Na aula 01, falamos sobre a sociedade contemporânea e como a tecnologia está tão presente."
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Além de 'qual o sentido que atribuímos à tecnologia em nossa vida', qual outra pergunta reflexiva é levantada sobre a tecnologia?",
+    "ground_truth": "A importância da tecnologia seria a significação que damos a elas?",
+    "gold_chunks": [
+      "A importância da tecnologia seria a significação que damos a elas?"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Segundo a Teoria Crítica da Tecnologia apresentada (Feenberg, 2013), a tecnologia é controlável ou autônoma?",
+    "ground_truth": "É controlável e está carregada de valores.",
+    "gold_chunks": [
+      "a tecnologia é controlável e está carregada de valores"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Quais impactos positivos da internet são apresentados no diagrama sobre tecnologias na comunicação?",
+    "ground_truth": "Impulsiona negócios e globalização, diminui as distâncias entre pessoas, provê ferramentas de apoio à aprendizagem, democratiza o acesso à informação e propicia colaboração através de diversas aplicações.",
+    "gold_chunks": [
+      "Impulsiona negócios e globalização",
+      "Diminui as distâncias entre pessoas",
+      "Provê ferramentas para apoio à aprendizagem",
+      "Democratiza o acesso à informação",
+      "Propicia colaboração através de diversas aplicações"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Quais impactos negativos da internet são apresentados no diagrama sobre tecnologias na comunicação?",
+    "ground_truth": "Provoca isolamento físico, gera dependência e transtornos de conduta, gera sobrecarga de informação e diminui a privacidade.",
+    "gold_chunks": [
+      "Provoca isolamento físico",
+      "Gera dependência e transtornos de conduta",
+      "Gera sobrecarga de informação",
+      "Diminui a privacidade"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Segundo a Teoria Crítica da Tecnologia, a tecnologia não é autônoma, mas manifestação de quê?",
+    "ground_truth": "De uma racionalidade política, que só pode ser modificada através de mudanças culturais e de avanços democráticos.",
+    "gold_chunks": [
+      "a tecnologia não é autônoma, mas a manifestação de uma racionalidade política: só pode ser modificada através de mudanças culturais e de avanços democráticos"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Segundo a teoria crítica da tecnologia apresentada, o que acontece conforme a sociedade progride?",
+    "ground_truth": "Aumenta a capacidade das pessoas para assumirem responsabilidade política, fomenta a universalidade do ser humano, permite a liberdade de pensamento, respeita a individualidade e estimula a criatividade.",
+    "gold_chunks": [
+      "a mudança social vem conforme a sociedade progride: aumenta a capacidade das pessoas para assumirem responsabilidade política, fomenta a universalidade do ser humano, permite a liberdade de pensamento, respeita a individualidade e estimula a criatividade"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Segundo a pesquisa citada na apresentação, qual é o principal desafio das mulheres na área de TI?",
+    "ground_truth": "A representatividade ainda é baixa, principalmente na liderança.",
+    "gold_chunks": [
+      "A representatividade ainda é baixa, principalmente na liderança."
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Qual problema ambiental relacionado à tecnologia é citado?",
+    "ground_truth": "O lixo eletrônico.",
+    "gold_chunks": [
+      "lixo eletrônico"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Qual problema relacionado ao uso da informação é citado nos slides?",
+    "ground_truth": "A disseminação de fake news.",
+    "gold_chunks": [
+      "fake news"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Qual problema relacionado ao uso excessivo da tecnologia é mencionado na apresentação?",
+    "ground_truth": "O vício nos celulares.",
+    "gold_chunks": [
+      "vício nos celulares"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Qual pergunta a apresentação levanta sobre a regulamentação da profissão de computação?",
+    "ground_truth": "E a computação (como profissão) é regulamentada?",
+    "gold_chunks": [
+      "E a computação (como profissão) é regulamentada?"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "O que a apresentação afirma sobre as regulamentações da tecnologia?",
+    "ground_truth": "Devem ser éticas e transparentes.",
+    "gold_chunks": [
+      "regulamentações éticas e transparentes"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Qual é o objetivo das políticas públicas mencionadas na apresentação?",
+    "ground_truth": "Capacitação tecnológica, requalificação profissional e inclusão digital.",
+    "gold_chunks": [
+      "políticas públicas voltadas à capacitação tecnológica, requalificação profissional e inclusão digital"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Qual necessidade relacionada ao mercado de trabalho é apresentada?",
+    "ground_truth": "A requalificação profissional.",
+    "gold_chunks": [
+      "requalificação profissional"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Segundo a apresentação, o desenvolvimento tecnológico deve ser acompanhado de quê?",
+    "ground_truth": "De desenvolvimento responsável da tecnologia.",
+    "gold_chunks": [
+      "desenvolvimento responsável da tecnologia"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Qual aspecto relacionado aos dados recebe destaque nos slides?",
+    "ground_truth": "A segurança dos dados.",
+    "gold_chunks": [
+      "segurança dos dados"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Qual tipo de educação é apontado como importante diante dos avanços tecnológicos?",
+    "ground_truth": "A educação digital.",
+    "gold_chunks": [
+      "educação digital"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Quais estigmas afetam gays afeminados, queers e lésbicas, segundo a apresentação?",
+    "ground_truth": "Estigmas de fragilidade ou incapacidade.",
+    "gold_chunks": [
+      "Gays afeminados, queers e lésbicas sofrem com estigmas de fragilidade ou incapacidade."
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Qual deve ser uma característica das decisões relacionadas ao desenvolvimento tecnológico?",
+    "ground_truth": "Devem considerar seus impactos sociais e éticos.",
+    "gold_chunks": [
+      "desenvolvimento responsável da tecnologia",
+      "regulamentações éticas e transparentes"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Quais tecnologias emergentes são apresentadas no início da aula?",
+    "ground_truth": "Automóveis e veículos autônomos, Crisp-Cas9 (edição genética/DNA), algoritmos de recomendação, IA e IA generativa (modelos de linguagem de grande escala), Neuralink e tecnologias assistivas, redes sociais e internet, software livre e impressões 3D, equipamentos da área da saúde, celulares e computadores, IoT, computação em nuvem, drones, blockchain e PIX.",
+    "gold_chunks": [
+      "Automóveis e veículos autônomos",
+      "Crisp-cas 9 (DNA)",
+      "Algoritmos de recomendação",
+      "IA e IA generativa, modelos de linguagem de grande escala (LLMS)",
+      "Neuralink; tecnologias assistivas (acessibilidade)",
+      "Redes sociais; internet",
+      "Software livre; impressões 3D",
+      "Equipamentos área da saúde",
+      "Celulares e computadores",
+      "IoT; Computação em Nuvem; Drones; blockchain; PIX"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Qual é o foco principal das discussões apresentadas na Aula 03?",
+    "ground_truth": "A relação entre tecnologia e sociedade.",
+    "gold_chunks": [
+      "Aula 03 Tecnologia e Sociedade"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Além da discussão sobre tecnologia, qual atividade acadêmica é apresentada na aula?",
+    "ground_truth": "A proposta de projeto em grupos.",
+    "gold_chunks": [
+      "proposta de projeto em grupos"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "O que é apresentado juntamente com a proposta de projeto?",
+    "ground_truth": "O roteiro do projeto.",
+    "gold_chunks": [
+      "roteiro do projeto"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Que atividade organizacional é prevista para os alunos durante a Aula 03?",
+    "ground_truth": "A formação de grupos.",
+    "gold_chunks": [
+      "formação de grupos"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Qual pergunta convida os alunos à reflexão sobre a tecnologia?",
+    "ground_truth": "Qual é o sentido que atribuímos à tecnologia em nossa vida?",
+    "gold_chunks": [
+      "Qual é o sentido que atribuímos à tecnologia em nossa vida?"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Qual desafio é citado em relação às pessoas negras na área de TI?",
+    "ground_truth": "Existe resistência às ações afirmativas que auxiliem na contratação e permanência dessas pessoas, além de dificuldade de acesso à formação adequada relacionada à classe social, decorrente de exclusões históricas.",
+    "gold_chunks": [
+      "Existe resistência às ações afirmativas que auxiliem na contratação e permanência dessas pessoas.",
+      "há dificuldade de acesso à formação adequada relacionada à classe social, decorrente de exclusões históricas."
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Qual é uma preocupação relacionada à inteligência artificial apresentada na aula?",
+    "ground_truth": "A necessidade de regulamentações éticas e transparentes.",
+    "gold_chunks": [
+      "regulamentações éticas e transparentes"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Qual desafio relacionado ao trabalho é citado na apresentação?",
+    "ground_truth": "A necessidade de requalificação profissional diante dos avanços tecnológicos.",
+    "gold_chunks": [
+      "requalificação profissional"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Qual é a principal mensagem da Aula 03 sobre tecnologia?",
+    "ground_truth": "A tecnologia deve ser compreendida de forma crítica, considerando seus benefícios, riscos e impactos na sociedade.",
+    "gold_chunks": [
+      "desenvolvimento responsável da tecnologia",
+      "regulamentações éticas e transparentes",
+      "Qual é o sentido que atribuímos à tecnologia em nossa vida?"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Qual sigla relacionada à conectividade de objetos físicos aparece na lista de tecnologias emergentes apresentada?",
+    "ground_truth": "IoT.",
+    "gold_chunks": [
+      "IoT; Computação em Nuvem; Drones; blockchain; PIX…."
+    ]
+  },
+  {
+    "id": 42,
+    "question": "O que significa a sigla LLMS apresentada nos slides?",
+    "ground_truth": "Modelos de linguagem de grande escala.",
+    "gold_chunks": [
+      "modelos de linguagem de grande escala (LLMS)"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Qual tecnologia relacionada ao armazenamento e processamento de dados é apresentada?",
+    "ground_truth": "Computação em Nuvem.",
+    "gold_chunks": [
+      "Computação em Nuvem"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Qual tecnologia é utilizada para registrar informações de forma distribuída e segura?",
+    "ground_truth": "Blockchain.",
+    "gold_chunks": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Qual tecnologia relacionada à edição genética é citada na apresentação?",
+    "ground_truth": "Crisp-Cas9 (DNA).",
+    "gold_chunks": [
+      "Crisp-cas 9 (DNA)"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Qual exemplo de tecnologia financeira é citado na apresentação?",
+    "ground_truth": "PIX.",
+    "gold_chunks": [
+      "PIX"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Qual tecnologia relacionada à automação inteligente é apresentada nos slides?",
+    "ground_truth": "Inteligência Artificial.",
+    "gold_chunks": [
+      "Inteligência artificial"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Qual exemplo de aplicação da tecnologia nos transportes é citado na apresentação?",
+    "ground_truth": "Automóveis e veículos autônomos.",
+    "gold_chunks": [
+      "Automóveis e veículos autônomos"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Qual é um dos desafios para garantir o uso responsável da tecnologia?",
+    "ground_truth": "Criar regulamentações éticas e transparentes.",
+    "gold_chunks": [
+      "regulamentações éticas e transparentes"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Qual aspecto deve acompanhar a evolução tecnológica segundo a apresentação?",
+    "ground_truth": "O desenvolvimento responsável da tecnologia.",
+    "gold_chunks": [
+      "desenvolvimento responsável da tecnologia"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Qual ação é necessária para preparar trabalhadores para novas tecnologias?",
+    "ground_truth": "Requalificação profissional.",
+    "gold_chunks": [
+      "requalificação profissional"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Qual medida é importante para ampliar o acesso às tecnologias digitais?",
+    "ground_truth": "Inclusão digital.",
+    "gold_chunks": [
+      "inclusão digital"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Qual problema relacionado à informação pode ser agravado pelo uso das tecnologias digitais?",
+    "ground_truth": "A disseminação de fake news.",
+    "gold_chunks": [
+      "fake news"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Qual problema relacionado ao descarte de equipamentos eletrônicos é citado?",
+    "ground_truth": "Lixo eletrônico.",
+    "gold_chunks": [
+      "lixo eletrônico"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Qual problema relacionado ao uso excessivo dos dispositivos móveis é mencionado?",
+    "ground_truth": "Vício nos celulares.",
+    "gold_chunks": [
+      "vício nos celulares"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Qual área é destacada como fundamental para preparar a sociedade para o avanço tecnológico?",
+    "ground_truth": "Educação digital.",
+    "gold_chunks": [
+      "educação digital"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Qual aspecto relacionado aos dados deve ser protegido durante o desenvolvimento tecnológico?",
+    "ground_truth": "A segurança dos dados.",
+    "gold_chunks": [
+      "segurança dos dados"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Qual é um dos objetivos das políticas públicas apresentadas?",
+    "ground_truth": "Promover a capacitação tecnológica.",
+    "gold_chunks": [
+      "políticas públicas voltadas à capacitação tecnológica"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Qual foi o principal tema retomado antes da apresentação do projeto em grupo?",
+    "ground_truth": "A discussão sobre tecnologia e impacto social.",
+    "gold_chunks": [
+      "Hoje (Aula 03) retomaremos a discussão sobre tecnologia e impacto social, para introduzirmos a proposta de projeto em grupo."
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Qual é a principal preocupação ética destacada ao longo da Aula 03?",
+    "ground_truth": "Garantir que o desenvolvimento tecnológico ocorra de forma responsável e considerando seus impactos na sociedade.",
+    "gold_chunks": [
+      "desenvolvimento responsável da tecnologia",
+      "regulamentações éticas e transparentes",
+      "segurança dos dados",
+      "inclusão digital"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Qual é a finalidade da discussão sobre tecnologia apresentada na Aula 03?",
+    "ground_truth": "Promover uma reflexão crítica sobre os impactos da tecnologia na sociedade.",
+    "gold_chunks": [
+      "Aula 03 Tecnologia e Sociedade",
+      "Qual é o sentido que atribuímos à tecnologia em nossa vida?"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Qual tema antecede a apresentação da proposta de projeto?",
+    "ground_truth": "Tecnologia e sociedade.",
+    "gold_chunks": [
+      "Hoje (Aula 03) retomaremos a discussão sobre tecnologia e impacto social, para introduzirmos a proposta de projeto em grupo."
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Qual é um dos objetivos da Aula 03 em relação aos estudantes?",
+    "ground_truth": "Estimular uma reflexão crítica sobre o papel da tecnologia.",
+    "gold_chunks": [
+      "Qual é o sentido que atribuímos à tecnologia em nossa vida?"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Quais são as áreas de aplicação sugeridas para os projetos em grupo?",
+    "ground_truth": "Agronegócio, Cidades, Comunicação, Economia, Educação, Entretenimento, Esporte, Meio ambiente, Política e Saúde.",
+    "gold_chunks": [
+      "Agronegócio (agricultura, pecuária, agroindústria, etc)",
+      "Cidades (arquitetura, urbanismo, mobilidade, etc)",
+      "Comunicação (jornalismo, publicidade, etc)",
+      "Economia",
+      "Educação",
+      "Entretenimento (arte, cultura, turismo, etc)",
+      "Esporte",
+      "Meio ambiente",
+      "Política (cidadania, direito, etc)",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Qual desafio é citado em relação às Pessoas com Deficiência (PCD) na área de TI?",
+    "ground_truth": "Embora a TI represente uma oportunidade devido aos avanços em tecnologia e inclusão, essas pessoas são contratadas sem horizonte de crescimento profissional.",
+    "gold_chunks": [
+      "TI muitas vezes representa uma oportunidade devido aos avanços em tecnologia e inclusão.",
+      "essas pessoas são contratadas sem horizonte de crescimento profissional."
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Qual tecnologia permite conectar objetos físicos à internet?",
+    "ground_truth": "Internet das Coisas (IoT).",
+    "gold_chunks": [
+      "Internet das Coisas (IoT)"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Qual tecnologia é citada como exemplo de personalização de conteúdo online?",
+    "ground_truth": "Algoritmos de recomendação.",
+    "gold_chunks": [
+      "Algoritmos de recomendação"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Qual tecnologia é apresentada como suporte para armazenamento e processamento remoto?",
+    "ground_truth": "Computação em Nuvem.",
+    "gold_chunks": [
+      "Computação em Nuvem"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Qual tecnologia relacionada à neurotecnologia e acessibilidade é citada na apresentação?",
+    "ground_truth": "Neuralink e tecnologias assistivas.",
+    "gold_chunks": [
+      "Neuralink; tecnologias assistivas (acessibilidade)"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Qual tecnologia é citada como exemplo de automação de tarefas remotas?",
+    "ground_truth": "Drones.",
+    "gold_chunks": [
+      "Drones"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Qual tecnologia é utilizada para garantir registros distribuídos e seguros?",
+    "ground_truth": "Blockchain.",
+    "gold_chunks": [
+      "Blockchain"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Qual aplicação da tecnologia é apresentada para o setor automotivo?",
+    "ground_truth": "Veículos autônomos.",
+    "gold_chunks": [
+      "Automóveis e veículos autônomos"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Qual competência passa a ser necessária diante da transformação tecnológica?",
+    "ground_truth": "Requalificação profissional.",
+    "gold_chunks": [
+      "requalificação profissional"
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Qual ação busca garantir que todas as pessoas tenham acesso às tecnologias digitais?",
+    "ground_truth": "Inclusão digital.",
+    "gold_chunks": [
+      "inclusão digital"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Qual aspecto relacionado às informações pessoais recebe atenção na apresentação?",
+    "ground_truth": "Segurança dos dados.",
+    "gold_chunks": [
+      "segurança dos dados"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Qual problema ambiental está associado ao descarte inadequado de equipamentos eletrônicos?",
+    "ground_truth": "Lixo eletrônico.",
+    "gold_chunks": [
+      "lixo eletrônico"
+    ]
+  },
+  {
+    "id": 77,
+    "question": "Qual problema social pode ser agravado pelo compartilhamento irresponsável de conteúdos digitais?",
+    "ground_truth": "Fake news.",
+    "gold_chunks": [
+      "fake news"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Qual comportamento relacionado ao uso de dispositivos móveis é citado como preocupação?",
+    "ground_truth": "Vício nos celulares.",
+    "gold_chunks": [
+      "vício nos celulares"
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Segundo a apresentação, qual princípio deve orientar o desenvolvimento tecnológico?",
+    "ground_truth": "O desenvolvimento responsável da tecnologia.",
+    "gold_chunks": [
+      "desenvolvimento responsável da tecnologia"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Qual princípio deve orientar a elaboração de normas para o uso da tecnologia?",
+    "ground_truth": "Regulamentações éticas e transparentes.",
+    "gold_chunks": [
+      "regulamentações éticas e transparentes"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Em que data foi ministrada esta aula, segundo a capa da apresentação?",
+    "ground_truth": "24 de junho de 2025.",
+    "gold_chunks": [
+      "24 de junho de 2025."
+    ]
+  },
+  {
+    "id": 82,
+    "question": "A qual período letivo pertence a disciplina Computadores, Ética e Sociedade apresentada?",
+    "ground_truth": "2025.Q2.",
+    "gold_chunks": [
+      "Computadores, Ética e Sociedade 2025.Q2"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Qual centro da UFABC aparece no logotipo da apresentação?",
+    "ground_truth": "Centro de Matemática, Computação e Cognição (CMCC).",
+    "gold_chunks": [
+      "CMCC",
+      "Centro de Matemática, Computação e Cognição"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "Qual mensagem de encerramento a professora utiliza no slide final da apresentação?",
+    "ground_truth": "OBRIGADA!",
+    "gold_chunks": [
+      "OBRIGADA!"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Qual figura é utilizada para ilustrar as dimensões morais da era da informação?",
+    "ground_truth": "Figura 7.2 As Cinco Dimensões Morais da Era da Informação.",
+    "gold_chunks": [
+      "Figura 7.2 As Cinco Dimensões Morais da Era da Informação."
+    ]
+  },
+  {
+    "id": 86,
+    "question": "Quem são os autores citados como fonte do diagrama das Cinco Dimensões Morais da Era da Informação?",
+    "ground_truth": "Landon e Landon (2011).",
+    "gold_chunks": [
+      "Fonte: Landon e Landon, 2011."
+    ]
+  },
+  {
+    "id": 87,
+    "question": "Quais são as cinco dimensões morais da era da informação representadas no diagrama apresentado?",
+    "ground_truth": "Direitos e obrigações da informação, direitos e obrigações de propriedade, qualidade de sistema, qualidade de vida e prestação de contas e controle.",
+    "gold_chunks": [
+      "Direitos e obrigações da informação",
+      "Direitos e obrigações de propriedade",
+      "Qualidade de sistema",
+      "Qualidade de vida",
+      "Prestação de contas e controle"
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Quais camadas internas compõem o diagrama das dimensões morais da era da informação, do centro para fora?",
+    "ground_truth": "Sistemas e TI, Individual, Sociedade e Estado.",
+    "gold_chunks": [
+      "Sistemas e TI",
+      "Individual",
+      "Sociedade",
+      "Estado"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Quais tipos de questões formam a camada intermediária do diagrama das dimensões morais?",
+    "ground_truth": "Questões políticas, questões sociais e questões éticas.",
+    "gold_chunks": [
+      "Questões políticas",
+      "Questões sociais",
+      "Questões éticas"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "Além de ética profissional, qual comparação entre entidades é citada em relação à ética em computação?",
+    "ground_truth": "ACM x SBC.",
+    "gold_chunks": [
+      "Ética em computação (ACM x SBC)"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "O que é destacado em amarelo na apresentação, relacionado à ética profissional?",
+    "ground_truth": "Código de ética.",
+    "gold_chunks": [
+      "Código de ética"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Que tipo de estudo é proposto para abordar violações éticas em situações de trabalho?",
+    "ground_truth": "Estudo de casos de violação da ética em cenários e situações de trabalho.",
+    "gold_chunks": [
+      "Estudo de casos de violação da ética em cenários e situações de trabalho."
+    ]
+  },
+  {
+    "id": 93,
+    "question": "Quais perguntas são levantadas sobre a regulamentação da profissão e as condições de trabalho em computação?",
+    "ground_truth": "E a computação (como profissão) é regulamentada? Quais são as condições de trabalho oferecidas aos profissionais? O que é (ou pode ser) feito a nível de empresa/instituições?",
+    "gold_chunks": [
+      "Quais são as condições de trabalho oferecidas aos profissionais?",
+      "O que é (ou pode ser) feito a nível de empresa/instituições?"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Quais políticas são apontadas como resposta às questões sobre condições de trabalho e diversidade na computação?",
+    "ground_truth": "Políticas de inclusão, acessibilidade e diversidade.",
+    "gold_chunks": [
+      "políticas de inclusão, acessibilidade e diversidade!"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "O que a apresentação destaca sobre a capacidade e o conhecimento das mulheres na área de TI?",
+    "ground_truth": "Elas têm a capacidade e o conhecimento colocados em cheque durante sua jornada profissional.",
+    "gold_chunks": [
+      "Elas têm a capacidade e o conhecimento colocados em cheque durante sua jornada profissional."
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Qual dificuldade é citada em relação à formação das pessoas trans, segundo a apresentação?",
+    "ground_truth": "As pessoas trans sofrem com menos possibilidades de formação adequada.",
+    "gold_chunks": [
+      "As pessoas trans sofrem com menos possibilidades de formação adequada."
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Qual é a origem da dificuldade de acesso à formação adequada enfrentada por pessoas negras, segundo a apresentação?",
+    "ground_truth": "Decorre de exclusões históricas relacionadas à classe social.",
+    "gold_chunks": [
+      "há dificuldade de acesso à formação adequada relacionada à classe social, decorrente de exclusões históricas."
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Por que a TI é apontada como uma oportunidade para pessoas com deficiência (PCD), segundo a apresentação?",
+    "ground_truth": "Devido aos avanços em tecnologia e inclusão.",
+    "gold_chunks": [
+      "TI muitas vezes representa uma oportunidade devido aos avanços em tecnologia e inclusão."
+    ]
+  },
+  {
+    "id": 99,
+    "question": "Qual é a fonte da pesquisa sobre diversidade na área de TI citada na apresentação?",
+    "ground_truth": "A Diversidade na TI - Google Cloud e Kantar, 2021.",
+    "gold_chunks": [
+      "Fonte: A Diversidade na TI - Google Cloud e Kantar, 2021"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Como foi conduzida a pesquisa sobre diversidade na TI citada na apresentação?",
+    "ground_truth": "Por meio de 4 grupos de discussão com funcionários de TI de grupos historicamente menos representados (Mulheres, LGBTQIA+, Negras e PCD).",
+    "gold_chunks": [
+      "4 grupos de discussão com funcionários de TI de grupos historicamente menos representados (Mulheres, LGBTQIA+, Negras e PCD)."
+    ]
+  },
+  {
+    "id": 101,
+    "question": "Quais quatro grupos historicamente menos representados na área de TI são discutidos na apresentação?",
+    "ground_truth": "Mulheres, LGBTQIA+, Pessoas Negras e PCD.",
+    "gold_chunks": [
+      "Mulheres",
+      "LGBTQIA+",
+      "Pessoas Negras",
+      "PCD"
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Qual vídeo é indicado para aprofundar a discussão sobre a mudança de paradigma na ética?",
+    "ground_truth": "Alegrias Ativas - Café Filosófico com André Martins.",
+    "gold_chunks": [
+      "Alegrias Ativas - Café Filosófico com André Martins"
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Qual é o link do vídeo indicado sobre a mudança de paradigma na ética?",
+    "ground_truth": "https://m.youtube.com/watch?v=1rJZJKVEIQ0",
+    "gold_chunks": [
+      "https://m.youtube.com/watch?v=1rJZJKVEIQ0"
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Quem propôs a Filosofia da Tecnologia mencionada na apresentação, e em que ano?",
+    "ground_truth": "Feenberg (2013).",
+    "gold_chunks": [
+      "Filosofia da tecnologia (Feenberg, 2013)"
+    ]
+  },
+  {
+    "id": 105,
+    "question": "O que caracteriza o Determinismo, segundo a matriz de linhas de pensamento sobre a tecnologia apresentada?",
+    "ground_truth": "O avanço tecnológico move a história e molda a sociedade; corresponde à visão da tecnologia como autônoma e neutra.",
+    "gold_chunks": [
+      "Determinismo (o avanço tecnológico move a história, molda a sociedade)"
+    ]
+  },
+  {
+    "id": 106,
+    "question": "O que caracteriza o Instrumentalismo, segundo a matriz apresentada?",
+    "ground_truth": "A fé no progresso, correspondendo à visão da tecnologia como humanamente controlada e neutra.",
+    "gold_chunks": [
+      "Instrumentalismo (fé no progresso)"
+    ]
+  },
+  {
+    "id": 107,
+    "question": "O que caracteriza o Substantivismo, segundo a matriz apresentada?",
+    "ground_truth": "Meios e fins ligados em sistemas, com valor para a 'vida boa' e o triunfo da tecnologia.",
+    "gold_chunks": [
+      "Substantivismo (meios e fins ligados em sistemas): valor para “vida boa”; triunfo da tecnologia"
+    ]
+  },
+  {
+    "id": 108,
+    "question": "O que caracteriza a Teoria Crítica na matriz de linhas de pensamento sobre a tecnologia?",
+    "ground_truth": "A escolha de sistemas de meios-fins alternativos contra os males do desenvolvimento/substantivismo.",
+    "gold_chunks": [
+      "Teoria crítica (escolha de sistemas de meios-fins alternativos contra males do desenv.substantivismo)"
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Qual linha de pensamento sobre a tecnologia é associada ao Iluminismo, segundo a apresentação?",
+    "ground_truth": "A visão da tecnologia como neutra (meios separados dos fins).",
+    "gold_chunks": [
+      "Neutra (meios separados dos fins): iluminismo"
+    ]
+  },
+  {
+    "id": 110,
+    "question": "Qual linha de pensamento sobre a tecnologia é associada aos gregos, segundo a apresentação?",
+    "ground_truth": "A visão da tecnologia como carregada de valores (meios formam um modo de vida, que inclui fins).",
+    "gold_chunks": [
+      "Carregada de valores (meios formam um modo de vida, que inclui fins): gregos"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "O que significa considerar a tecnologia 'autônoma', segundo a matriz apresentada?",
+    "ground_truth": "Significa que o ser humano não tem liberdade de decisão sobre a tecnologia.",
+    "gold_chunks": [
+      "Autônoma (ser humano não tem liberdade de decisão)"
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Qual é a fonte do diagrama sobre o impacto social das novas tecnologias na comunicação (internet)?",
+    "ground_truth": "https://books-sol.sbc.org.br/index.php/sbc/catalog/book/74",
+    "gold_chunks": [
+      "https://books-sol.sbc.org.br/index.php/sbc/catalog/book/74"
+    ]
+  },
+  {
+    "id": 113,
+    "question": "Segundo o diagrama sobre o impacto social da internet, o que ela impulsiona no âmbito econômico?",
+    "ground_truth": "Negócios e globalização.",
+    "gold_chunks": [
+      "Impulsiona negócios e globalização"
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Segundo o diagrama sobre o impacto social da internet, que efeito ela tem sobre a privacidade?",
+    "ground_truth": "Diminui a privacidade.",
+    "gold_chunks": [
+      "Diminui a privacidade"
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Como são formadas as redes sociais, segundo a apresentação?",
+    "ground_truth": "Por participantes autônomos, juntando ideias e recursos em torno de valores e interesses compartilhados.",
+    "gold_chunks": [
+      "As redes sociais são formadas por participantes autônomos, juntando ideias e recursos em torno de valores e interesses compartilhados."
+    ]
+  },
+  {
+    "id": 116,
+    "question": "O que a diversidade e o público massivo das redes sociais permitem, segundo a apresentação?",
+    "ground_truth": "Que cada usuário possa publicar qualquer tipo de informação sem compromisso com a verdade.",
+    "gold_chunks": [
+      "A diversidade e o público massivo permitem que cada usuário possa publicar qualquer tipo de informação sem compromisso com a verdade."
+    ]
+  },
+  {
+    "id": 117,
+    "question": "Qual paradoxo é mencionado em relação à relevância da informação nas redes sociais?",
+    "ground_truth": "Existe um grande dinamismo na informação aliado ao paradoxo de sua relevância do ponto de vista de cada pessoa.",
+    "gold_chunks": [
+      "Existe um grande dinamismo na informação aliado ao paradoxo de sua relevância do ponto de vista de cada pessoa."
+    ]
+  },
+  {
+    "id": 118,
+    "question": "Que pergunta é levantada sobre o papel das redes sociais como espaço de debate?",
+    "ground_truth": "Redes sociais: espaço para debate?",
+    "gold_chunks": [
+      "Redes sociais: espaço para debate?"
+    ]
+  },
+  {
+    "id": 119,
+    "question": "O que defendem os teóricos da Cibercultura, segundo Lévy (1999), citado na apresentação?",
+    "ground_truth": "Que a internet nos leva a uma era de desmassificação, na qual podemos fazer nossas próprias escolhas e construir livremente nossa personalidade.",
+    "gold_chunks": [
+      "defensores da Cibercultura (Lévy, 1999): internet nos leva a uma era de desmassificação",
+      "podemos fazer nossas próprias escolhas",
+      "e construir livremente nossa personalidade"
+    ]
+  },
+  {
+    "id": 120,
+    "question": "O que Siegel (2008) argumenta que a internet está realmente criando, segundo a apresentação?",
+    "ground_truth": "Uma forma ainda mais potente de homogeneização.",
+    "gold_chunks": [
+      "Siegel (2008): o que a internet está criando realmente é uma forma ainda mais potente de homogeneização"
+    ]
+  },
+  {
+    "id": 121,
+    "question": "Segundo Siegel (2008), por que é uma falácia dizer que deixamos de ser receptores passivos na internet?",
+    "ground_truth": "Porque, segundo ele, dizer que estamos nos tornando produtores de conteúdo independentes é uma falácia.",
+    "gold_chunks": [
+      "dizer que estamos deixando de ser receptores passivos para nos tornarmos produtores de conteúdo independentes é uma falácia!"
+    ]
+  },
+  {
+    "id": 122,
+    "question": "O que a apresentação diz sobre a relação entre publicidade e informação na internet?",
+    "ground_truth": "A publicidade cada vez mais se confunde com informação.",
+    "gold_chunks": [
+      "A publicidade cada vez mais se confunde com informação."
+    ]
+  },
+  {
+    "id": 123,
+    "question": "Que tipo de bombardeamento é atribuído às redes sociais, segundo a apresentação?",
+    "ground_truth": "Bombardeamento de recomendações.",
+    "gold_chunks": [
+      "Redes sociais: bombardeamento de recomendações."
+    ]
+  },
+  {
+    "id": 124,
+    "question": "Quais problemas surgem quando a internet é vista como espaço público de venda, segundo a apresentação?",
+    "ground_truth": "Interesses conflitantes, golpes e desinformação.",
+    "gold_chunks": [
+      "interesses conflitantes",
+      "golpes",
+      "desinformação"
+    ]
+  },
+  {
+    "id": 125,
+    "question": "Segundo Mumford (1967), a que a atividade técnica inerente à vida humana foi subordinada?",
+    "ground_truth": "A dispositivos sociais e políticos, produtos da sujeição das massas humanas ao poder das elites.",
+    "gold_chunks": [
+      "Mumford (1967): a atividade técnica inerente à vida humana foi subordinada a dispositivos sociais e políticos, produtos da sujeição das massas humanas ao poder das elites."
+    ]
+  },
+  {
+    "id": 126,
+    "question": "O que Horkheimer (1990) afirma sobre a sociedade industrial de base científico-tecnológica, segundo a apresentação?",
+    "ground_truth": "Que ela constitui um vasto sistema de domínio do ser humano pelo ser humano.",
+    "gold_chunks": [
+      "Horkheimer (1990): a sociedade industrial de base científico-tecnológica constitui um vasto sistema de domínio do ser humano pelo ser humano"
+    ]
+  },
+  {
+    "id": 127,
+    "question": "Qual teoria Feenberg (2013) propõe sobre a tecnologia, segundo a apresentação?",
+    "ground_truth": "A Teoria Crítica da Tecnologia.",
+    "gold_chunks": [
+      "Feenberg (2013): propõe Teoria Crítica da Tecnologia"
+    ]
+  },
+  {
+    "id": 128,
+    "question": "Segundo Feenberg, o que a tecnologia pode moldar?",
+    "ground_truth": "Muitos possíveis estilos de vida, que refletem escolhas de diferentes objetivos e formas de mediação tecnológica.",
+    "gold_chunks": [
+      "pode moldar muitos possíveis estilos de vida, que refletem escolhas de diferentes objetivos e formas de mediação tecnológica"
+    ]
+  },
+  {
+    "id": 129,
+    "question": "A que se devem as limitações do emprego da tecnologia, segundo a Teoria Crítica apresentada?",
+    "ground_truth": "Não só ao estado de nosso conhecimento, mas também às estruturas de poder que enviesam esse conhecimento e suas aplicações.",
+    "gold_chunks": [
+      "a tecnologia é empregada com limitações que são devidas não só ao estado de nosso conhecimento, mas também às estruturas de poder que enviesam esse conhecimento e suas aplicações"
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Por que a tecnologia contemporânea favorece certos fins e obstrui outros, segundo a apresentação?",
+    "ground_truth": "Porque valores e interesses de classes dominantes estão embutidos no design dos programas e máquinas.",
+    "gold_chunks": [
+      "valores e interesses de classes dominantes estão embutidos no design dos programas e máquinas"
+    ]
+  },
+  {
+    "id": 131,
+    "question": "Como a tecnologia é caracterizada em termos de 'ambiente', segundo a apresentação?",
+    "ground_truth": "A tecnologia é um ambiente e não uma coleção de ferramentas.",
+    "gold_chunks": [
+      "a tecnologia é um ambiente e não uma coleção de ferramentas"
+    ]
+  },
+  {
+    "id": 132,
+    "question": "A que as tecnologias, enquanto ambiente, são comparadas na apresentação?",
+    "ground_truth": "A leis e direitos.",
+    "gold_chunks": [
+      "as tecnologias formatam a vida de seus habitantes, sendo comparáveis a leis e direitos"
+    ]
+  },
+  {
+    "id": 133,
+    "question": "Como as instituições e as tecnologias se relacionam mutuamente, segundo a apresentação?",
+    "ground_truth": "As instituições se adaptam ao desenvolvimento tecnológico, ao mesmo tempo em que as tecnologias mudam em resposta às condições que encontram.",
+    "gold_chunks": [
+      "as instituições se adaptam ao desenvolvimento tecnológico, ao mesmo tempo em que as tecnologias mudam em resposta às condições que encontra"
+    ]
+  },
+  {
+    "id": 134,
+    "question": "Qual afirmação é feita sobre o poder tecnológico na apresentação?",
+    "ground_truth": "O poder tecnológico se tornou a principal forma de poder.",
+    "gold_chunks": [
+      "o poder tecnológico se tornou a principal forma de poder"
+    ]
+  },
+  {
+    "id": 135,
+    "question": "Quais são os dois pontos citados como parte da mudança social na apresentação, além do aumento da responsabilidade política?",
+    "ground_truth": "Democratização da administração pública e ampliação do tempo de aprendizagem de necessidades humanas (não só treinamento profissional).",
+    "gold_chunks": [
+      "democratização da administração pública",
+      "ampliação do tempo de aprendizagem de necessidades humanas (não só treinamento profissional)"
+    ]
+  },
+  {
+    "id": 136,
+    "question": "O que é 'código técnico', segundo a definição apresentada?",
+    "ground_truth": "É o critério que seleciona, entre projetos alternativos tecnicamente viáveis, as técnicas a serem aplicadas em termos de um objetivo social.",
+    "gold_chunks": [
+      "código técnico: critério que seleciona entre projetos alternativos (tecnicamente) viáveis, as técnicas a serem aplicadas em termos de um objetivo social"
+    ]
+  },
+  {
+    "id": 137,
+    "question": "Quais dois autores são citados na apresentação com visões críticas sobre o domínio da tecnologia sobre a sociedade, antes da introdução de Feenberg?",
+    "ground_truth": "Mumford (1967) e Horkheimer (1990).",
+    "gold_chunks": [
+      "Mumford (1967): a atividade técnica inerente à vida humana foi subordinada a dispositivos sociais e políticos",
+      "Horkheimer (1990): a sociedade industrial de base científico-tecnológica constitui um vasto sistema de domínio do ser humano pelo ser humano"
+    ]
+  },
+  {
+    "id": 138,
+    "question": "Quantos Objetivos de Desenvolvimento Sustentável (ODS) da ONU são listados na apresentação?",
+    "ground_truth": "17.",
+    "gold_chunks": [
+      "OBJETIVOS DE DESENVOLVIMENTO SUSTENTÁVEL"
+    ]
+  },
+  {
+    "id": 139,
+    "question": "Qual é o primeiro Objetivo de Desenvolvimento Sustentável (ODS) listado na apresentação?",
+    "ground_truth": "Erradicação da pobreza.",
+    "gold_chunks": [
+      "ERRADICAÇÃO DA POBREZA"
+    ]
+  },
+  {
+    "id": 140,
+    "question": "Qual ODS trata da fome, segundo a lista apresentada?",
+    "ground_truth": "Fome zero (ODS 2).",
+    "gold_chunks": [
+      "FOME ZERO"
+    ]
+  },
+  {
+    "id": 141,
+    "question": "Qual ODS trata de boa saúde e bem-estar?",
+    "ground_truth": "ODS 3.",
+    "gold_chunks": [
+      "BOA SAÚDE E BEM-ESTAR"
+    ]
+  },
+  {
+    "id": 142,
+    "question": "Qual ODS trata de educação de qualidade?",
+    "ground_truth": "ODS 4.",
+    "gold_chunks": [
+      "EDUCAÇÃO DE QUALIDADE"
+    ]
+  },
+  {
+    "id": 143,
+    "question": "Qual ODS trata da igualdade de gênero?",
+    "ground_truth": "ODS 5.",
+    "gold_chunks": [
+      "IGUALDADE DE GÊNERO"
+    ]
+  },
+  {
+    "id": 144,
+    "question": "Qual ODS trata de água limpa e saneamento?",
+    "ground_truth": "ODS 6.",
+    "gold_chunks": [
+      "ÁGUA LIMPA E SANEAMENTO"
+    ]
+  },
+  {
+    "id": 145,
+    "question": "Qual ODS trata de energia acessível e limpa?",
+    "ground_truth": "ODS 7.",
+    "gold_chunks": [
+      "ENERGIA ACESSÍVEL E LIMPA"
+    ]
+  },
+  {
+    "id": 146,
+    "question": "Qual ODS trata de emprego digno e crescimento econômico?",
+    "ground_truth": "ODS 8.",
+    "gold_chunks": [
+      "EMPREGO DIGNO E CRESCIMENTO ECONÔMICO"
+    ]
+  },
+  {
+    "id": 147,
+    "question": "Qual ODS trata de indústria, inovação e infraestrutura?",
+    "ground_truth": "ODS 9.",
+    "gold_chunks": [
+      "INDÚSTRIA, INOVAÇÃO E INFRAESTRUTURA"
+    ]
+  },
+  {
+    "id": 148,
+    "question": "Qual ODS está relacionado à redução das desigualdades?",
+    "ground_truth": "ODS 10.",
+    "gold_chunks": [
+      "REDUÇÃO DAS DESIGUALDADES"
+    ]
+  },
+  {
+    "id": 149,
+    "question": "Qual ODS trata de cidades e comunidades sustentáveis?",
+    "ground_truth": "ODS 11.",
+    "gold_chunks": [
+      "CIDADES E COMUNIDADES SUSTENTÁVEIS"
+    ]
+  },
+  {
+    "id": 150,
+    "question": "Qual ODS trata de consumo e produção responsáveis?",
+    "ground_truth": "ODS 12.",
+    "gold_chunks": [
+      "CONSUMO E PRODUÇÃO RESPONSÁVEIS"
+    ]
+  },
+  {
+    "id": 151,
+    "question": "Qual ODS trata do combate às alterações climáticas?",
+    "ground_truth": "ODS 13.",
+    "gold_chunks": [
+      "COMBATE ÀS ALTERAÇÕES CLIMÁTICAS"
+    ]
+  },
+  {
+    "id": 152,
+    "question": "Qual ODS trata da vida debaixo d'água?",
+    "ground_truth": "ODS 14.",
+    "gold_chunks": [
+      "VIDA DEBAIXO D'ÁGUA"
+    ]
+  },
+  {
+    "id": 153,
+    "question": "Qual ODS trata da vida sobre a terra?",
+    "ground_truth": "ODS 15.",
+    "gold_chunks": [
+      "VIDA SOBRE A TERRA"
+    ]
+  },
+  {
+    "id": 154,
+    "question": "Qual ODS está relacionado à paz, justiça e instituições fortes?",
+    "ground_truth": "ODS 16.",
+    "gold_chunks": [
+      "PAZ, JUSTIÇA E INSTITUIÇÕES FORTES"
+    ]
+  },
+  {
+    "id": 155,
+    "question": "Qual é o último Objetivo de Desenvolvimento Sustentável (ODS) listado na apresentação?",
+    "ground_truth": "Parcerias em prol das metas (ODS 17).",
+    "gold_chunks": [
+      "PARCERIAS EM PROL DAS METAS"
+    ]
+  },
+  {
+    "id": 156,
+    "question": "Quais sites são indicados na apresentação para consulta sobre os Objetivos de Desenvolvimento Sustentável?",
+    "ground_truth": "https://brasil.un.org/pt-br/sdgs e https://odsbrasil.gov.br/",
+    "gold_chunks": [
+      "https://brasil.un.org/pt-br/sdgs",
+      "https://odsbrasil.gov.br/"
+    ]
+  },
+  {
+    "id": 157,
+    "question": "Qual é o título da obra de Feenberg citada nas leituras recomendadas?",
+    "ground_truth": "Critical Theory of Technology.",
+    "gold_chunks": [
+      "FEENBERG, A. Critical Theory of Technology."
+    ]
+  },
+  {
+    "id": 158,
+    "question": "Qual é o título da obra de Lévy citada nas leituras recomendadas, e em que ano foi publicada?",
+    "ground_truth": "Cibercultura, publicada em 1999.",
+    "gold_chunks": [
+      "LÉVY, P. Cibercultura. Tradução Carlos Irineu da Costa. São Paulo: Editora 34, 1999."
+    ]
+  },
+  {
+    "id": 159,
+    "question": "Qual é o título da obra de Mumford citada nas leituras recomendadas?",
+    "ground_truth": "The myth of the machine.",
+    "gold_chunks": [
+      "MUMFORD, L. The myth of the machine."
+    ]
+  },
+  {
+    "id": 160,
+    "question": "Quem traduziu a obra 'Teoria Crítica: uma documentação', de Horkheimer, citada nas leituras recomendadas?",
+    "ground_truth": "Hilde Cohn.",
+    "gold_chunks": [
+      "HORKHEIMER, M. Teoria Crítica: uma documentação. Tradução",
+      "Hilde Cohn."
+    ]
+  },
+  {
+    "id": 161,
+    "question": "Quais autores assinam o texto 'Impacto social das novas tecnologias' indicado nas leituras recomendadas?",
+    "ground_truth": "Santoro, F., Revoredo, K. e Baião, F.",
+    "gold_chunks": [
+      "SANTORO, F., REVOREDO, K, BAIÃO, F. Impacto social das novas tecnologias."
+    ]
+  },
+  {
+    "id": 162,
+    "question": "Quantos estudantes compõem a turma, segundo o levantamento de perfil apresentado?",
+    "ground_truth": "89 estudantes.",
+    "gold_chunks": [
+      "89 estudantes"
+    ]
+  },
+  {
+    "id": 163,
+    "question": "Qual é o link do formulário utilizado para o levantamento do perfil da turma?",
+    "ground_truth": "https://forms.gle/Gf5sP4VCVSKNSWuf6",
+    "gold_chunks": [
+      "https://forms.gle/Gf5sP4VCVSKNSWuf6"
+    ]
+  },
+  {
+    "id": 164,
+    "question": "Qual é o objetivo do projeto em grupo, segundo o roteiro apresentado?",
+    "ground_truth": "Consolidar o conhecimento sobre as temáticas apresentadas e debatidas durante as aulas.",
+    "gold_chunks": [
+      "O objetivo do projeto é consolidar o conhecimento sobre as temáticas apresentadas e debatidas durante as aulas."
+    ]
+  },
+  {
+    "id": 165,
+    "question": "Além de ampliar o conteúdo estudado, quais competências o projeto em grupo pretende desenvolver?",
+    "ground_truth": "Pensamento crítico, colaboração e solução de problemas.",
+    "gold_chunks": [
+      "promover o engajamento e estimular a curiosidade proporcionando o desenvolvimento de outras competências como o pensamento crítico, a colaboração e a solução de problemas."
+    ]
+  },
+  {
+    "id": 166,
+    "question": "Quantos integrantes devem compor cada grupo do projeto, segundo o roteiro apresentado?",
+    "ground_truth": "De 8 a 9 integrantes.",
+    "gold_chunks": [
+      "Os grupos serão formados por 8 a 9 integrantes de acordo com afinidade de interesses nas diversas áreas sugeridas!"
+    ]
+  },
+  {
+    "id": 167,
+    "question": "Com base em que critério os grupos do projeto devem ser formados, segundo o roteiro?",
+    "ground_truth": "Afinidade de interesses nas diversas áreas sugeridas.",
+    "gold_chunks": [
+      "de acordo com afinidade de interesses nas diversas áreas sugeridas!"
+    ]
+  },
+  {
+    "id": 168,
+    "question": "Qual é a ideia principal do projeto em grupo, segundo o roteiro apresentado?",
+    "ground_truth": "Investigar e documentar o impacto das tecnologias digitais, suas potencialidades, limites e desafios éticos, destacando possíveis soluções, em uma das áreas de aplicação propostas.",
+    "gold_chunks": [
+      "A ideia principal é investigar e documentar o impacto das tecnologias digitais, suas potencialidades, limites e desafios éticos, destacando possíveis soluções, em uma das áreas de aplicação propostas."
+    ]
+  },
+  {
+    "id": 169,
+    "question": "Quantos itens obrigatórios o projeto deve contemplar, segundo os requisitos mínimos apresentados?",
+    "ground_truth": "7 itens.",
+    "gold_chunks": [
+      "O projeto deverá obrigatoriamente contemplar os seguinte itens:"
+    ]
+  },
+  {
+    "id": 170,
+    "question": "Quais são os três primeiros itens obrigatórios do projeto, segundo os requisitos mínimos apresentados?",
+    "ground_truth": "Título, identificação dos integrantes e Resumo; Introdução e contextualização do tema; Discussão sobre as potencialidades de uso das tecnologias identificadas ou selecionadas.",
+    "gold_chunks": [
+      "Título, identificação dos integrantes, Resumo",
+      "Introdução e contextualização do tema",
+      "Discussão sobre as potencialidades de uso das tecnologias identificadas ou selecionadas"
+    ]
+  },
+  {
+    "id": 171,
+    "question": "A que devem estar alinhadas as propostas de soluções para os desafios éticos do projeto, segundo os requisitos mínimos?",
+    "ground_truth": "Aos ODS e aos Desafios da Ciência da Computação/IHC.",
+    "gold_chunks": [
+      "Desafios éticos vislumbrados e propostas de soluções ( (alinhados aos ODS e aos Desafios da Ciência da Computação/IHC)"
+    ]
+  },
+  {
+    "id": 172,
+    "question": "Quais são os dois últimos itens obrigatórios do projeto, segundo os requisitos mínimos apresentados?",
+    "ground_truth": "Considerações finais e Referências.",
+    "gold_chunks": [
+      "Considerações finais",
+      "Referências"
+    ]
+  },
+  {
+    "id": 173,
+    "question": "Qual é a duração do vídeo que os grupos devem produzir para o projeto?",
+    "ground_truth": "10 minutos.",
+    "gold_chunks": [
+      "Um vídeo (10 min) com a apresentação sobre o tema."
+    ]
+  },
+  {
+    "id": 174,
+    "question": "Em que data está prevista a apresentação dos grupos sorteados, segundo a apresentação?",
+    "ground_truth": "12/8/2025.",
+    "gold_chunks": [
+      "apresentado em aula de acordo com sorteio prévio (5 grupos), no dia 12/8/2025."
+    ]
+  },
+  {
+    "id": 175,
+    "question": "Quantos grupos serão sorteados para apresentar seus vídeos em aula?",
+    "ground_truth": "5 grupos.",
+    "gold_chunks": [
+      "sorteio prévio (5 grupos)"
+    ]
+  },
+  {
+    "id": 176,
+    "question": "Qual papel os grupos que não forem sorteados desempenharão durante as apresentações?",
+    "ground_truth": "Participarão da apresentação como debatedores.",
+    "gold_chunks": [
+      "Os demais grupos participarão da apresentação como debatedores."
+    ]
+  },
+  {
+    "id": 177,
+    "question": "O que deve compor a entrega final do trabalho, além do vídeo, segundo a observação da apresentação?",
+    "ground_truth": "O roteiro com o conteúdo completo, elaborado para a gravação do vídeo.",
+    "gold_chunks": [
+      "o roteiro com o conteúdo completo, elaborado para a gravação do vídeo, deverá compor a entrega final do trabalho!"
+    ]
+  },
+  {
+    "id": 178,
+    "question": "Qual é a primeira atividade individual proposta para a Aula 3, relacionada ao Moodle?",
+    "ground_truth": "Incluir seu nome junto de seu grupo, na atividade de Definição de Grupos e Tema para o Projeto.",
+    "gold_chunks": [
+      "[individual] No Moodle, inclua seu nome junto de seu grupo, na atividade de Definição de Grupos e Tema para o Projeto"
+    ]
+  },
+  {
+    "id": 179,
+    "question": "O que os grupos devem definir ao se reunirem em sala, segundo a atividade em grupo proposta na Aula 3?",
+    "ground_truth": "A distribuição de tarefas, formas de comunicação e responsabilidades no projeto, além de selecionar um tema.",
+    "gold_chunks": [
+      "reúnam-se para discutir sobre as temáticas associadas à área de aplicação do projeto e selecionem um tema para desenvolver; definam a distribuição de tarefas, formas de comuincação e responsabilidades no projeto."
+    ]
+  },
+  {
+    "id": 180,
+    "question": "Sobre o que os alunos devem refletir individualmente e participar de atividade no Moodle, segundo a Aula 3?",
+    "ground_truth": "Sobre os Objetivos de Desenvolvimento Sustentável da ONU e sua relação com as tecnologias.",
+    "gold_chunks": [
+      "Reflita sobre o conteúdo estudado, sobre a área e o tema escolhido pelo seu grupo, sobre os Objetivos de Desenvolvimento Sustentável da ONU. Pesquise mais e, no Moodle, participe da atividade sobre ODS e tecnologias."
+    ]
+  },
+  {
+    "id": 181,
+    "question": "Qual é o nome do projeto de extensão convidado na apresentação, e o que a sigla representa?",
+    "ground_truth": "EMBRACE - Education Modernization Brazil, Colombia, Europe.",
+    "gold_chunks": [
+      "Projeto EMBRACE – Education Modernization Brazil, Colombia, Europe"
+    ]
+  },
+  {
+    "id": 182,
+    "question": "Qual é o prazo de inscrição para o Projeto EMBRACE, segundo a apresentação?",
+    "ground_truth": "Até o dia 26/06/2025 (quinta-feira).",
+    "gold_chunks": [
+      "Inscrições: até dia 26/06/2025 (quinta-feira)"
+    ]
+  },
+  {
+    "id": 183,
+    "question": "Qual é o período de realização das atividades do Projeto EMBRACE?",
+    "ground_truth": "De 30/06 a 30/08/2025.",
+    "gold_chunks": [
+      "Período da atividade: de 30/06 a 30/08/2025"
+    ]
+  },
+  {
+    "id": 184,
+    "question": "Qual é o formato das atividades do Projeto EMBRACE?",
+    "ground_truth": "100% online (Moodle/UFABC).",
+    "gold_chunks": [
+      "Formato: 100% online (Moodle/UFABC)"
+    ]
+  },
+  {
+    "id": 185,
+    "question": "Qual é a modalidade das atividades do Projeto EMBRACE?",
+    "ground_truth": "Atividades assíncronas, com encontros síncronos pontuais nas semanas finais.",
+    "gold_chunks": [
+      "Modalidade: Atividades assíncronas, com encontros síncronos pontuais nas semanas finais"
+    ]
+  },
+  {
+    "id": 186,
+    "question": "Qual é a dedicação semanal estimada para o Projeto EMBRACE?",
+    "ground_truth": "2 horas semanais.",
+    "gold_chunks": [
+      "Dedicação estimada: 2h semanais"
+    ]
+  },
+  {
+    "id": 187,
+    "question": "Quantas horas de certificação o Projeto EMBRACE oferece, e por qual órgão?",
+    "ground_truth": "18 horas de atividades de extensão pela ProEC/UFABC.",
+    "gold_chunks": [
+      "Certificação: 18 horas de atividades de extensão pela ProEC/UFABC"
+    ]
+  },
+  {
+    "id": 188,
+    "question": "Qual requisito de créditos concluídos é exigido de estudantes de graduação para participar do Projeto EMBRACE?",
+    "ground_truth": "Ter concluído no mínimo 60% dos créditos em disciplinas (CP ≥ 0,60).",
+    "gold_chunks": [
+      "tenha concluído, no mínimo, 60% dos créditos em disciplinas, isto é, CP ≥ 0,60"
+    ]
+  },
+  {
+    "id": 189,
+    "question": "Qual coeficiente de aproveitamento (CA) mínimo é exigido dos estudantes de graduação para o Projeto EMBRACE?",
+    "ground_truth": "CA acima de 2,0.",
+    "gold_chunks": [
+      "possuir CA acima de 2,0."
+    ]
+  },
+  {
+    "id": 190,
+    "question": "Qual e-mail deve ser utilizado para se inscrever no Projeto EMBRACE?",
+    "ground_truth": "O e-mail institucional da UFABC.",
+    "gold_chunks": [
+      "Inscreva-se utilizando seu e-mail institucional UFABC. Inscrições com e-mails externos serão desconsideradas."
+    ]
+  },
+  {
+    "id": 191,
+    "question": "Além de estar regularmente matriculado, qual outra condição é exigida do estudante para participar do Projeto EMBRACE?",
+    "ground_truth": "Não estar com trancamento total de matrícula ou em mobilidade acadêmica.",
+    "gold_chunks": [
+      "não estando com trancamento total de matrícula ou em mobilidade acadêmica"
+    ]
+  },
+  {
+    "id": 192,
+    "question": "Por quem são apresentados os desafios reais do Projeto EMBRACE, segundo a apresentação?",
+    "ground_truth": "Por empresas e órgãos públicos da região do ABC.",
+    "gold_chunks": [
+      "criação de soluções para desafios reais apresentados por empresas e órgãos públicos da região do ABC."
+    ]
+  },
+  {
+    "id": 193,
+    "question": "Qual é o link de inscrição do Projeto EMBRACE?",
+    "ground_truth": "https://forms.gle/r4pfDXqPPQzCbyvC6",
+    "gold_chunks": [
+      "https://forms.gle/r4pfDXqPPQzCbyvC6"
+    ]
+  },
+  {
+    "id": 194,
+    "question": "Qual é a data da próxima aula (Aula 04) mencionada na apresentação?",
+    "ground_truth": "Terça-feira, dia 01/07.",
+    "gold_chunks": [
+      "Próxima terça-feira, dia 01/07:"
+    ]
+  },
+  {
+    "id": 195,
+    "question": "Qual será o tema da Aula 04, segundo a apresentação?",
+    "ground_truth": "Aplicações da tecnologia: os grandes desafios da Ciência da Computação, especialmente na área da Interação Humano-Computador (IHC).",
+    "gold_chunks": [
+      "Aplicações da tecnologia: os grandes desafios da Ciência da Computação, especialmente na área da Interação Humano-Computador (IHC)"
+    ]
+  },
+  {
+    "id": 196,
+    "question": "Qual pergunta abre a retomada do conteúdo da Aula 02 no início da Aula 03?",
+    "ground_truth": "O que rolou?",
+    "gold_chunks": [
+      "na aula 02...",
+      "O que rolou?"
+    ]
+  },
+  {
+    "id": 197,
+    "question": "Como se chama o formulário de inscrição do Projeto EMBRACE apresentado na aula?",
+    "ground_truth": "Formulário de Inscrição - Discente.",
+    "gold_chunks": [
+      "Formulário de Inscrição - Discente"
+    ]
+  },
+  {
+    "id": 198,
+    "question": "Quais são as quatro posições resultantes do cruzamento entre autonomia/controle humano e neutralidade/carga de valores da tecnologia, segundo a matriz apresentada?",
+    "ground_truth": "Determinismo, Instrumentalismo, Substantivismo e Teoria crítica.",
+    "gold_chunks": [
+      "Determinismo (o avanço tecnológico move a história, molda a sociedade)",
+      "Instrumentalismo (fé no progresso)",
+      "Substantivismo (meios e fins ligados em sistemas): valor para “vida boa”; triunfo da tecnologia",
+      "Teoria crítica (escolha de sistemas de meios-fins alternativos contra males do desenv.substantivismo)"
+    ]
+  },
+  {
+    "id": 199,
+    "question": "Qual tecnologia relacionada à produção aditiva é citada na lista de tecnologias emergentes apresentada?",
+    "ground_truth": "Impressões 3D.",
+    "gold_chunks": [
+      "Software livre; impressões 3D"
+    ]
+  },
+  {
+    "id": 200,
+    "question": "Qual item relacionado a equipamentos médicos é mencionado na lista de tecnologias emergentes apresentada?",
+    "ground_truth": "Equipamentos área da saúde.",
+    "gold_chunks": [
+      "Equipamentos área da saúde"
+    ]
+  }
+]

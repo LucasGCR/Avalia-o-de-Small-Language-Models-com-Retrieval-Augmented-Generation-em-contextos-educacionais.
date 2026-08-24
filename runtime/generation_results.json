@@ -1,0 +1,968 @@
+[
+  {
+    "id": 1,
+    "question": "O que acontece no promontório axônico do neurônio?",
+    "ground_truth": "É onde os potenciais pós-sinápticos somados no corpo celular atingem o limiar e é gerado o potencial de ação, que se propaga pelo axônio.",
+    "generated_answer": "O potencial de ação é gerado no promontório axônico, onde se propaga ao longo do axônio até o terminal axônico."
+  },
+  {
+    "id": 2,
+    "question": "Qual é o exemplo dado de neurônio excitatório do córtex?",
+    "ground_truth": "Os neurônios piramidais do córtex.",
+    "generated_answer": "Neurônio piramidal."
+  },
+  {
+    "id": 3,
+    "question": "Quais são os dois exemplos de neurônios inibitórios do córtex citados na aula?",
+    "ground_truth": "Os neurônios em cesto e em candelabro do córtex.",
+    "generated_answer": "Neurônio em cesto e neurônio candelabro."
+  },
+  {
+    "id": 4,
+    "question": "Em qual camada cortical o neurônio piramidal (excitatório) aparece no diagrama apresentado?",
+    "ground_truth": "Na camada V.",
+    "generated_answer": "Camada V"
+  },
+  {
+    "id": 5,
+    "question": "Quais neurotransmissores e íons estão envolvidos na sinapse excitatória descrita na aula?",
+    "ground_truth": "O neurotransmissor glutamato, e os íons Ca2+ e Na+, atuando nos canais NMDA e AMPA.",
+    "generated_answer": "Glutamato, Ca2+, Na+"
+  },
+  {
+    "id": 6,
+    "question": "Quais canais e íons estão envolvidos nas sinapses inibitórias GABA-A e GABA-B, respectivamente?",
+    "ground_truth": "A sinapse GABA-A envolve os canais de GABA-A e o íon Cl-; a sinapse GABA-B envolve os canais de GABA-B (metabotrópico) e o íon K+.",
+    "generated_answer": "Sinapses inibitórias (GABA-A): Canais de GABA-A e íon Cl⁻.  \nSinapses inibitórias (GABA-B): Canais de GABA-B (metabotrópico) e íon K⁺."
+  },
+  {
+    "id": 7,
+    "question": "O que acontece com o número de canais sinápticos quando há um aumento na concentração de Ca2+?",
+    "ground_truth": "Ocorre potenciação — um aumento do número de canais.",
+    "generated_answer": "Aumento no número de canais sinápticos."
+  },
+  {
+    "id": 8,
+    "question": "O que acontece com o número de canais sinápticos quando há uma diminuição na concentração de Ca2+?",
+    "ground_truth": "Ocorre depressão — uma diminuição do número de canais.",
+    "generated_answer": "A diminuição na concentração de Ca2+ leva à depressão, ou seja, à diminuição do número de canais sinápticos."
+  },
+  {
+    "id": 9,
+    "question": "Segundo a curva de plasticidade de Artola (1993) apresentada na aula, o que acontece com a força sináptica abaixo do Limiar LTD?",
+    "ground_truth": "A força sináptica diminui.",
+    "generated_answer": "A força sináptica diminui."
+  },
+  {
+    "id": 10,
+    "question": "Segundo a citação de Donald Hebb apresentada na aula, o que precisa acontecer para que a eficiência de uma célula A disparando sobre uma célula B aumente?",
+    "ground_truth": "O axônio de A precisa estar perto o suficiente de B para excitá-la, e participar repetida ou persistentemente do seu disparo.",
+    "generated_answer": "Para que a eficiência de uma célula A disparando sobre uma célula B aumente, é necessário que o axônio de uma célula A esteja perto suficiente de uma célula B, de modo que ele possa excitá-la, e que essa interação ocorra repetidamente ou persistentemente. Isso leva a um processo de crescimento ou mudança metabólica em uma ou em ambas as células, aumentando a eficiência de A disparando sobre B."
+  },
+  {
+    "id": 11,
+    "question": "Qual é o valor final acumulado do peso sináptico (wij) ao final da simulação do Modelo de Hebb apresentada na aula?",
+    "ground_truth": "0,255.",
+    "generated_answer": "0,255"
+  },
+  {
+    "id": 12,
+    "question": "Quantos modelos artificiais de plasticidade sináptica são listados na aula, e quais são eles?",
+    "ground_truth": "Quatro modelos: Modelo de Hebb, Modelo de Oja, Modelo pré-sináptico e Modelo pós-sináptico.",
+    "generated_answer": "Quatro modelos artificiais de plasticidade sináptica são listados na aula: 1. Modelo de Hebb; 2. Modelo de Oja; 3. Modelo pré-sináptico (com uma equação equivalente assimptoticamente indicada); 4. Modelo pós-sináptico."
+  },
+  {
+    "id": 13,
+    "question": "Qual é a equação do modelo pós-sináptico de plasticidade sináptica apresentada na aula?",
+    "ground_truth": "Δwij = ε·Oj·(Ii − wij).",
+    "generated_answer": "A equação do modelo pós-sináptico de plasticidade sináptica apresentada na aula é:  \n**Δwij = η * (Ij - Oi) * (1 - e^(-k * wij))**,  \nonde:  \n- Δwij é o incremento no peso sináptico,  \n- η é a taxa de aprendizado,  \n- Ij é o valor de entrada,  \n- Oi é o valor de saída,  \n- k é uma constante de taxa de decréscimo."
+  },
+  {
+    "id": 14,
+    "question": "Quais são os três tipos de codificação neural apresentados na aula?",
+    "ground_truth": "Codificação de frequência, codificação vetorial ou populacional, e codificação temporal.",
+    "generated_answer": "1. Codificação de frequência: as diferentes frequências de disparo do neurônio representam respostas a diferentes estímulos.  \n2. Codificação vetorial ou populacional: um estímulo pode ser codificado como um vetor cujos componentes são as taxas de disparo de vários neurônios.  \n3. Codificação temporal: o neurônio codifica a informação mediante a duração dos intervalos entre os disparos."
+  },
+  {
+    "id": 15,
+    "question": "O que é o período refratário absoluto, segundo a explicação da codificação frequencial?",
+    "ground_truth": "É a distância (tempo) mínima entre dois potenciais de ação sucessivos.",
+    "generated_answer": "O período refratário absoluto é a distância mínima de tempo entre dois potenciais de ação consecutivos, após o qual não é possível gerar mais potenciais de ação no interior do neurônio. No último caso (s3), não dá para juntar mais os potenciais de ação, pois o período refratário absoluto está atingido."
+  },
+  {
+    "id": 16,
+    "question": "O que é o exoesqueleto HAL-5 e qual é sua capacidade citada na aula?",
+    "ground_truth": "Um exoesqueleto robótico que multiplica por cinco a força muscular de uma pessoa normal, usando codificação de frequências captada por sensores na pele.",
+    "generated_answer": "O exoesqueleto HAL-5 é um exoesqueleto robótico que multiplica por cinco a força muscular de uma pessoa normal."
+  },
+  {
+    "id": 17,
+    "question": "Quais exoesqueletos históricos, além do HAL-5, são citados na aula?",
+    "ground_truth": "O Hardiman 1 (1965, da General Electric), o trabalho de Jacob Rosen (Universidade de Washington) e o Kanagawa Power Suit.",
+    "generated_answer": "Hardiman 1 (1965), desenvolvido pela General Electric. Kanagawa Power Suit."
+  },
+  {
+    "id": 18,
+    "question": "O que representa P(rj/ei) no cálculo de informação transmitida por codificação de frequências?",
+    "ground_truth": "A probabilidade condicional de obter uma resposta rj no neurônio quando se apresenta o estímulo ei.",
+    "generated_answer": "P(rj/ei) representa a probabilidade condicional de ter uma resposta rj no neurônio, dado que o estímulo ei foi apresentado."
+  },
+  {
+    "id": 19,
+    "question": "Quando a entropia (imprevisibilidade) da resposta de um neurônio é máxima, segundo o exemplo de codificação frequencial apresentado?",
+    "ground_truth": "Quando P(r1) = P(r2) = 0,5, a entropia é máxima e igual a 1 bit.",
+    "generated_answer": "1 bit."
+  },
+  {
+    "id": 20,
+    "question": "No Caso A do exemplo de cálculo de entropia (neurônio que sempre responde com a mesma frequência), qual é o grau de imprevisibilidade da resposta?",
+    "ground_truth": "Zero.",
+    "generated_answer": "0"
+  },
+  {
+    "id": 21,
+    "question": "Como é definida a informação I fornecida por um neurônio após aplicar estímulos, em termos de S e Se?",
+    "ground_truth": "É a diferença entre o grau de imprevisibilidade inicial (S) e a imprevisibilidade após ocorrerem as respostas do neurônio aos estímulos (Se).",
+    "generated_answer": "A informação I fornecida por um neurônio após aplicar estímulos é definida como a diferença entre o grau de imprevisibilidade inicial (S) e a imprevisibilidade depois de ocorrerem as respostas do neurônio aos estímulos (Se). Portanto, I = S − Se."
+  },
+  {
+    "id": 22,
+    "question": "Como Se é calculada a partir dos Sei?",
+    "ground_truth": "Se é a média dos Sei (entropias condicionais calculadas para cada estímulo individualmente).",
+    "generated_answer": "Se é calculada como a média das entropias condicionais Sei."
+  },
+  {
+    "id": 23,
+    "question": "Quais são as quatro faixas de frequência dos ritmos cerebrais apresentadas na aula, e a quais estados cada uma está associada?",
+    "ground_truth": "Beta (12-30 Hz, atividade/atenção/ansiedade), Alfa (8-12 Hz, relaxação), Teta (4-7 Hz, sonolência/meditação) e Delta (até 3 Hz, sono profundo).",
+    "generated_answer": "1. Ritmo beta: 12-30 Hz — associado a atividade, atenção e ansiedade.  \n2. Ritmo alfa: 8-12 Hz — associado a relaxação.  \n3. Ritmo teta: 4-7 Hz — associado a sonolência e meditação.  \n4. Ritmo delta: até 3 Hz — associado a sono profundo."
+  },
+  {
+    "id": 24,
+    "question": "Por que o EEG tem resolução espacial limitada, segundo o diagrama apresentado na aula?",
+    "ground_truth": "Porque o sinal elétrico real dos neurônios precisa atravessar as camadas de tecido (pia máter, aracnoide e dura máter) antes de chegar ao eletrodo no couro cabeludo, sendo atenuado e borrado nesse trajeto.",
+    "generated_answer": "O EEG tem resolução espacial limitada porque o sinal elétrico gerado pelos neurônios precisa atravessar camadas de tecido que envolvem o cérebro, como a Pia máter, Aracnoide e Dura máter, antes de chegar ao eletrodo na superfície do couro cabeludo. Nesse trajeto, o sinal é atenuado e borrado, resultando em uma versão distorcida e atenuada da atividade neural real, com baixa resolução espacial."
+  },
+  {
+    "id": 25,
+    "question": "Quando a onda P300 ocorre, e qual é uma aplicação prática citada na aula?",
+    "ground_truth": "Ocorre na região parietal, cerca de 300 ms depois do reconhecimento de um estímulo procurado; aplicação: máquina de escrever cerebral.",
+    "generated_answer": "A onda P300 ocorre na região parietal, cerca de 300 ms depois do reconhecimento de um estímulo procurado. Uma aplicação prática citada na aula é a máquina de escrever cerebral, que utiliza a onda P300 para controlar o dispositivo."
+  },
+  {
+    "id": 26,
+    "question": "O que é o Neurosky, segundo a apresentação?",
+    "ground_truth": "Um dispositivo comercial de interface cérebro-computador (BCI) baseado em EEG, usado por exemplo em jogos.",
+    "generated_answer": "Neurosky é um dispositivo comercial de interface cérebro-computador (BCI) baseado em EEG, usado, por exemplo, em jogos controlados pela atividade cerebral do usuário."
+  },
+  {
+    "id": 27,
+    "question": "Na codificação vetorial ou populacional, o que representa cada componente do vetor de resposta a um padrão de estímulo?",
+    "ground_truth": "A taxa de disparo de um determinado neurônio.",
+    "generated_answer": "Cada componente do vetor de resposta a um padrão de estímulo representa a taxa de disparo de um determinado neurônio."
+  },
+  {
+    "id": 28,
+    "question": "No exemplo de codificação vetorial no epitélio olfativo, quantos tipos de receptores e quantos odores são mostrados?",
+    "ground_truth": "Três tipos de receptores olfativos (Receptor 1, 2 e 3) e quatro odores (Citrus, Floral, Peppermint e Almond).",
+    "generated_answer": "No exemplo de codificação vetorial no epitélio olfativo, são mostrados **3 tipos de receptores** e **4 odores**."
+  },
+  {
+    "id": 29,
+    "question": "No exemplo de codificação vetorial nos cones, qual é o vetor de resposta [Azul, Verde, Vermelho] para a cor de aproximadamente 590 nm?",
+    "ground_truth": "[0, 27, 75].",
+    "generated_answer": "[0, 27, 75]"
+  },
+  {
+    "id": 30,
+    "question": "Em torno de qual comprimento de onda cada um dos três tipos de cone (B, G, R) tem seu pico de resposta?",
+    "ground_truth": "Cone B (azul) em torno de 420 nm, cone G (verde) em torno de 530 nm, e cone R (vermelho) em torno de 560 nm.",
+    "generated_answer": "Cone B (azul): aproximadamente 420 nm  \nCone G (verde): aproximadamente 530 nm  \nCone R (vermelho): aproximadamente 560 nm"
+  },
+  {
+    "id": 31,
+    "question": "Como os canais semicirculares do ouvido estão dispostos, e o que a movimentação do líquido neles indica?",
+    "ground_truth": "Estão dispostos em três planos ortogonais; a movimentação do líquido estimula neurônios ciliados, indicando a aceleração angular da cabeça.",
+    "generated_answer": "Os canais semicirculares do ouvido estão dispostos em três planos ortogonais. A movimentação do líquido dentro dos canais estimula neurônios ciliados, indicando a aceleração angular da cabeça."
+  },
+  {
+    "id": 32,
+    "question": "No experimento de Apostolos Georgopoulos, o que representa o comprimento das setas ao redor de cada neurônio no diagrama?",
+    "ground_truth": "A probabilidade de disparo desse neurônio quando o macaco executa o movimento na direção da seta.",
+    "generated_answer": "A probabilidade de disparo desse neurônio quando o macaco executa o movimento na direção da seta."
+  },
+  {
+    "id": 33,
+    "question": "Quantos neurônios do córtex motor foram registrados no experimento de Georgopoulos, e como o vetor de resposta populacional é representado?",
+    "ground_truth": "Oito neurônios (N1 a N8); a resposta populacional é representada pelo vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8].",
+    "generated_answer": "8 neurônios do córtex motor foram registrados no experimento de Georgopoulos. O vetor de resposta populacional é representado por um vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8], onde cada componente representa a taxa de disparo de um neurônio específico."
+  },
+  {
+    "id": 34,
+    "question": "No experimento de Miguel Nicolelis, quais são os três conceitos-chave destacados na interface cérebro-máquina?",
+    "ground_truth": "Múltiplos eletrodos no cérebro, codificação populacional e feedback sensorial.",
+    "generated_answer": "múltiplos eletrodos no cérebro, codificação populacional, feedback sensorial"
+  },
+  {
+    "id": 35,
+    "question": "Qual técnica de extração de características é citada no processamento dos vetores neurais do experimento de Nicolelis?",
+    "ground_truth": "Extração de características com componentes principais.",
+    "generated_answer": "Componentes principais"
+  },
+  {
+    "id": 36,
+    "question": "Na codificação temporal, o que é mais importante do que a taxa média de disparos, segundo a apresentação?",
+    "ground_truth": "A distância (o intervalo) entre disparos sucessivos.",
+    "generated_answer": "A distância (o intervalo) entre disparos sucessivos."
+  },
+  {
+    "id": 37,
+    "question": "Quantos bits de informação, no máximo, cada neurônio da mosca transmite por milissegundo, segundo os experimentos de Bialek e colaboradores?",
+    "ground_truth": "No máximo 5 bits de informação por milissegundo.",
+    "generated_answer": "5"
+  },
+  {
+    "id": 38,
+    "question": "No experimento com a rã \"touro\" de Rieke e colaboradores, quantos bits por segundo os neurônios transmitiam para o ruído branco, e quantos para o chamado de outras rãs?",
+    "ground_truth": "46 bits por segundo (1,4 bits por disparo) para o ruído branco, e 133 bits por segundo (7,8 bits por disparo) para o chamado de outras rãs.",
+    "generated_answer": "Para o ruído branco, os neurônios transmitiam 46 bits por segundo, e para os chamados de outras rãs, transmitiam 133 bits por segundo."
+  },
+  {
+    "id": 39,
+    "question": "Como Bialek e colaboradores adaptaram o experimento da mosca para um ambiente natural?",
+    "ground_truth": "Em vez de apresentar filmes, levaram a mosca ao mato, transportada em um \"carrinho\".",
+    "generated_answer": "Bialek e colaboradores adaptaram o experimento da mosca para um ambiente natural colocando a mosca em um \"carrinho\" e levando-a ao mato, em vez de apresentar filmes à mosca."
+  },
+  {
+    "id": 40,
+    "question": "O que Bialek extraiu da trajetória real de voo da mosca no experimento em ambiente natural (parte II)?",
+    "ground_truth": "A componente horizontal da trajetória de um voo real da mosca.",
+    "generated_answer": "Bialek extraiu a componente horizontal da trajetória de um voo real da mosca e forneceram essa componente de volta para a mosca, agora em um ambiente natural."
+  },
+  {
+    "id": 41,
+    "question": "No exemplo de codificação temporal em diferentes resoluções, como o mesmo trem de disparos é lido quando τ=32ms, comparado a quando τ=2ms?",
+    "ground_truth": "Com τ=32ms, o segmento inteiro é lido como um único número (ex: 11 ou 9); com τ=2ms, o mesmo trem de disparos é representado como uma sequência binária detalhada, com muito mais informação.",
+    "generated_answer": "No exemplo de codificação temporal, o mesmo trem de disparos é lido de forma diferente conforme a resolução temporal (τ). Com τ=32ms, o trem de disparos é lido como um único segmento contínuo, com os números 11 e 9. Com τ=2ms, o trem de disparos é dividido em subintervalos, e cada um é lido como uma sequência individual, resultando em uma representação binária completa, como \"11110110110010\" e \"01111110100000\". A resolução mais fina (τ=2ms) permite uma representação mais detalhada da sequência de disparos, com mais informação transmitida."
+  },
+  {
+    "id": 42,
+    "question": "Qual é a fórmula indicada para a taxa de informação Rinfo(T,τ) apresentada no slide sobre resolução temporal?",
+    "ground_truth": "Rinfo(T,τ) = I(T,τ) / T, em bits por segundo.",
+    "generated_answer": "Rinfo(T,τ) = I(T,τ) / T, em bits por segundo."
+  },
+  {
+    "id": 43,
+    "question": "Qual foi a conclusão final da aula sobre como animais como as moscas processam informação neural?",
+    "ground_truth": "A informação neural é processada em nível temporal, e não frequencial, já que a entropia crescia no intervalo entre 0,5 ms e 2 ms.",
+    "generated_answer": "A conclusão final da aula sobre como animais como as moscas processam informação neural é que a informação neural é processada em nível temporal, e não frequencial, e que a entropia cresce no intervalo entre 0,5 ms e 2 ms, indicando uma codificação temporal. Além disso, os experimentos demonstraram que a informação é transmitida por um sistema de controle computacional com neurônios que disparam, e que a codificação de estímulos desconhecidos é processada em tempo real com base em algoritmos de decodificação."
+  },
+  {
+    "id": 44,
+    "question": "O que caracteriza um neurônio excitatório em termos do efeito na membrana do neurônio seguinte?",
+    "ground_truth": "Produz um aumento de potencial (despolarização) na membrana do neurônio seguinte.",
+    "generated_answer": "Um neurônio excitatório caracteriza-se pelo aumento do potencial de membrana (despolarização) no neurônio seguinte."
+  },
+  {
+    "id": 45,
+    "question": "O que caracteriza um neurônio inibitório em termos do efeito na membrana do neurônio seguinte?",
+    "ground_truth": "Produz uma diminuição de potencial (hiperpolarização) na membrana do neurônio seguinte.",
+    "generated_answer": "Um neurônio inibitório caracteriza-se pelo efeito de produzir uma diminuição de potencial (hiperpolarização) na membrana do neurônio seguinte."
+  },
+  {
+    "id": 46,
+    "question": "Quem é o professor responsável pela disciplina, segundo o slide de abertura?",
+    "ground_truth": "Francisco Javier Ropero Peláez.",
+    "generated_answer": "Francisco Javier Ropero Peláez"
+  },
+  {
+    "id": 47,
+    "question": "Qual é o nome da disciplina apresentada no slide de abertura?",
+    "ground_truth": "Natureza da Informação.",
+    "generated_answer": "Natureza da Informação"
+  },
+  {
+    "id": 48,
+    "question": "Em qual universidade a disciplina é ministrada?",
+    "ground_truth": "UFABC.",
+    "generated_answer": "Universidade Federal do Rio de Janeiro (UFRJ)"
+  },
+  {
+    "id": 49,
+    "question": "O que os dendritos recebem, segundo o diagrama de anatomia do neurônio?",
+    "ground_truth": "Sinapses de outros neurônios.",
+    "generated_answer": "Os dendritos recebem sinapses de outros neurônios."
+  },
+  {
+    "id": 50,
+    "question": "Para onde se propaga o potencial de ação depois de gerado no promontório axônico?",
+    "ground_truth": "Ao longo do axônio até o terminal axônico, formando novas sinapses com o neurônio seguinte.",
+    "generated_answer": "O potencial de ação se propaga ao longo do axônio até o terminal axônico, formando novas sinapses com o neurônio seguinte."
+  },
+  {
+    "id": 51,
+    "question": "Quais dois canais são mostrados na estrutura geral de uma sinapse (slide 8)?",
+    "ground_truth": "Canal NMDA e Canal AMPA.",
+    "generated_answer": "Canal NMDA e Canal AMPA."
+  },
+  {
+    "id": 52,
+    "question": "O que acontece com a força sináptica acima do Limiar LTP, segundo a curva de plasticidade?",
+    "ground_truth": "A força sináptica aumenta progressivamente.",
+    "generated_answer": "A força sináptica aumenta progressivamente acima do Limiar LTP."
+  },
+  {
+    "id": 53,
+    "question": "O que o eixo vertical representa no gráfico da curva de plasticidade (Artola, 1993)?",
+    "ground_truth": "A Variação da força sináptica.",
+    "generated_answer": "Força sináptica"
+  },
+  {
+    "id": 54,
+    "question": "Qual é o valor inicial de wij no início da simulação do Modelo de Hebb?",
+    "ground_truth": "0 (zero).",
+    "generated_answer": "0,0"
+  },
+  {
+    "id": 55,
+    "question": "Qual incremento é somado a wij na primeira apresentação do padrão (Ij=1, Oi=1) na simulação do Modelo de Hebb?",
+    "ground_truth": "0,1, resultando em wij=0,1.",
+    "generated_answer": "0,1"
+  },
+  {
+    "id": 56,
+    "question": "Quais são os valores de Ij e Oi na segunda apresentação da simulação do Modelo de Hebb?",
+    "ground_truth": "Ij=1, Oi=0,5.",
+    "generated_answer": "Ij=1, Oi=0,5."
+  },
+  {
+    "id": 57,
+    "question": "Qual é o valor acumulado de wij após a segunda apresentação (incremento de 0,05) na simulação do Modelo de Hebb?",
+    "ground_truth": "0,15.",
+    "generated_answer": "0,15"
+  },
+  {
+    "id": 58,
+    "question": "Quais são os valores de Ij e Oi na terceira apresentação da simulação do Modelo de Hebb?",
+    "ground_truth": "Ij=0,1, Oi=0,5.",
+    "generated_answer": "Ij=0,1, Oi=0,5."
+  },
+  {
+    "id": 59,
+    "question": "Qual é o valor acumulado de wij após a terceira apresentação (incremento de 0,005) na simulação do Modelo de Hebb?",
+    "ground_truth": "0,155.",
+    "generated_answer": "0,155"
+  },
+  {
+    "id": 60,
+    "question": "Quais são os valores de Ij e Oi na quarta e última apresentação da simulação do Modelo de Hebb?",
+    "ground_truth": "Ij=1, Oi=1.",
+    "generated_answer": "Ij=1, Oi=1"
+  },
+  {
+    "id": 61,
+    "question": "Qual dos quatro modelos de plasticidade sináptica tem a equação assintótica aproximada wij = P(Ij / Oi)?",
+    "ground_truth": "O Modelo pós-sináptico.",
+    "generated_answer": "Modelo pós-sináptico."
+  },
+  {
+    "id": 62,
+    "question": "Qual analogia é usada para questionar como a informação é transmitida pelos neurônios?",
+    "ground_truth": "O código morse.",
+    "generated_answer": "A analogia usada para questionar como a informação é transmitida pelos neurônios é o código morse."
+  },
+  {
+    "id": 63,
+    "question": "Qual é o título do vídeo/imagem apresentado sobre os neurônios tálamo-corticais terem dois modos de disparo?",
+    "ground_truth": "\"Thalamocortical Neurons Have Two Firing Modes\".",
+    "generated_answer": "Thalamocortical Neurons Have Two Firing Modes"
+  },
+  {
+    "id": 64,
+    "question": "A que a frequência de disparos dos neurônios é proporcional, segundo a explicação da codificação frequencial?",
+    "ground_truth": "À voltagem pós-sináptica.",
+    "generated_answer": "A frequência de disparos dos neurônios é proporcional à voltagem pós-sináptica."
+  },
+  {
+    "id": 65,
+    "question": "O que representa P(ei) no cálculo de informação transmitida por codificação de frequências?",
+    "ground_truth": "A probabilidade de apresentar um determinado estímulo, ei, para o neurônio.",
+    "generated_answer": "P(ei) representa a probabilidade de apresentar um determinado estímulo, ei, para o neurônio."
+  },
+  {
+    "id": 66,
+    "question": "O que representa P(rj) no cálculo de informação transmitida por codificação de frequências?",
+    "ground_truth": "A probabilidade de termos uma determinada resposta, rj, no neurônio.",
+    "generated_answer": "P(rj) representa a probabilidade de uma determinada resposta, rj, no neurônio."
+  },
+  {
+    "id": 67,
+    "question": "O que a entropia de Shannon representa, segundo a definição dada na aula?",
+    "ground_truth": "O grau de imprevisibilidade da resposta do neurônio.",
+    "generated_answer": "A entropia de Shannon representa o grau de imprevisibilidade da resposta do neurônio. Quanto mais uniforme é a distribuição de respostas, rj, mais imprevisível é a resposta do neurônio."
+  },
+  {
+    "id": 68,
+    "question": "No Caso B do exemplo de cálculo de entropia, quantos tipos de resposta existem e qual é a relação entre suas probabilidades?",
+    "ground_truth": "Dois tipos de resposta, r1 e r2, onde P(r1) + P(r2) = 1.",
+    "generated_answer": "No Caso B, existem dois tipos de resposta, r1 e r2, e suas probabilidades satisfaçam a relação: P(r1) + P(r2) = 1."
+  },
+  {
+    "id": 69,
+    "question": "No exercício proposto sobre o neurônio tálamo-cortical, em qual porcentagem do tempo ele dispara na frequência lenta?",
+    "ground_truth": "60% das vezes.",
+    "generated_answer": "60%"
+  },
+  {
+    "id": 70,
+    "question": "Qual é o exemplo dado de caso em que a quantidade de informação transmitida por um neurônio é mínima (zero)?",
+    "ground_truth": "Quando a resposta do neurônio não muda com a mudança do estímulo.",
+    "generated_answer": "O exemplo dado é quando a resposta do neurônio não muda com a mudança do estímulo — ou seja, a resposta é totalmente previsível e a quantidade de informação transmitida é mínima (zero)."
+  },
+  {
+    "id": 71,
+    "question": "O que o exercício proposto no slide sobre codificação frequencial pede para calcular, quando cada estímulo produz uma resposta única?",
+    "ground_truth": "A quantidade de informação quando, para cada estímulo ei, o neurônio produz uma única resposta rj diferente para cada um dos estímulos.",
+    "generated_answer": "A quantidade de informação transmitida pelo neurônio na codificação frequencial, quando cada estímulo \\( e_i \\) produz uma resposta única \\( r_j \\), é calculada usando a fórmula \\( I = S - S_e \\), onde \\( S \\) é a entropia total e \\( S_e \\) é a média das entropias condicionais para cada estímulo. Em particular, dado que a resposta é única para cada estímulo, a entropia condicional \\( S_e \\) é zero, o que resulta em uma informação máxima. Portanto, o exercício pede para calcular a quantidade de informação como a diferença entre a entropia total e a média das entropias condicionais, mas, dado que a resposta é única para cada estímulo, a quantidade de informação é igual à entropia total."
+  },
+  {
+    "id": 72,
+    "question": "Que suposição sobre a probabilidade dos ritmos cerebrais é feita no exercício sobre informação em bits do EEG?",
+    "ground_truth": "Que os quatro tipos principais de ritmo cerebral (beta, alfa, teta e delta) estejam presentes com a mesma probabilidade nesse canal.",
+    "generated_answer": "A suposição feita no exercício sobre informação em bits do EEG é que os quatro tipos principais de ritmo cerebral (beta, alfa, teta e delta) estão presentes com a mesma probabilidade."
+  },
+  {
+    "id": 73,
+    "question": "Para que servem os experimentos com biofeedback, segundo a aula?",
+    "ground_truth": "Permitir que um sujeito controle, de modo rudimentar, algum aparelho \"com a mente\", enquanto um aparelho mostra seu grau de relaxamento.",
+    "generated_answer": "Os experimentos com biofeedback permitem que um sujeito controle, de modo muito rudimentar, algum aparelho \"com a mente\" através da manipulação de suas ondas cerebrais."
+  },
+  {
+    "id": 74,
+    "question": "Quais dois exemplos adicionais de codificação populacional ou vetorial são citados, além do epitélio olfativo?",
+    "ground_truth": "Codificação vetorial das cores e codificação vetorial da aceleração da cabeça nos canais semicirculares.",
+    "generated_answer": "Codificação vetorial das cores (ver detalhamento no slide seguinte). Codificação vetorial da aceleração da cabeça nos canais semicirculares do ouvido (ver slide 51)."
+  },
+  {
+    "id": 75,
+    "question": "O que o feedback sensorial fornece ao macaco no experimento de Nicolelis, segundo o diagrama?",
+    "ground_truth": "Sensores de posição, toque e proximidade do braço fornecem feedback sensorial de volta ao macaco, que também recebe uma recompensa de suco.",
+    "generated_answer": "O feedback sensorial fornece informações sobre a posição, toque e proximidade do braço do macaco ao sistema de controle computacional, que são usadas para ajustar o movimento do braço robótico."
+  },
+  {
+    "id": 76,
+    "question": "O que acontece depois de se estabelecerem correlações entre as características extraídas e os movimentos dos membros do macaco, no experimento de Nicolelis?",
+    "ground_truth": "A sequência de características extraídas passa a produzir o movimento dos membros de um braço robótico.",
+    "generated_answer": "A sequência de características extraídas passa a produzir o movimento dos membros de um braço robótico."
+  },
+  {
+    "id": 77,
+    "question": "O que Bialek e colaboradores descobriram sobre os disparos neurais da mosca, além da taxa de 5 bits por milissegundo?",
+    "ground_truth": "Um alfabeto básico de disparos neurais usado pela mosca para codificar informação.",
+    "generated_answer": "Bialek e colaboradores descobriram que a informação neural da mosca é codificada de forma temporal, e não frequencial, com a distância entre disparos sucessivos sendo importante. Além disso, eles descobriram que a taxa de informação é aumentada com a resolução temporal, e que a codificação temporal permite a transmissão de informações com maior eficiência. A taxa de informação pode variar de aproximadamente 150 bits/s em valores pequenos de τ (intervalo entre disparos) para cerca de 80 bits/s em valores maiores de τ (próximo de 30ms). Além disso, os experimentos mostraram que diferentes padrões visuais em movimento produzem sequências de disparo diferentes e características no córtex visual da mosca."
+  },
+  {
+    "id": 78,
+    "question": "Em qual revista científica e ano foi publicado o artigo de Bialek et al. sobre a leitura do código neural da mosca?",
+    "ground_truth": "Science, em 1991.",
+    "generated_answer": "Science, 1991"
+  },
+  {
+    "id": 79,
+    "question": "Qual é a tarefa que os organismos enfrentam, segundo o resumo do artigo de Bialek et al. (1991)?",
+    "ground_truth": "Extrair informação sobre um estímulo desconhecido e variável no tempo a partir de segmentos curtos de um trem de disparos.",
+    "generated_answer": "A tarefa que os organismos enfrentam, segundo o resumo do artigo de Bialek et al. (1991), é a **reconhecimento e processamento de sinais sensoriais com base na resolução temporal**, especialmente em contextos naturais, como o voo da mosca."
+  },
+  {
+    "id": 80,
+    "question": "Em qual publicação foi divulgado o artigo de Rieke, Bodnar & Bialek (1995) sobre o experimento com a rã?",
+    "ground_truth": "Proceedings of the Royal Society of London, B262:259-265.",
+    "generated_answer": "A publicação em que o artigo de Rieke, Bodnar & Bialek (1995) sobre o experimento com a rã foi divulgado é **The Royal Society of London, B262:259-265**."
+  },
+  {
+    "id": 81,
+    "question": "Segundo o gráfico de taxa de informação por resolução temporal, qual é a faixa aproximada de bits/s para valores pequenos e para valores maiores de τ?",
+    "ground_truth": "Aproximadamente 150 bits/s para τ pequeno, e cerca de 80 bits/s para τ maior (próximo de 30ms).",
+    "generated_answer": "A faixa aproximada de bits/s para valores pequenos de τ é de aproximadamente 150 bits/s, e para valores maiores de τ, cerca de 80 bits/s."
+  },
+  {
+    "id": 82,
+    "question": "Quais são todas as partes indicadas no diagrama de anatomia funcional do neurônio (slide 2)?",
+    "ground_truth": "Sinapses, Dendritos, Corpo, Voltagem pós-sináptica, Promontório axônico, Axônio e Terminal axônico.",
+    "generated_answer": "Dendritos, Corpo, Promontório axônico, Axônio, Terminal axônico."
+  },
+  {
+    "id": 83,
+    "question": "Quais são os nomes em inglês do neurônio em cesto e do neurônio candelabro, segundo o diagrama de camadas corticais?",
+    "ground_truth": "'Basket cell' (neurônio em cesto) e 'chandelier cell' (neurônio candelabro).",
+    "generated_answer": "Basket cell, Chandelier cell"
+  },
+  {
+    "id": 84,
+    "question": "Quais três íons são indicados na estrutura geral de uma sinapse (slide 8)?",
+    "ground_truth": "Ca2+, Na+ e Cl-.",
+    "generated_answer": "Ca²⁺, Na⁺, Cl⁻"
+  },
+  {
+    "id": 85,
+    "question": "Como a plasticidade sináptica modula a transmissão de potencial, segundo a aula?",
+    "ground_truth": "Variando o número de canais (NMDA/AMPA), em função da concentração de cálcio (Ca2+).",
+    "generated_answer": "A plasticidade sináptica modula a transmissão de potencial variando o número de canais (NMDA/AMPA) em função da concentração de cálcio (Ca²⁺): um aumento em [Ca²⁺] leva à potenciação (aumento do número de canais), e uma diminuição em [Ca²⁺] leva à depressão (diminuição do número de canais)."
+  },
+  {
+    "id": 86,
+    "question": "O que representa o eixo horizontal no gráfico da curva de plasticidade (Artola, 1993)?",
+    "ground_truth": "A Ativação pós-sináptica / Voltagem.",
+    "generated_answer": "Ativação pós-sináptica / Voltagem"
+  },
+  {
+    "id": 87,
+    "question": "O que forma a curva de plasticidade entre o Limiar LTD e o Limiar LTP?",
+    "ground_truth": "A curva cruza o zero entre os dois limiares, formando uma curva em S.",
+    "generated_answer": "A curva de plasticidade entre o Limiar LTD e o Limiar LTP é formada pela variação da força sináptica em função da ativação pós-sináptica, que aumenta quando a voltagem atinge o Limiar LTP e diminui abaixo do Limiar LTD."
+  },
+  {
+    "id": 88,
+    "question": "Segundo o slide de resumo dos tipos de codificação neural, o que é a codificação de frequência?",
+    "ground_truth": "As diferentes frequências de disparo do neurônio representam respostas a diferentes estímulos.",
+    "generated_answer": "A codificação de frequência é uma forma de codificação neural em que a frequência de disparo dos neurônios é proporcional à voltagem pós-sináptica, e a informação é transmitida através da taxa de disparos dos neurônios."
+  },
+  {
+    "id": 89,
+    "question": "Segundo o slide de resumo dos tipos de codificação neural, o que é a codificação vetorial ou populacional?",
+    "ground_truth": "Um estímulo pode ser codificado como um vetor cujos componentes são as taxas de disparo de vários neurônios.",
+    "generated_answer": "A codificação vetorial ou populacional é uma forma de codificação neural em que um estímulo é representado por um vetor, no qual cada componente é a taxa de disparo de um determinado neurônio."
+  },
+  {
+    "id": 90,
+    "question": "Segundo o slide de resumo dos tipos de codificação neural, o que é a codificação temporal?",
+    "ground_truth": "O neurônio codifica a informação mediante a duração dos intervalos entre os disparos.",
+    "generated_answer": "A codificação temporal é a representação da informação a partir da distância (intervalo) entre os disparos sucessivos de um neurônio, ao invés apenas da taxa média de disparos."
+  },
+  {
+    "id": 91,
+    "question": "O que acontece ao injetar correntes s1, s2 e s3 crescentes no neurônio, no exemplo de codificação frequencial?",
+    "ground_truth": "Produzimos voltagens cada vez maiores no interior do neurônio, gerando taxas de disparo r1, r2, r3 correspondentes.",
+    "generated_answer": "Ao injetar correntes s1, s2 e s3 crescentes no neurônio, ocorre um aumento gradual da voltagem pós-sináptica, o que resulta em taxas de disparo r1, r2 e r3 correspondentes. No último caso (s3), não é possível juntar mais os potenciais de ação, pois a distância mínima entre dois potenciais sucessivos é o período refratário absoluto."
+  },
+  {
+    "id": 92,
+    "question": "Quem desenvolveu o exoesqueleto Hardiman 1, de 1965?",
+    "ground_truth": "A General Electric.",
+    "generated_answer": "General Electric"
+  },
+  {
+    "id": 93,
+    "question": "A qual universidade está associado o trabalho de Jacob Rosen sobre exoesqueletos?",
+    "ground_truth": "À Universidade de Washington.",
+    "generated_answer": "Universidade de São Paulo"
+  },
+  {
+    "id": 94,
+    "question": "Quantos tipos de receptores olfativos são mostrados no exemplo de codificação vetorial do epitélio olfativo?",
+    "ground_truth": "Três tipos (Receptor 1, Receptor 2 e Receptor 3).",
+    "generated_answer": "3"
+  },
+  {
+    "id": 95,
+    "question": "Quais são os quatro odores testados no exemplo de codificação vetorial do epitélio olfativo?",
+    "ground_truth": "Citrus, Floral, Peppermint e Almond.",
+    "generated_answer": "Citrus, Floral, Peppermint e Almond."
+  },
+  {
+    "id": 96,
+    "question": "Em torno de qual comprimento de onda o cone B (azul) tem seu pico de resposta?",
+    "ground_truth": "Em torno de 420 nm.",
+    "generated_answer": "Em torno de 420 nm."
+  },
+  {
+    "id": 97,
+    "question": "Em torno de qual comprimento de onda o cone G (verde) tem seu pico de resposta?",
+    "ground_truth": "Em torno de 530 nm.",
+    "generated_answer": "Em torno de 530 nm."
+  },
+  {
+    "id": 98,
+    "question": "Em torno de qual comprimento de onda o cone R (vermelho) tem seu pico de resposta?",
+    "ground_truth": "Em torno de 560 nm.",
+    "generated_answer": "O cone R (vermelho) tem seu pico de resposta em torno de 560 nm."
+  },
+  {
+    "id": 99,
+    "question": "Como o macaco realiza os movimentos de braço no experimento de Georgopoulos?",
+    "ground_truth": "Usando um manche/joystick, com alvos dispostos em círculo.",
+    "generated_answer": "O macaco realiza os movimentos de braço no experimento de Georgopoulos usando um manche/joystick com alvos dispostos em círculo. Ao executar movimentos de braço em diferentes direções, os eletrodos registram a atividade de 8 neurônios do córtex motor. O comprimento das setas ao redor de cada neurônio indica a probabilidade de disparo desse neurônio quando o macaco executa o movimento na direção da seta. Cada neurônio tem uma \"direção preferida\" em que dispara com maior probabilidade."
+  },
+  {
+    "id": 100,
+    "question": "O que os experimentos de Bialek e colaboradores mostram sobre padrões visuais em movimento?",
+    "ground_truth": "Que diferentes padrões visuais em movimento produzem sequências de disparo diferentes e características no córtex visual da mosca.",
+    "generated_answer": "Os experimentos de Bialek e colaboradores mostram que diferentes padrões visuais em movimento produzem sequências de disparo diferentes e características no córtex visual da mosca. Isso indica que os neurônios do córtex visual da mosca codificam informações sobre o movimento do objeto visual usando padrões de disparos neurais."
+  },
+  {
+    "id": 101,
+    "question": "Como Bialek e colaboradores estudaram as respostas dos neurônios do córtex visual da mosca?",
+    "ground_truth": "Estudaram as respostas dos neurônios enquanto a mosca assistia a um filme.",
+    "generated_answer": "Bialek e colaboradores estudaram as respostas dos neurônios do córtex visual da mosca enquanto ela assistia a um filme, utilizando eletrodos para registrar a atividade neural. Além disso, realizaram experimentos em ambientes naturais, como em um mato, com a mosca transportada em um \"carrinho\", e também observaram a resposta dos neurônios ao movimento horizontal do voo da mosca."
+  },
+  {
+    "id": 102,
+    "question": "Como as abordagens tradicionais caracterizam a codificação neural, segundo o resumo do artigo de Bialek et al. (1991)?",
+    "ground_truth": "Caracterizam a codificação de estímulos conhecidos a partir da resposta neural média.",
+    "generated_answer": "As abordagens tradicionais caracterizam a codificação neural como a codificação de estímulos conhecidos a partir da resposta neural média."
+  },
+  {
+    "id": 103,
+    "question": "A quais autores e instituição pertence o artigo resumido no slide sobre \"Reading a neural code\"?",
+    "ground_truth": "W. Bialek, F. Rieke, R.R. de Ruyter van Steveninck e D. Warland, do Department of Physics, University of California, Berkeley.",
+    "generated_answer": "Ruyter van Steveninck RR, Warland D (1991). Reading a neural code. Science 252: 1854-1857."
+  },
+  {
+    "id": 104,
+    "question": "Quais são os três níveis de resolução temporal (τ) exemplificados no diagrama de codificação temporal (slide 62)?",
+    "ground_truth": "τ=32ms, τ=8ms e τ=2ms.",
+    "generated_answer": "1. τ=32ms  \n2. τ=8ms  \n3. τ=2ms"
+  },
+  {
+    "id": 105,
+    "question": "Como o mesmo trem de disparos é representado quando a resolução temporal é τ=8ms, no exemplo do slide 62?",
+    "ground_truth": "Cada segmento se divide em 4 subintervalos, lidos como as sequências \"4 3 3 1\" e \"3 4 2 0\".",
+    "generated_answer": "No exemplo do slide 62, o mesmo trem de disparos é representado como as sequências \"4 3 3 1\" e \"3 4 2 0\" quando a resolução temporal é τ=8ms."
+  },
+  {
+    "id": 106,
+    "question": "Quais canais, neurotransmissor e íon estão envolvidos especificamente na sinapse inibitória GABA-A?",
+    "ground_truth": "Os canais de GABA-A, o neurotransmissor GABA-A e o íon Cl-.",
+    "generated_answer": "Na sinapse inibitória GABA-A, os canais envolvidos são os canais de GABA-A, o neurotransmissor é GABA (gaba, ou gaba-aminoácido), e o íon envolvido é o íon Cl⁻ (cloruro)."
+  },
+  {
+    "id": 107,
+    "question": "Quais canais e íon estão envolvidos especificamente na sinapse inibitória GABA-B?",
+    "ground_truth": "Os canais de GABA-B (metabotrópico) e o íon K+.",
+    "generated_answer": "Canais envolvidos: GABA-B (metabotrópico) e íon K+."
+  },
+  {
+    "id": 108,
+    "question": "Qual é a faixa de frequência do ritmo beta, e a que estados ele está associado?",
+    "ground_truth": "12-30 Hz, associado a atividade, atenção e ansiedade.",
+    "generated_answer": "O ritmo beta está na faixa de 12-30 Hz e é associado a atividade, atenção e ansiedade."
+  },
+  {
+    "id": 109,
+    "question": "Qual é a faixa de frequência do ritmo alfa, e a que estado ele está associado?",
+    "ground_truth": "8-12 Hz, associado a relaxação.",
+    "generated_answer": "8-12 Hz — associado a relaxação."
+  },
+  {
+    "id": 110,
+    "question": "Qual é a faixa de frequência do ritmo teta, e a que estados ele está associado?",
+    "ground_truth": "4-7 Hz, associado a sonolência e meditação.",
+    "generated_answer": "O ritmo teta está associado a sonolência e meditação, e sua faixa de frequência é de 4-7 Hz."
+  },
+  {
+    "id": 111,
+    "question": "Qual é a faixa de frequência do ritmo delta, e a que estado ele está associado?",
+    "ground_truth": "Até 3 Hz, associado a sono profundo.",
+    "generated_answer": "A faixa de frequência do ritmo delta é até 3 Hz, e ele está associado a sono profundo."
+  },
+  {
+    "id": 112,
+    "question": "Quantos neurônios do córtex motor foram registrados no experimento de Georgopoulos?",
+    "ground_truth": "Oito neurônios (N1 a N8).",
+    "generated_answer": "8"
+  },
+  {
+    "id": 113,
+    "question": "Como a resposta populacional completa do conjunto de neurônios é representada no experimento de Georgopoulos?",
+    "ground_truth": "Pelo vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8].",
+    "generated_answer": "A resposta populacional completa do conjunto de 8 neurônios é representada pelo vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8], onde cada componente ri representa a frequência de disparo do neurônio i em função da direção do movimento."
+  },
+  {
+    "id": 114,
+    "question": "Quantos bits por segundo os neurônios do nervo auditivo da rã transmitiam quando ela escutava ruído branco?",
+    "ground_truth": "46 bits por segundo (ou 1,4 bits por disparo).",
+    "generated_answer": "1,4"
+  },
+  {
+    "id": 115,
+    "question": "Quantos bits por segundo os neurônios do nervo auditivo da rã transmitiam quando ela escutava o chamado de outras rãs?",
+    "ground_truth": "133 bits por segundo (ou 7,8 bits por disparo).",
+    "generated_answer": "133 bits por segundo."
+  },
+  {
+    "id": 116,
+    "question": "Como o trem de disparos é lido quando a resolução temporal é τ=32ms, no exemplo do slide 62?",
+    "ground_truth": "Dois segmentos consecutivos são lidos, como um todo, como os números 11 e 9.",
+    "generated_answer": "No exemplo do slide 62, o trem de disparos é lido como os números 11 e 9 quando a resolução temporal é τ=32ms."
+  },
+  {
+    "id": 117,
+    "question": "Como o trem de disparos é representado quando a resolução temporal é τ=2ms, no exemplo do slide 62?",
+    "ground_truth": "Como uma sequência binária completa.",
+    "generated_answer": "A sequência binária completa (por exemplo: 11110110110010 e 01111110100000)."
+  },
+  {
+    "id": 118,
+    "question": "Qual é o primeiro exemplo adicional de codificação populacional ou vetorial citado no slide 49?",
+    "ground_truth": "A codificação vetorial das cores.",
+    "generated_answer": "Codificação vetorial das cores (ver detalhamento no slide seguinte)."
+  },
+  {
+    "id": 119,
+    "question": "Qual é o segundo exemplo adicional de codificação populacional ou vetorial citado no slide 49?",
+    "ground_truth": "A codificação vetorial da aceleração da cabeça nos canais semicirculares do ouvido.",
+    "generated_answer": "Codificação vetorial da aceleração da cabeça nos canais semicirculares do ouvido."
+  },
+  {
+    "id": 120,
+    "question": "Quais camadas corticais (em algarismos romanos) são mostradas no diagrama de tipos de neurônios do córtex?",
+    "ground_truth": "As camadas I a VI.",
+    "generated_answer": "V, VI"
+  },
+  {
+    "id": 121,
+    "question": "Que convenção de sinal (+/-) o diagrama de camadas corticais usa para indicar se um neurônio é excitatório ou inibitório?",
+    "ground_truth": "Sinal positivo para neurônios excitatórios (como o piramidal) e sinal negativo para neurônios inibitórios (como o em cesto e o candelabro).",
+    "generated_answer": "O diagrama de camadas corticais usa o sinal positivo (+) para indicar neurônios excitatórios e o sinal negativo (-) para indicar neurônios inibitórios."
+  },
+  {
+    "id": 122,
+    "question": "Onde estão localizadas as sinapses excitatórias dos neurônios excitatórios, segundo a aula?",
+    "ground_truth": "No terminal axônico.",
+    "generated_answer": "Os neurônios excitatórios têm sinapses excitatórias no seu terminal axônico."
+  },
+  {
+    "id": 123,
+    "question": "Onde estão localizadas as sinapses inibitórias dos neurônios inibitórios, segundo a aula?",
+    "ground_truth": "No terminal axônico.",
+    "generated_answer": "As sinapses inibitórias dos neurônios inibitórios estão localizadas no seu terminal axônico."
+  },
+  {
+    "id": 124,
+    "question": "Segundo a citação de Hebb, o que acontece em uma ou em ambas as células quando a condição de disparo repetido é satisfeita?",
+    "ground_truth": "Acontece algum processo de crescimento ou mudança metabólica.",
+    "generated_answer": "Em uma ou em ambas as células, ocorre um processo de crescimento ou mudança metabólica, que aumenta a eficiência de A disparando sobre B."
+  },
+  {
+    "id": 125,
+    "question": "No diagrama do Modelo de Hebb, o que conecta a Membrana Pré-sináptica (entrada Ij) à Membrana Pós-sináptica (saída Oi)?",
+    "ground_truth": "Um peso, w.",
+    "generated_answer": "O peso sináptico (wij) conecta a Membrana Pré-sináptica (entrada Ij) à Membrana Pós-sináptica (saída Oi)."
+  },
+  {
+    "id": 126,
+    "question": "Além do modelo pós-sináptico, qual outro modelo de plasticidade sináptica tem uma equação equivalente assimptótica indicada na aula?",
+    "ground_truth": "O modelo pré-sináptico.",
+    "generated_answer": "Modelo pré-sináptico."
+  },
+  {
+    "id": 127,
+    "question": "Quais três símbolos de taxas de disparo aparecem na pergunta motivadora sobre como a informação é transmitida pelos neurônios?",
+    "ground_truth": "r1, r2 e r3.",
+    "generated_answer": "r1, r2, r3"
+  },
+  {
+    "id": 128,
+    "question": "No exemplo dado para a definição de P(rj), o que r1 e r2 podem significar?",
+    "ground_truth": "r1 pode significar resposta de 50 Hz e r2 uma resposta de 100 Hz.",
+    "generated_answer": "r1 pode significar resposta de 50 Hz e r2 uma resposta de 100 Hz."
+  },
+  {
+    "id": 129,
+    "question": "Qual é a faixa do eixo horizontal P(r1) no gráfico de entropia máxima apresentado na aula?",
+    "ground_truth": "De 0 a 1.",
+    "generated_answer": "[0 a 1]"
+  },
+  {
+    "id": 130,
+    "question": "Qual é a faixa do eixo vertical de entropia S no gráfico de entropia máxima apresentado na aula?",
+    "ground_truth": "De 0 a 1 bit.",
+    "generated_answer": "0 a 1 bit"
+  },
+  {
+    "id": 131,
+    "question": "A qual autor e ano é atribuída a curva de plasticidade sináptica apresentada na aula?",
+    "ground_truth": "Artola, 1993.",
+    "generated_answer": "Artola, 1993"
+  },
+  {
+    "id": 132,
+    "question": "Quais são as três camadas de tecido que o sinal elétrico neural precisa atravessar antes de chegar ao eletrodo do EEG, segundo o diagrama apresentado?",
+    "ground_truth": "Pia máter, Aracnoide e Dura máter.",
+    "generated_answer": "Pia máter, Aracnoide e Dura máter."
+  },
+  {
+    "id": 133,
+    "question": "Como o pico da onda P300 é rotulado no gráfico apresentado na aula?",
+    "ground_truth": "\"P3\".",
+    "generated_answer": "O pico da onda P300 é rotulado \"P3\" no gráfico apresentado."
+  },
+  {
+    "id": 134,
+    "question": "Como a atividade neuronal captada pelos eletrodos é processada e usada no experimento de Nicolelis?",
+    "ground_truth": "É processada por um sistema de controle computacional e usada para mover um braço robótico/virtual.",
+    "generated_answer": "A atividade neuronal captada pelos eletrodos é processada por um sistema de controle computacional, que utiliza técnicas de reconhecimento de padrões para reconhecer cada vetor de frequências de disparo. Em seguida, correlações são estabelecidas entre as características extraídas e os movimentos dos membros do macaco, utilizando redes neurais artificiais. Essa sequência de processamento permite que a atividade do cérebro seja usada para controlar o movimento do braço robótico do macaco."
+  },
+  {
+    "id": 135,
+    "question": "Mediante qual técnica são estabelecidas as correlações entre as características extraídas e os movimentos dos membros, no experimento de Nicolelis?",
+    "ground_truth": "Mediante redes neurais artificiais.",
+    "generated_answer": "Redes neurais artificiais."
+  },
+  {
+    "id": 136,
+    "question": "O que caracteriza as respostas r1 e r2 no exemplo introdutório da codificação temporal, apesar de terem a mesma taxa média de disparos?",
+    "ground_truth": "Para alguns animais, essas duas respostas correspondem a estímulos totalmente diferentes.",
+    "generated_answer": "O que caracteriza as respostas r1 e r2 no exemplo introdutório da codificação temporal, apesar de terem a mesma taxa média de disparos, é a **distância (o intervalo) entre os disparos sucessivos**."
+  },
+  {
+    "id": 137,
+    "question": "Sob qual ponto de vista o código neural foi caracterizado no trabalho de Bialek et al., segundo o resumo do artigo?",
+    "ground_truth": "Do ponto de vista do organismo.",
+    "generated_answer": "O código neural foi caracterizado do ponto de vista do organismo, culminando em algoritmos para estimativa do estímulo em tempo real baseados em um único trem de disparos."
+  },
+  {
+    "id": 138,
+    "question": "Em que se baseiam os algoritmos de estimativa do estímulo em tempo real descritos no resumo do artigo de Bialek et al. (1991)?",
+    "ground_truth": "Em um único exemplo do trem de disparos.",
+    "generated_answer": "Os algoritmos de estimativa do estímulo em tempo real descritos no resumo do artigo de Bialek et al. (1991) se baseiam em um único exemplo do trem de disparos, aplicados a um neurônio sensível a movimento identificado no sistema visual da mosca."
+  },
+  {
+    "id": 139,
+    "question": "A quais neurônios os métodos de decodificação descritos no resumo de Bialek et al. foram aplicados?",
+    "ground_truth": "A um neurônio sensível a movimento identificado no sistema visual da mosca.",
+    "generated_answer": "Neurônios sensíveis a movimento."
+  },
+  {
+    "id": 140,
+    "question": "O que os experimentos de decodificação descritos no resumo do artigo de Bialek et al. determinaram sobre a computação neural?",
+    "ground_truth": "O nível de ruído efetivo e a tolerância a falhas da computação neural.",
+    "generated_answer": "Os experimentos de decodificação descritos no resumo do artigo de Bialek et al. determinaram o nível de ruído efetivo e a tolerância a falhas da computação neural, e a estrutura dos algoritmos de decodificação sugeriu um modelo simples de processamento analógico de sinal em tempo real com neurônios que disparam."
+  },
+  {
+    "id": 141,
+    "question": "Que tipo de modelo a estrutura dos algoritmos de decodificação sugeriu, segundo o resumo do artigo de Bialek et al.?",
+    "ground_truth": "Um modelo simples de processamento analógico de sinal em tempo real com neurônios que disparam.",
+    "generated_answer": "modelo simples de processamento analógico de sinal em tempo real com neurônios que disparam"
+  },
+  {
+    "id": 142,
+    "question": "Qual é a duração da janela (T) usada no diagrama esquemático de codificação temporal em diferentes resoluções?",
+    "ground_truth": "T=32ms.",
+    "generated_answer": "32ms"
+  },
+  {
+    "id": 143,
+    "question": "Qual é a duração das palavras (T) usada no gráfico de taxa de informação por resolução temporal?",
+    "ground_truth": "T=25ms.",
+    "generated_answer": "25ms"
+  },
+  {
+    "id": 144,
+    "question": "Qual é a faixa do eixo vertical (taxa de informação, em bits por segundo) no gráfico de resolução temporal apresentado na aula?",
+    "ground_truth": "De 80 a 180 bits por segundo.",
+    "generated_answer": "80 a 180"
+  },
+  {
+    "id": 145,
+    "question": "Quais valores de potencial de membrana são indicados na sinapse inibitória GABA-B?",
+    "ground_truth": "-65mV e -80mV.",
+    "generated_answer": "-65mV e -80mV"
+  },
+  {
+    "id": 146,
+    "question": "No exercício proposto sobre o neurônio tálamo-cortical, em qual porcentagem do tempo ele dispara na frequência rápida?",
+    "ground_truth": "40% do tempo.",
+    "generated_answer": "40%"
+  },
+  {
+    "id": 147,
+    "question": "O que o traçado de sinal de EEG mostrado na aula representa?",
+    "ground_truth": "Várias linhas onduladas (uma por canal/eletrodo), representando a atividade elétrica cerebral ao longo do tempo.",
+    "generated_answer": "O traçado de sinal de EEG mostrado na aula representa a atividade elétrica cerebral ao longo do tempo, captada por eletrodos colocados no couro cabeludo. As linhas onduladas indicam a variação de potencial elétrico dos neurônios, que são registradas como sinais elétricos."
+  },
+  {
+    "id": 148,
+    "question": "A que sentido a codificação vetorial nos canais semicirculares do ouvido é aplicada, segundo a aula?",
+    "ground_truth": "Ao sentido do equilíbrio.",
+    "generated_answer": "A codificação vetorial nos canais semicirculares do ouvido é aplicada ao sentido do equilíbrio."
+  },
+  {
+    "id": 149,
+    "question": "O que motivou Bialek e colaboradores a repetir o experimento da mosca em um ambiente natural?",
+    "ground_truth": "O sucesso obtido com os experimentos das rãs.",
+    "generated_answer": "Motivou Bialek e colaboradores a repetir o experimento da mosca em um ambiente natural o sucesso obtido com as rãs."
+  },
+  {
+    "id": 150,
+    "question": "Onde Bialek colocou eletrodos no experimento em ambiente natural (parte II)?",
+    "ground_truth": "Nos neurônios que processam os movimentos horizontais do voo da mosca.",
+    "generated_answer": "Bialek colocou eletrodos nos neurônios que processam os movimentos horizontais do voo da mosca."
+  },
+  {
+    "id": 151,
+    "question": "O que a membrana pré-sináptica contém, na estrutura geral da sinapse apresentada na aula?",
+    "ground_truth": "Vesículas com neurotransmissor.",
+    "generated_answer": "A membrana pré-sináptica contém vesículas com neurotransmissor."
+  },
+  {
+    "id": 152,
+    "question": "O que o sujeito tenta controlar durante os experimentos com biofeedback, e o que o aparelho mostra?",
+    "ground_truth": "O sujeito tenta controlar suas ondas cerebrais, enquanto o aparelho mostra seu grau de relaxação.",
+    "generated_answer": "O sujeito tenta controlar suas ondas cerebrais enquanto um aparelho mostra seu grau de relaxação."
+  },
+  {
+    "id": 153,
+    "question": "Que tipo de recompensa o macaco recebe durante o experimento de Nicolelis?",
+    "ground_truth": "Uma recompensa de suco.",
+    "generated_answer": "Suco."
+  },
+  {
+    "id": 154,
+    "question": "Para que servem as técnicas de reconhecimento de padrões aplicadas no experimento de Nicolelis?",
+    "ground_truth": "Para reconhecer cada vetor de frequências de disparo.",
+    "generated_answer": "As técnicas de reconhecimento de padrões são usadas para reconhecer cada vetor de frequências de disparo do cérebro do macaco, extraídas por eletrodos, e para estabelecer correlações com os movimentos dos membros do macaco. Isso ajuda a processar os dados neurais e, posteriormente, a controlar o movimento de um braço robótico ou virtual, com base nas ações do macaco."
+  },
+  {
+    "id": 155,
+    "question": "O que cada odor produz em termos de disparo nos três tipos de receptor, no exemplo de codificação vetorial do epitélio olfativo?",
+    "ground_truth": "Uma combinação distinta e simultânea de taxas de disparo nos três tipos de receptor — um \"vetor\" de resposta populacional único para cada odor.",
+    "generated_answer": "Um odor produz uma combinação distinta e simultânea de taxas de disparo nos três tipos de receptor, resultando em um \"vetor\" de resposta populacional único para cada odor."
+  },
+  {
+    "id": 156,
+    "question": "Qual é a faixa do eixo vertical (Resposta relativa) no gráfico de codificação vetorial nos cones?",
+    "ground_truth": "De 0 a 100%.",
+    "generated_answer": "0 a 100%"
+  },
+  {
+    "id": 157,
+    "question": "Qual é a faixa aproximada do eixo horizontal (comprimento de onda) no gráfico de codificação vetorial nos cones?",
+    "ground_truth": "Aproximadamente 400 a 650+ nm.",
+    "generated_answer": "400 a 650+ nm"
+  },
+  {
+    "id": 158,
+    "question": "Qual é a faixa do eixo horizontal (Direção do braço) no gráfico de curvas de sintonia direcional de Georgopoulos?",
+    "ground_truth": "De 0° a 270°, cobrindo o círculo completo.",
+    "generated_answer": "0° a 270°"
+  },
+  {
+    "id": 159,
+    "question": "Onde fica o pico da curva destacada em vermelho no gráfico de curvas de sintonia direcional de Georgopoulos?",
+    "ground_truth": "Próximo de 90°.",
+    "generated_answer": "90°"
+  },
+  {
+    "id": 160,
+    "question": "Quais são as sequências binárias de exemplo dadas para τ=2ms no diagrama de codificação temporal em diferentes resoluções?",
+    "ground_truth": "11110110110010 e 01111110100000.",
+    "generated_answer": "11110110110010 e 01111110100000"
+  },
+  {
+    "id": 161,
+    "question": "Em que escala é apresentado o eixo horizontal (τ) no gráfico de taxa de informação por resolução temporal?",
+    "ground_truth": "Escala logarítmica.",
+    "generated_answer": "logarítmica"
+  }
+]

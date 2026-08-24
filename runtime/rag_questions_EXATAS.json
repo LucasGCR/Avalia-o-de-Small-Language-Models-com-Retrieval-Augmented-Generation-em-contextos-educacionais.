@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "question": "O que acontece no promontório axônico do neurônio?",
+    "ground_truth": "É onde os potenciais pós-sinápticos somados no corpo celular atingem o limiar e é gerado o potencial de ação, que se propaga pelo axônio.",
+    "gold_chunks": [
+      "os potenciais pós-sinápticos gerados nessas sinapses se somam no corpo celular até atingir o promontório axônico, onde é gerado o potencial de ação"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Qual é o exemplo dado de neurônio excitatório do córtex?",
+    "ground_truth": "Os neurônios piramidais do córtex.",
+    "gold_chunks": [
+      "os neurônios piramidais do córtex"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Quais são os dois exemplos de neurônios inibitórios do córtex citados na aula?",
+    "ground_truth": "Os neurônios em cesto e em candelabro do córtex.",
+    "gold_chunks": [
+      "os neurônios em cesto e em candelabro do córtex"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Em qual camada cortical o neurônio piramidal (excitatório) aparece no diagrama apresentado?",
+    "ground_truth": "Na camada V.",
+    "gold_chunks": [
+      "Neurônio piramidal (excitatório, sinal positivo) aparece na camada V"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Quais neurotransmissores e íons estão envolvidos na sinapse excitatória descrita na aula?",
+    "ground_truth": "O neurotransmissor glutamato, e os íons Ca2+ e Na+, atuando nos canais NMDA e AMPA.",
+    "gold_chunks": [
+      "O neurotransmissor envolvido é o glutamato. Os íons envolvidos são Ca2+ e Na+, atuando nos canais NMDA e AMPA"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Quais canais e íons estão envolvidos nas sinapses inibitórias GABA-A e GABA-B, respectivamente?",
+    "ground_truth": "A sinapse GABA-A envolve os canais de GABA-A e o íon Cl-; a sinapse GABA-B envolve os canais de GABA-B (metabotrópico) e o íon K+.",
+    "gold_chunks": [
+      "Envolvem os canais de GABA-A, o neurotransmissor GABA-A e o íon Cl-",
+      "envolvem os canais de GABA-B (metabotrópico) e o íon K+"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "O que acontece com o número de canais sinápticos quando há um aumento na concentração de Ca2+?",
+    "ground_truth": "Ocorre potenciação — um aumento do número de canais.",
+    "gold_chunks": [
+      "um aumento em [Ca2+] leva a Potenciação (aumento do número de canais)"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "O que acontece com o número de canais sinápticos quando há uma diminuição na concentração de Ca2+?",
+    "ground_truth": "Ocorre depressão — uma diminuição do número de canais.",
+    "gold_chunks": [
+      "uma diminuição em [Ca2+] leva a Depressão (diminuição do número de canais)"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Segundo a curva de plasticidade de Artola (1993) apresentada na aula, o que acontece com a força sináptica abaixo do Limiar LTD?",
+    "ground_truth": "A força sináptica diminui.",
+    "gold_chunks": [
+      "Abaixo de um primeiro limiar, chamado Limiar LTD (depressão de longo prazo), a força sináptica diminui"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Segundo a citação de Donald Hebb apresentada na aula, o que precisa acontecer para que a eficiência de uma célula A disparando sobre uma célula B aumente?",
+    "ground_truth": "O axônio de A precisa estar perto o suficiente de B para excitá-la, e participar repetida ou persistentemente do seu disparo.",
+    "gold_chunks": [
+      "Quando um axônio de uma célula A está perto suficiente de uma célula B, como para excitá-la, e participa repetida ou persistentemente no seu disparo"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Qual é o valor final acumulado do peso sináptico (wij) ao final da simulação do Modelo de Hebb apresentada na aula?",
+    "ground_truth": "0,255.",
+    "gold_chunks": [
+      "valor final acumulado de wij = 0,255, após as 4 apresentações do exemplo"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Quantos modelos artificiais de plasticidade sináptica são listados na aula, e quais são eles?",
+    "ground_truth": "Quatro modelos: Modelo de Hebb, Modelo de Oja, Modelo pré-sináptico e Modelo pós-sináptico.",
+    "gold_chunks": [
+      "1. Modelo de Hebb; 2. Modelo de Oja; 3. Modelo pré-sináptico (com uma equação equivalente assimptoticamente indicada); 4. Modelo pós-sináptico"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Qual é a equação do modelo pós-sináptico de plasticidade sináptica apresentada na aula?",
+    "ground_truth": "Δwij = ε·Oj·(Ii − wij).",
+    "gold_chunks": [
+      "a equação do modelo 4 (pós-sináptico), no entanto, é legível: Δwij = ε·Oj·(Ii − wij)"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Quais são os três tipos de codificação neural apresentados na aula?",
+    "ground_truth": "Codificação de frequência, codificação vetorial ou populacional, e codificação temporal.",
+    "gold_chunks": [
+      "1. Codificação de frequência",
+      "2. Codificação vetorial ou populacional",
+      "3. Codificação temporal"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "O que é o período refratário absoluto, segundo a explicação da codificação frequencial?",
+    "ground_truth": "É a distância (tempo) mínima entre dois potenciais de ação sucessivos.",
+    "gold_chunks": [
+      "a distância (tempo) mínima entre dois potenciais sucessivos é o período refratário absoluto"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "O que é o exoesqueleto HAL-5 e qual é sua capacidade citada na aula?",
+    "ground_truth": "Um exoesqueleto robótico que multiplica por cinco a força muscular de uma pessoa normal, usando codificação de frequências captada por sensores na pele.",
+    "gold_chunks": [
+      "exoesqueleto robótico que multiplica por cinco a força muscular de uma pessoa normal. Sensores colocados acima da pele registram código de frequências que movimentam os músculos"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Quais exoesqueletos históricos, além do HAL-5, são citados na aula?",
+    "ground_truth": "O Hardiman 1 (1965, da General Electric), o trabalho de Jacob Rosen (Universidade de Washington) e o Kanagawa Power Suit.",
+    "gold_chunks": [
+      "Hardiman 1 (1965), desenvolvido pela General Electric. Trabalho de Jacob Rosen, da Universidade de Washington. Kanagawa Power Suit"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "O que representa P(rj/ei) no cálculo de informação transmitida por codificação de frequências?",
+    "ground_truth": "A probabilidade condicional de obter uma resposta rj no neurônio quando se apresenta o estímulo ei.",
+    "gold_chunks": [
+      "P(rj/ei) é a probabilidade condicional de termos uma resposta, rj, no neurônio quando apresentamos o estímulo ei"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Quando a entropia (imprevisibilidade) da resposta de um neurônio é máxima, segundo o exemplo de codificação frequencial apresentado?",
+    "ground_truth": "Quando P(r1) = P(r2) = 0,5, a entropia é máxima e igual a 1 bit.",
+    "gold_chunks": [
+      "Quando ambas as frequências de disparo têm a mesma probabilidade de acontecer (P(r1) = P(r2) = 0,5), a entropia (imprevisibilidade) é máxima, e igual a 1 bit"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "No Caso A do exemplo de cálculo de entropia (neurônio que sempre responde com a mesma frequência), qual é o grau de imprevisibilidade da resposta?",
+    "ground_truth": "Zero.",
+    "gold_chunks": [
+      "o neurônio responde sempre com a mesma frequência — significa que o grau de imprevisibilidade da resposta do neurônio é zero"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Como é definida a informação I fornecida por um neurônio após aplicar estímulos, em termos de S e Se?",
+    "ground_truth": "É a diferença entre o grau de imprevisibilidade inicial (S) e a imprevisibilidade após ocorrerem as respostas do neurônio aos estímulos (Se).",
+    "gold_chunks": [
+      "definida como a diferença entre o grau de imprevisibilidade inicial (S) e a imprevisibilidade depois de ocorrerem as respostas do neurônio aos estímulos ei (chamada Se)"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Como Se é calculada a partir dos Sei?",
+    "ground_truth": "Se é a média dos Sei (entropias condicionais calculadas para cada estímulo individualmente).",
+    "gold_chunks": [
+      "Se (a imprevisibilidade após os estímulos) é definida como a média dos Sei"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Quais são as quatro faixas de frequência dos ritmos cerebrais apresentadas na aula, e a quais estados cada uma está associada?",
+    "ground_truth": "Beta (12-30 Hz, atividade/atenção/ansiedade), Alfa (8-12 Hz, relaxação), Teta (4-7 Hz, sonolência/meditação) e Delta (até 3 Hz, sono profundo).",
+    "gold_chunks": [
+      "Ritmos beta: 12-30 Hz — associados a atividade, atenção e ansiedade.",
+      "Ritmos alfa: 8-12 Hz — associados a relaxação.",
+      "Ritmo teta: 4-7 Hz — associado a sonolência e meditação.",
+      "Ritmo delta: até 3 Hz — associado a sono profundo"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Por que o EEG tem resolução espacial limitada, segundo o diagrama apresentado na aula?",
+    "ground_truth": "Porque o sinal elétrico real dos neurônios precisa atravessar as camadas de tecido (pia máter, aracnoide e dura máter) antes de chegar ao eletrodo no couro cabeludo, sendo atenuado e borrado nesse trajeto.",
+    "gold_chunks": [
+      "precisa atravessar as camadas de tecido que envolvem o cérebro — Pia máter, Aracnoide e Dura máter — antes de chegar ao eletrodo na superfície do couro cabeludo, sendo atenuado e borrado nesse trajeto"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Quando a onda P300 ocorre, e qual é uma aplicação prática citada na aula?",
+    "ground_truth": "Ocorre na região parietal, cerca de 300 ms depois do reconhecimento de um estímulo procurado; aplicação: máquina de escrever cerebral.",
+    "gold_chunks": [
+      "A onda P300 acontece na região parietal, cerca de 300 ms depois do reconhecimento de um estímulo procurado. Aplicação: máquina de escrever cerebral"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "O que é o Neurosky, segundo a apresentação?",
+    "ground_truth": "Um dispositivo comercial de interface cérebro-computador (BCI) baseado em EEG, usado por exemplo em jogos.",
+    "gold_chunks": [
+      "Neurosky é um dispositivo comercial de interface cérebro-computador (BCI) baseado em EEG, usado, por exemplo, em jogos controlados pela atividade cerebral do usuário"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Na codificação vetorial ou populacional, o que representa cada componente do vetor de resposta a um padrão de estímulo?",
+    "ground_truth": "A taxa de disparo de um determinado neurônio.",
+    "gold_chunks": [
+      "A resposta a um padrão de estímulo ei é um vetor, no qual cada componente representa a taxa de disparo de um determinado neurônio"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "No exemplo de codificação vetorial no epitélio olfativo, quantos tipos de receptores e quantos odores são mostrados?",
+    "ground_truth": "Três tipos de receptores olfativos (Receptor 1, 2 e 3) e quatro odores (Citrus, Floral, Peppermint e Almond).",
+    "gold_chunks": [
+      "três tipos de receptores olfativos (Receptor 1, Receptor 2 e Receptor 3), cada um respondendo com um padrão de disparo diferente a quatro odores testados: Citrus, Floral, Peppermint e Almond"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "No exemplo de codificação vetorial nos cones, qual é o vetor de resposta [Azul, Verde, Vermelho] para a cor de aproximadamente 590 nm?",
+    "ground_truth": "[0, 27, 75].",
+    "gold_chunks": [
+      "uma cor específica em torno de 590 nm (alaranjada) produz o vetor de resposta [0, 27, 75] nos três tipos de cone"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Em torno de qual comprimento de onda cada um dos três tipos de cone (B, G, R) tem seu pico de resposta?",
+    "ground_truth": "Cone B (azul) em torno de 420 nm, cone G (verde) em torno de 530 nm, e cone R (vermelho) em torno de 560 nm.",
+    "gold_chunks": [
+      "cone B (azul, pico em torno de 420 nm), cone G (verde, pico em torno de 530 nm) e cone R (vermelho, pico em torno de 560 nm)"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Como os canais semicirculares do ouvido estão dispostos, e o que a movimentação do líquido neles indica?",
+    "ground_truth": "Estão dispostos em três planos ortogonais; a movimentação do líquido estimula neurônios ciliados, indicando a aceleração angular da cabeça.",
+    "gold_chunks": [
+      "dispostos em três planos ortogonais. A movimentação do líquido dentro dos canais estimula neurônios ciliados, indicando a aceleração angular da cabeça"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "No experimento de Apostolos Georgopoulos, o que representa o comprimento das setas ao redor de cada neurônio no diagrama?",
+    "ground_truth": "A probabilidade de disparo desse neurônio quando o macaco executa o movimento na direção da seta.",
+    "gold_chunks": [
+      "O comprimento das setas ao redor de cada neurônio Ni significa a probabilidade de disparo desse neurônio quando o macaco executa o movimento na direção da seta"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Quantos neurônios do córtex motor foram registrados no experimento de Georgopoulos, e como o vetor de resposta populacional é representado?",
+    "ground_truth": "Oito neurônios (N1 a N8); a resposta populacional é representada pelo vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8].",
+    "gold_chunks": [
+      "a atividade de 8 neurônios do córtex motor (identificados N1 a N8)",
+      "representada pelo vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8]"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "No experimento de Miguel Nicolelis, quais são os três conceitos-chave destacados na interface cérebro-máquina?",
+    "ground_truth": "Múltiplos eletrodos no cérebro, codificação populacional e feedback sensorial.",
+    "gold_chunks": [
+      "Conceitos-chave destacados: múltiplos eletrodos no cérebro, codificação populacional, feedback sensorial"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Qual técnica de extração de características é citada no processamento dos vetores neurais do experimento de Nicolelis?",
+    "ground_truth": "Extração de características com componentes principais.",
+    "gold_chunks": [
+      "extração de características com componentes principais"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Na codificação temporal, o que é mais importante do que a taxa média de disparos, segundo a apresentação?",
+    "ground_truth": "A distância (o intervalo) entre disparos sucessivos.",
+    "gold_chunks": [
+      "não é apenas a taxa média de disparos, mas a distância (o intervalo) entre disparos sucessivos"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Quantos bits de informação, no máximo, cada neurônio da mosca transmite por milissegundo, segundo os experimentos de Bialek e colaboradores?",
+    "ground_truth": "No máximo 5 bits de informação por milissegundo.",
+    "gold_chunks": [
+      "Cada neurônio da mosca transmite no máximo 5 bits de informação por milissegundo"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "No experimento com a rã \"touro\" de Rieke e colaboradores, quantos bits por segundo os neurônios transmitiam para o ruído branco, e quantos para o chamado de outras rãs?",
+    "ground_truth": "46 bits por segundo (1,4 bits por disparo) para o ruído branco, e 133 bits por segundo (7,8 bits por disparo) para o chamado de outras rãs.",
+    "gold_chunks": [
+      "para o ruído branco, os neurônios transmitiam 46 bits por segundo, ou 1,4 bits por disparo",
+      "para os chamados de outras rãs, os mesmos neurônios transmitiam 133 bits por segundo, ou 7,8 bits por disparo"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Como Bialek e colaboradores adaptaram o experimento da mosca para um ambiente natural?",
+    "ground_truth": "Em vez de apresentar filmes, levaram a mosca ao mato, transportada em um \"carrinho\".",
+    "gold_chunks": [
+      "em vez de apresentar filmes à mosca, levaram-na ao mato, transportada em um \"carrinho\""
+    ]
+  },
+  {
+    "id": 40,
+    "question": "O que Bialek extraiu da trajetória real de voo da mosca no experimento em ambiente natural (parte II)?",
+    "ground_truth": "A componente horizontal da trajetória de um voo real da mosca.",
+    "gold_chunks": [
+      "Extraíram a componente horizontal da trajetória de um voo real da mosca"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "No exemplo de codificação temporal em diferentes resoluções, como o mesmo trem de disparos é lido quando τ=32ms, comparado a quando τ=2ms?",
+    "ground_truth": "Com τ=32ms, o segmento inteiro é lido como um único número (ex: 11 ou 9); com τ=2ms, o mesmo trem de disparos é representado como uma sequência binária detalhada, com muito mais informação.",
+    "gold_chunks": [
+      "com τ=32ms, dois segmentos consecutivos são lidos, como um todo, como os números 11 e 9",
+      "com τ=2ms (resolução mais fina), o mesmo trem de disparos é representado como uma sequência binária completa"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Qual é a fórmula indicada para a taxa de informação Rinfo(T,τ) apresentada no slide sobre resolução temporal?",
+    "ground_truth": "Rinfo(T,τ) = I(T,τ) / T, em bits por segundo.",
+    "gold_chunks": [
+      "Rinfo(T,τ) = I(T,τ) / T, em bits por segundo"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Qual foi a conclusão final da aula sobre como animais como as moscas processam informação neural?",
+    "ground_truth": "A informação neural é processada em nível temporal, e não frequencial, já que a entropia crescia no intervalo entre 0,5 ms e 2 ms.",
+    "gold_chunks": [
+      "a informação neural é processada em nível temporal, e não frequencial, já que a entropia crescia no intervalo entre 0,5 ms e 2 ms"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "O que caracteriza um neurônio excitatório em termos do efeito na membrana do neurônio seguinte?",
+    "ground_truth": "Produz um aumento de potencial (despolarização) na membrana do neurônio seguinte.",
+    "gold_chunks": [
+      "Excitatórios: produzem um aumento de potencial (despolarização) na membrana do neurônio seguinte"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "O que caracteriza um neurônio inibitório em termos do efeito na membrana do neurônio seguinte?",
+    "ground_truth": "Produz uma diminuição de potencial (hiperpolarização) na membrana do neurônio seguinte.",
+    "gold_chunks": [
+      "Inibitórios: produzem uma diminuição de potencial (hiperpolarização) na membrana do neurônio seguinte"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Quem é o professor responsável pela disciplina, segundo o slide de abertura?",
+    "ground_truth": "Francisco Javier Ropero Peláez.",
+    "gold_chunks": [
+      "Professor: Francisco Javier Ropero Peláez"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Qual é o nome da disciplina apresentada no slide de abertura?",
+    "ground_truth": "Natureza da Informação.",
+    "gold_chunks": [
+      "Disciplina: Natureza da Informação"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Em qual universidade a disciplina é ministrada?",
+    "ground_truth": "UFABC.",
+    "gold_chunks": [
+      "UFABC. Professor: Francisco Javier Ropero Peláez"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "O que os dendritos recebem, segundo o diagrama de anatomia do neurônio?",
+    "ground_truth": "Sinapses de outros neurônios.",
+    "gold_chunks": [
+      "Os dendritos recebem sinapses de outros neurônios"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Para onde se propaga o potencial de ação depois de gerado no promontório axônico?",
+    "ground_truth": "Ao longo do axônio até o terminal axônico, formando novas sinapses com o neurônio seguinte.",
+    "gold_chunks": [
+      "que se propaga ao longo do axônio até o terminal axônico, formando novas sinapses com o neurônio seguinte"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Quais dois canais são mostrados na estrutura geral de uma sinapse (slide 8)?",
+    "ground_truth": "Canal NMDA e Canal AMPA.",
+    "gold_chunks": [
+      "Canais mostrados: Canal NMDA e Canal AMPA"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "O que acontece com a força sináptica acima do Limiar LTP, segundo a curva de plasticidade?",
+    "ground_truth": "A força sináptica aumenta progressivamente.",
+    "gold_chunks": [
+      "Acima de um segundo limiar, chamado Limiar LTP (potenciação de longo prazo), a força sináptica aumenta progressivamente"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "O que o eixo vertical representa no gráfico da curva de plasticidade (Artola, 1993)?",
+    "ground_truth": "A Variação da força sináptica.",
+    "gold_chunks": [
+      "mostra a Variação da força sináptica (eixo vertical) em função da Ativação pós-sináptica"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Qual é o valor inicial de wij no início da simulação do Modelo de Hebb?",
+    "ground_truth": "0 (zero).",
+    "gold_chunks": [
+      "Estado da tabela neste slide: wij=0, Ij=1, Oi=1"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Qual incremento é somado a wij na primeira apresentação do padrão (Ij=1, Oi=1) na simulação do Modelo de Hebb?",
+    "ground_truth": "0,1, resultando em wij=0,1.",
+    "gold_chunks": [
+      "linha 1 → wij=0, Ij=1, Oi=1, incremento=0,1; novo valor acumulado de wij = 0,1"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Quais são os valores de Ij e Oi na segunda apresentação da simulação do Modelo de Hebb?",
+    "ground_truth": "Ij=1, Oi=0,5.",
+    "gold_chunks": [
+      "linha 2 (nova apresentação) → wij acumulado=0,1, Ij=1, Oi=0,5"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Qual é o valor acumulado de wij após a segunda apresentação (incremento de 0,05) na simulação do Modelo de Hebb?",
+    "ground_truth": "0,15.",
+    "gold_chunks": [
+      "linha 2 → wij=0,1, Ij=1, Oi=0,5, incremento=0,05; novo valor acumulado de wij = 0,15"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Quais são os valores de Ij e Oi na terceira apresentação da simulação do Modelo de Hebb?",
+    "ground_truth": "Ij=0,1, Oi=0,5.",
+    "gold_chunks": [
+      "linha 3 (nova apresentação) → wij acumulado=0,15, Ij=0,1, Oi=0,5"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Qual é o valor acumulado de wij após a terceira apresentação (incremento de 0,005) na simulação do Modelo de Hebb?",
+    "ground_truth": "0,155.",
+    "gold_chunks": [
+      "linha 3 → wij=0,15, Ij=0,1, Oi=0,5, incremento=0,005; novo valor acumulado de wij = 0,155"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Quais são os valores de Ij e Oi na quarta e última apresentação da simulação do Modelo de Hebb?",
+    "ground_truth": "Ij=1, Oi=1.",
+    "gold_chunks": [
+      "linha 4 (nova apresentação) → wij acumulado=0,155, Ij=1, Oi=1"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Qual dos quatro modelos de plasticidade sináptica tem a equação assintótica aproximada wij = P(Ij / Oi)?",
+    "ground_truth": "O Modelo pós-sináptico.",
+    "gold_chunks": [
+      "sua forma assintótica equivalente indicada no slide é aproximadamente wij = P(Ij / Oi)"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Qual analogia é usada para questionar como a informação é transmitida pelos neurônios?",
+    "ground_truth": "O código morse.",
+    "gold_chunks": [
+      "será que a informação é transmitida como no código morse?"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Qual é o título do vídeo/imagem apresentado sobre os neurônios tálamo-corticais terem dois modos de disparo?",
+    "ground_truth": "\"Thalamocortical Neurons Have Two Firing Modes\".",
+    "gold_chunks": [
+      "Vídeo/imagem de título: \"Thalamocortical Neurons Have Two Firing Modes\""
+    ]
+  },
+  {
+    "id": 64,
+    "question": "A que a frequência de disparos dos neurônios é proporcional, segundo a explicação da codificação frequencial?",
+    "ground_truth": "À voltagem pós-sináptica.",
+    "gold_chunks": [
+      "A frequência de disparos dos neurônios é proporcional à voltagem pós-sináptica"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "O que representa P(ei) no cálculo de informação transmitida por codificação de frequências?",
+    "ground_truth": "A probabilidade de apresentar um determinado estímulo, ei, para o neurônio.",
+    "gold_chunks": [
+      "P(ei) é a probabilidade de apresentar um determinado estímulo, ei, para o neurônio"
+    ]
+  },
+  {
+    "id": 66,
+    "question": "O que representa P(rj) no cálculo de informação transmitida por codificação de frequências?",
+    "ground_truth": "A probabilidade de termos uma determinada resposta, rj, no neurônio.",
+    "gold_chunks": [
+      "P(rj) é a probabilidade de termos uma determinada resposta, rj, no neurônio"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "O que a entropia de Shannon representa, segundo a definição dada na aula?",
+    "ground_truth": "O grau de imprevisibilidade da resposta do neurônio.",
+    "gold_chunks": [
+      "A entropia de Shannon representa o grau de imprevisibilidade da resposta do neurônio"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "No Caso B do exemplo de cálculo de entropia, quantos tipos de resposta existem e qual é a relação entre suas probabilidades?",
+    "ground_truth": "Dois tipos de resposta, r1 e r2, onde P(r1) + P(r2) = 1.",
+    "gold_chunks": [
+      "Caso B: dois tipos de resposta, r1 e r2, onde P(r1) + P(r2) = 1"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "No exercício proposto sobre o neurônio tálamo-cortical, em qual porcentagem do tempo ele dispara na frequência lenta?",
+    "ground_truth": "60% das vezes.",
+    "gold_chunks": [
+      "60% das vezes ele dispara na frequência lenta e 40% do tempo na frequência rápida"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Qual é o exemplo dado de caso em que a quantidade de informação transmitida por um neurônio é mínima (zero)?",
+    "ground_truth": "Quando a resposta do neurônio não muda com a mudança do estímulo.",
+    "gold_chunks": [
+      "caso em que a resposta do neurônio não muda com a mudança do estímulo — ou seja, a resposta é totalmente previsível e a quantidade de informação transmitida é mínima (zero)"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "O que o exercício proposto no slide sobre codificação frequencial pede para calcular, quando cada estímulo produz uma resposta única?",
+    "ground_truth": "A quantidade de informação quando, para cada estímulo ei, o neurônio produz uma única resposta rj diferente para cada um dos estímulos.",
+    "gold_chunks": [
+      "calcular a quantidade de informação quando, para cada estímulo ei, o neurônio produz uma única resposta rj diferente para cada um dos estímulos"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Que suposição sobre a probabilidade dos ritmos cerebrais é feita no exercício sobre informação em bits do EEG?",
+    "ground_truth": "Que os quatro tipos principais de ritmo cerebral (beta, alfa, teta e delta) estejam presentes com a mesma probabilidade nesse canal.",
+    "gold_chunks": [
+      "supondo que os quatro tipos principais de ritmo cerebral (beta, alfa, teta e delta) estejam presentes com a mesma probabilidade nesse canal"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Para que servem os experimentos com biofeedback, segundo a aula?",
+    "ground_truth": "Permitir que um sujeito controle, de modo rudimentar, algum aparelho \"com a mente\", enquanto um aparelho mostra seu grau de relaxamento.",
+    "gold_chunks": [
+      "os aparelhos de biofeedback são usados para permitir que um sujeito controle, de modo muito rudimentar, algum aparelho \"com a mente\""
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Quais dois exemplos adicionais de codificação populacional ou vetorial são citados, além do epitélio olfativo?",
+    "ground_truth": "Codificação vetorial das cores e codificação vetorial da aceleração da cabeça nos canais semicirculares.",
+    "gold_chunks": [
+      "Codificação vetorial das cores (ver detalhamento no slide seguinte). Codificação vetorial da aceleração da cabeça nos canais semicirculares do ouvido"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "O que o feedback sensorial fornece ao macaco no experimento de Nicolelis, segundo o diagrama?",
+    "ground_truth": "Sensores de posição, toque e proximidade do braço fornecem feedback sensorial de volta ao macaco, que também recebe uma recompensa de suco.",
+    "gold_chunks": [
+      "sensores de posição, toque e proximidade do braço fornecem feedback sensorial de volta ao macaco, que também recebe uma recompensa (suco) durante o experimento"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "O que acontece depois de se estabelecerem correlações entre as características extraídas e os movimentos dos membros do macaco, no experimento de Nicolelis?",
+    "ground_truth": "A sequência de características extraídas passa a produzir o movimento dos membros de um braço robótico.",
+    "gold_chunks": [
+      "a sequência de características extraídas passa a produzir o movimento dos membros de um braço robótico"
+    ]
+  },
+  {
+    "id": 77,
+    "question": "O que Bialek e colaboradores descobriram sobre os disparos neurais da mosca, além da taxa de 5 bits por milissegundo?",
+    "ground_truth": "Um alfabeto básico de disparos neurais usado pela mosca para codificar informação.",
+    "gold_chunks": [
+      "Bialek e colaboradores descobriram um alfabeto básico de disparos neurais usado pela mosca para codificar informação"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Em qual revista científica e ano foi publicado o artigo de Bialek et al. sobre a leitura do código neural da mosca?",
+    "ground_truth": "Science, em 1991.",
+    "gold_chunks": [
+      "Bialek W, Rieke F, de Ruyter van Steveninck RR, Warland D (1991). Reading a neural code. Science 252: 1854-1857"
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Qual é a tarefa que os organismos enfrentam, segundo o resumo do artigo de Bialek et al. (1991)?",
+    "ground_truth": "Extrair informação sobre um estímulo desconhecido e variável no tempo a partir de segmentos curtos de um trem de disparos.",
+    "gold_chunks": [
+      "extrair informação sobre um estímulo desconhecido e variável no tempo a partir de segmentos curtos de um trem de disparos"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Em qual publicação foi divulgado o artigo de Rieke, Bodnar & Bialek (1995) sobre o experimento com a rã?",
+    "ground_truth": "Proceedings of the Royal Society of London, B262:259-265.",
+    "gold_chunks": [
+      "Proceedings of the Royal Society of London, B262:259-265"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Segundo o gráfico de taxa de informação por resolução temporal, qual é a faixa aproximada de bits/s para valores pequenos e para valores maiores de τ?",
+    "ground_truth": "Aproximadamente 150 bits/s para τ pequeno, e cerca de 80 bits/s para τ maior (próximo de 30ms).",
+    "gold_chunks": [
+      "a taxa de informação diminui de aproximadamente 150 bits/s, em valores pequenos de τ, para cerca de 80 bits/s, em valores maiores de τ (próximo de 30ms)"
+    ]
+  },
+  {
+    "id": 82,
+    "question": "Quais são todas as partes indicadas no diagrama de anatomia funcional do neurônio (slide 2)?",
+    "ground_truth": "Sinapses, Dendritos, Corpo, Voltagem pós-sináptica, Promontório axônico, Axônio e Terminal axônico.",
+    "gold_chunks": [
+      "Partes indicadas no diagrama: Sinapses, Dendritos, Corpo, Voltagem pós-sináptica, Promontório axônico, Axônio, Terminal axônico"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "Quais são os nomes em inglês do neurônio em cesto e do neurônio candelabro, segundo o diagrama de camadas corticais?",
+    "ground_truth": "'Basket cell' (neurônio em cesto) e 'chandelier cell' (neurônio candelabro).",
+    "gold_chunks": [
+      "Neurônio em cesto ('basket cell', inibitório, sinal negativo) e neurônio candelabro ('chandelier cell', inibitório, sinal negativo)"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "Quais três íons são indicados na estrutura geral de uma sinapse (slide 8)?",
+    "ground_truth": "Ca2+, Na+ e Cl-.",
+    "gold_chunks": [
+      "Íons envolvidos: Ca2+, Na+, Cl-"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Como a plasticidade sináptica modula a transmissão de potencial, segundo a aula?",
+    "ground_truth": "Variando o número de canais (NMDA/AMPA), em função da concentração de cálcio (Ca2+).",
+    "gold_chunks": [
+      "A plasticidade sináptica modula a transmissão de potencial variando o número de canais (NMDA/AMPA), em função da concentração de cálcio (Ca2+)"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "O que representa o eixo horizontal no gráfico da curva de plasticidade (Artola, 1993)?",
+    "ground_truth": "A Ativação pós-sináptica / Voltagem.",
+    "gold_chunks": [
+      "em função da Ativação pós-sináptica / Voltagem (eixo horizontal)"
+    ]
+  },
+  {
+    "id": 87,
+    "question": "O que forma a curva de plasticidade entre o Limiar LTD e o Limiar LTP?",
+    "ground_truth": "A curva cruza o zero entre os dois limiares, formando uma curva em S.",
+    "gold_chunks": [
+      "Entre os dois limiares a curva cruza o zero, formando uma curva em S"
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Segundo o slide de resumo dos tipos de codificação neural, o que é a codificação de frequência?",
+    "ground_truth": "As diferentes frequências de disparo do neurônio representam respostas a diferentes estímulos.",
+    "gold_chunks": [
+      "Codificação de frequência: as diferentes frequências de disparo do neurônio representam respostas a diferentes estímulos"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Segundo o slide de resumo dos tipos de codificação neural, o que é a codificação vetorial ou populacional?",
+    "ground_truth": "Um estímulo pode ser codificado como um vetor cujos componentes são as taxas de disparo de vários neurônios.",
+    "gold_chunks": [
+      "Codificação vetorial ou populacional: um estímulo pode ser codificado como um vetor cujos componentes são as taxas de disparo de vários neurônios"
+    ]
+  },
+  {
+    "id": 90,
+    "question": "Segundo o slide de resumo dos tipos de codificação neural, o que é a codificação temporal?",
+    "ground_truth": "O neurônio codifica a informação mediante a duração dos intervalos entre os disparos.",
+    "gold_chunks": [
+      "Codificação temporal: o neurônio codifica a informação mediante a duração dos intervalos entre os disparos"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "O que acontece ao injetar correntes s1, s2 e s3 crescentes no neurônio, no exemplo de codificação frequencial?",
+    "ground_truth": "Produzimos voltagens cada vez maiores no interior do neurônio, gerando taxas de disparo r1, r2, r3 correspondentes.",
+    "gold_chunks": [
+      "Injetando uma corrente s1, s2 ou s3 produzimos voltagens cada vez maiores no interior do neurônio, gerando taxas de disparo r1, r2, r3 correspondentes"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Quem desenvolveu o exoesqueleto Hardiman 1, de 1965?",
+    "ground_truth": "A General Electric.",
+    "gold_chunks": [
+      "Hardiman 1 (1965), desenvolvido pela General Electric"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "A qual universidade está associado o trabalho de Jacob Rosen sobre exoesqueletos?",
+    "ground_truth": "À Universidade de Washington.",
+    "gold_chunks": [
+      "Trabalho de Jacob Rosen, da Universidade de Washington"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Quantos tipos de receptores olfativos são mostrados no exemplo de codificação vetorial do epitélio olfativo?",
+    "ground_truth": "Três tipos (Receptor 1, Receptor 2 e Receptor 3).",
+    "gold_chunks": [
+      "três tipos de receptores olfativos (Receptor 1, Receptor 2 e Receptor 3)"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Quais são os quatro odores testados no exemplo de codificação vetorial do epitélio olfativo?",
+    "ground_truth": "Citrus, Floral, Peppermint e Almond.",
+    "gold_chunks": [
+      "quatro odores testados: Citrus, Floral, Peppermint e Almond"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "Em torno de qual comprimento de onda o cone B (azul) tem seu pico de resposta?",
+    "ground_truth": "Em torno de 420 nm.",
+    "gold_chunks": [
+      "cone B (azul, pico em torno de 420 nm)"
+    ]
+  },
+  {
+    "id": 97,
+    "question": "Em torno de qual comprimento de onda o cone G (verde) tem seu pico de resposta?",
+    "ground_truth": "Em torno de 530 nm.",
+    "gold_chunks": [
+      "cone G (verde, pico em torno de 530 nm)"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Em torno de qual comprimento de onda o cone R (vermelho) tem seu pico de resposta?",
+    "ground_truth": "Em torno de 560 nm.",
+    "gold_chunks": [
+      "cone R (vermelho, pico em torno de 560 nm)"
+    ]
+  },
+  {
+    "id": 99,
+    "question": "Como o macaco realiza os movimentos de braço no experimento de Georgopoulos?",
+    "ground_truth": "Usando um manche/joystick, com alvos dispostos em círculo.",
+    "gold_chunks": [
+      "usando um manche/joystick, com alvos dispostos em círculo"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "O que os experimentos de Bialek e colaboradores mostram sobre padrões visuais em movimento?",
+    "ground_truth": "Que diferentes padrões visuais em movimento produzem sequências de disparo diferentes e características no córtex visual da mosca.",
+    "gold_chunks": [
+      "diferentes padrões visuais em movimento produzem sequências de disparo diferentes e características no córtex visual da mosca"
+    ]
+  },
+  {
+    "id": 101,
+    "question": "Como Bialek e colaboradores estudaram as respostas dos neurônios do córtex visual da mosca?",
+    "ground_truth": "Estudaram as respostas dos neurônios enquanto a mosca assistia a um filme.",
+    "gold_chunks": [
+      "estudaram as respostas dos neurônios do córtex visual de uma mosca enquanto ela assistia a um filme"
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Como as abordagens tradicionais caracterizam a codificação neural, segundo o resumo do artigo de Bialek et al. (1991)?",
+    "ground_truth": "Caracterizam a codificação de estímulos conhecidos a partir da resposta neural média.",
+    "gold_chunks": [
+      "abordagens tradicionais à codificação neural caracterizam a codificação de estímulos conhecidos a partir da resposta neural média"
+    ]
+  },
+  {
+    "id": 103,
+    "question": "A quais autores e instituição pertence o artigo resumido no slide sobre \"Reading a neural code\"?",
+    "ground_truth": "W. Bialek, F. Rieke, R.R. de Ruyter van Steveninck e D. Warland, do Department of Physics, University of California, Berkeley.",
+    "gold_chunks": [
+      "Resumo do artigo de W. Bialek, F. Rieke, R.R. de Ruyter van Steveninck e D. Warland (Department of Physics, University of California, Berkeley)"
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Quais são os três níveis de resolução temporal (τ) exemplificados no diagrama de codificação temporal (slide 62)?",
+    "ground_truth": "τ=32ms, τ=8ms e τ=2ms.",
+    "gold_chunks": [
+      "com τ=32ms, dois segmentos consecutivos são lidos",
+      "com τ=8ms, cada segmento se divide em 4 subintervalos",
+      "com τ=2ms (resolução mais fina)"
+    ]
+  },
+  {
+    "id": 105,
+    "question": "Como o mesmo trem de disparos é representado quando a resolução temporal é τ=8ms, no exemplo do slide 62?",
+    "ground_truth": "Cada segmento se divide em 4 subintervalos, lidos como as sequências \"4 3 3 1\" e \"3 4 2 0\".",
+    "gold_chunks": [
+      "com τ=8ms, cada segmento se divide em 4 subintervalos, lidos como as sequências \"4 3 3 1\" e \"3 4 2 0\""
+    ]
+  },
+  {
+    "id": 106,
+    "question": "Quais canais, neurotransmissor e íon estão envolvidos especificamente na sinapse inibitória GABA-A?",
+    "ground_truth": "Os canais de GABA-A, o neurotransmissor GABA-A e o íon Cl-.",
+    "gold_chunks": [
+      "Envolvem os canais de GABA-A, o neurotransmissor GABA-A e o íon Cl-"
+    ]
+  },
+  {
+    "id": 107,
+    "question": "Quais canais e íon estão envolvidos especificamente na sinapse inibitória GABA-B?",
+    "ground_truth": "Os canais de GABA-B (metabotrópico) e o íon K+.",
+    "gold_chunks": [
+      "envolvem os canais de GABA-B (metabotrópico) e o íon K+"
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Qual é a faixa de frequência do ritmo beta, e a que estados ele está associado?",
+    "ground_truth": "12-30 Hz, associado a atividade, atenção e ansiedade.",
+    "gold_chunks": [
+      "Ritmos beta: 12-30 Hz — associados a atividade, atenção e ansiedade"
+    ]
+  },
+  {
+    "id": 109,
+    "question": "Qual é a faixa de frequência do ritmo alfa, e a que estado ele está associado?",
+    "ground_truth": "8-12 Hz, associado a relaxação.",
+    "gold_chunks": [
+      "Ritmos alfa: 8-12 Hz — associados a relaxação"
+    ]
+  },
+  {
+    "id": 110,
+    "question": "Qual é a faixa de frequência do ritmo teta, e a que estados ele está associado?",
+    "ground_truth": "4-7 Hz, associado a sonolência e meditação.",
+    "gold_chunks": [
+      "Ritmo teta: 4-7 Hz — associado a sonolência e meditação"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Qual é a faixa de frequência do ritmo delta, e a que estado ele está associado?",
+    "ground_truth": "Até 3 Hz, associado a sono profundo.",
+    "gold_chunks": [
+      "Ritmo delta: até 3 Hz — associado a sono profundo"
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Quantos neurônios do córtex motor foram registrados no experimento de Georgopoulos?",
+    "ground_truth": "Oito neurônios (N1 a N8).",
+    "gold_chunks": [
+      "a atividade de 8 neurônios do córtex motor (identificados N1 a N8)"
+    ]
+  },
+  {
+    "id": 113,
+    "question": "Como a resposta populacional completa do conjunto de neurônios é representada no experimento de Georgopoulos?",
+    "ground_truth": "Pelo vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8].",
+    "gold_chunks": [
+      "representada pelo vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8]"
+    ]
+  },
+  {
+    "id": 114,
+    "question": "Quantos bits por segundo os neurônios do nervo auditivo da rã transmitiam quando ela escutava ruído branco?",
+    "ground_truth": "46 bits por segundo (ou 1,4 bits por disparo).",
+    "gold_chunks": [
+      "para o ruído branco, os neurônios transmitiam 46 bits por segundo, ou 1,4 bits por disparo"
+    ]
+  },
+  {
+    "id": 115,
+    "question": "Quantos bits por segundo os neurônios do nervo auditivo da rã transmitiam quando ela escutava o chamado de outras rãs?",
+    "ground_truth": "133 bits por segundo (ou 7,8 bits por disparo).",
+    "gold_chunks": [
+      "para os chamados de outras rãs, os mesmos neurônios transmitiam 133 bits por segundo, ou 7,8 bits por disparo"
+    ]
+  },
+  {
+    "id": 116,
+    "question": "Como o trem de disparos é lido quando a resolução temporal é τ=32ms, no exemplo do slide 62?",
+    "ground_truth": "Dois segmentos consecutivos são lidos, como um todo, como os números 11 e 9.",
+    "gold_chunks": [
+      "com τ=32ms, dois segmentos consecutivos são lidos, como um todo, como os números 11 e 9"
+    ]
+  },
+  {
+    "id": 117,
+    "question": "Como o trem de disparos é representado quando a resolução temporal é τ=2ms, no exemplo do slide 62?",
+    "ground_truth": "Como uma sequência binária completa.",
+    "gold_chunks": [
+      "com τ=2ms (resolução mais fina), o mesmo trem de disparos é representado como uma sequência binária completa"
+    ]
+  },
+  {
+    "id": 118,
+    "question": "Qual é o primeiro exemplo adicional de codificação populacional ou vetorial citado no slide 49?",
+    "ground_truth": "A codificação vetorial das cores.",
+    "gold_chunks": [
+      "Codificação vetorial das cores (ver detalhamento no slide seguinte)"
+    ]
+  },
+  {
+    "id": 119,
+    "question": "Qual é o segundo exemplo adicional de codificação populacional ou vetorial citado no slide 49?",
+    "ground_truth": "A codificação vetorial da aceleração da cabeça nos canais semicirculares do ouvido.",
+    "gold_chunks": [
+      "Codificação vetorial da aceleração da cabeça nos canais semicirculares do ouvido"
+    ]
+  },
+  {
+    "id": 120,
+    "question": "Quais camadas corticais (em algarismos romanos) são mostradas no diagrama de tipos de neurônios do córtex?",
+    "ground_truth": "As camadas I a VI.",
+    "gold_chunks": [
+      "Diagrama das camadas corticais (I a VI) mostrando a localização e morfologia de diferentes tipos de neurônios"
+    ]
+  },
+  {
+    "id": 121,
+    "question": "Que convenção de sinal (+/-) o diagrama de camadas corticais usa para indicar se um neurônio é excitatório ou inibitório?",
+    "ground_truth": "Sinal positivo para neurônios excitatórios (como o piramidal) e sinal negativo para neurônios inibitórios (como o em cesto e o candelabro).",
+    "gold_chunks": [
+      "Neurônio piramidal (excitatório, sinal positivo) aparece na camada V",
+      "Neurônio em cesto ('basket cell', inibitório, sinal negativo) e neurônio candelabro ('chandelier cell', inibitório, sinal negativo)"
+    ]
+  },
+  {
+    "id": 122,
+    "question": "Onde estão localizadas as sinapses excitatórias dos neurônios excitatórios, segundo a aula?",
+    "ground_truth": "No terminal axônico.",
+    "gold_chunks": [
+      "Os neurônios excitatórios têm sinapses excitatórias no seu terminal axônico"
+    ]
+  },
+  {
+    "id": 123,
+    "question": "Onde estão localizadas as sinapses inibitórias dos neurônios inibitórios, segundo a aula?",
+    "ground_truth": "No terminal axônico.",
+    "gold_chunks": [
+      "Os neurônios inibitórios têm sinapses inibitórias no seu terminal axônico"
+    ]
+  },
+  {
+    "id": 124,
+    "question": "Segundo a citação de Hebb, o que acontece em uma ou em ambas as células quando a condição de disparo repetido é satisfeita?",
+    "ground_truth": "Acontece algum processo de crescimento ou mudança metabólica.",
+    "gold_chunks": [
+      "acontece algum processo de crescimento ou mudança metabólica, em uma ou em ambas células"
+    ]
+  },
+  {
+    "id": 125,
+    "question": "No diagrama do Modelo de Hebb, o que conecta a Membrana Pré-sináptica (entrada Ij) à Membrana Pós-sináptica (saída Oi)?",
+    "ground_truth": "Um peso, w.",
+    "gold_chunks": [
+      "Membrana pré-sináptica (entrada Ij) conectada, através de um peso w, à Membrana pós-sináptica (saída Oi)"
+    ]
+  },
+  {
+    "id": 126,
+    "question": "Além do modelo pós-sináptico, qual outro modelo de plasticidade sináptica tem uma equação equivalente assimptótica indicada na aula?",
+    "ground_truth": "O modelo pré-sináptico.",
+    "gold_chunks": [
+      "3. Modelo pré-sináptico (com uma equação equivalente assimptoticamente indicada)"
+    ]
+  },
+  {
+    "id": 127,
+    "question": "Quais três símbolos de taxas de disparo aparecem na pergunta motivadora sobre como a informação é transmitida pelos neurônios?",
+    "ground_truth": "r1, r2 e r3.",
+    "gold_chunks": [
+      "Ou o que importa é somente a taxa, r, de disparos (r1, r2, r3)?"
+    ]
+  },
+  {
+    "id": 128,
+    "question": "No exemplo dado para a definição de P(rj), o que r1 e r2 podem significar?",
+    "ground_truth": "r1 pode significar resposta de 50 Hz e r2 uma resposta de 100 Hz.",
+    "gold_chunks": [
+      "por exemplo, r1 pode significar resposta de 50 Hz e r2 uma resposta de 100 Hz"
+    ]
+  },
+  {
+    "id": 129,
+    "question": "Qual é a faixa do eixo horizontal P(r1) no gráfico de entropia máxima apresentado na aula?",
+    "ground_truth": "De 0 a 1.",
+    "gold_chunks": [
+      "P(r1) (eixo horizontal, de 0 a 1)"
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Qual é a faixa do eixo vertical de entropia S no gráfico de entropia máxima apresentado na aula?",
+    "ground_truth": "De 0 a 1 bit.",
+    "gold_chunks": [
+      "entropia S (eixo vertical, de 0 a 1 bit)"
+    ]
+  },
+  {
+    "id": 131,
+    "question": "A qual autor e ano é atribuída a curva de plasticidade sináptica apresentada na aula?",
+    "ground_truth": "Artola, 1993.",
+    "gold_chunks": [
+      "Gráfico da curva de plasticidade (Artola, 1993)"
+    ]
+  },
+  {
+    "id": 132,
+    "question": "Quais são as três camadas de tecido que o sinal elétrico neural precisa atravessar antes de chegar ao eletrodo do EEG, segundo o diagrama apresentado?",
+    "ground_truth": "Pia máter, Aracnoide e Dura máter.",
+    "gold_chunks": [
+      "precisa atravessar as camadas de tecido que envolvem o cérebro — Pia máter, Aracnoide e Dura máter"
+    ]
+  },
+  {
+    "id": 133,
+    "question": "Como o pico da onda P300 é rotulado no gráfico apresentado na aula?",
+    "ground_truth": "\"P3\".",
+    "gold_chunks": [
+      "destacando um pico positivo por volta de 300 ms após o estímulo, rotulado \"P3\""
+    ]
+  },
+  {
+    "id": 134,
+    "question": "Como a atividade neuronal captada pelos eletrodos é processada e usada no experimento de Nicolelis?",
+    "ground_truth": "É processada por um sistema de controle computacional e usada para mover um braço robótico/virtual.",
+    "gold_chunks": [
+      "Essa atividade é processada por um sistema de controle computacional e usada para mover um braço robótico/virtual"
+    ]
+  },
+  {
+    "id": 135,
+    "question": "Mediante qual técnica são estabelecidas as correlações entre as características extraídas e os movimentos dos membros, no experimento de Nicolelis?",
+    "ground_truth": "Mediante redes neurais artificiais.",
+    "gold_chunks": [
+      "estabelecem-se correlações, mediante redes neurais artificiais, entre as características extraídas e os movimentos dos membros do macaco"
+    ]
+  },
+  {
+    "id": 136,
+    "question": "O que caracteriza as respostas r1 e r2 no exemplo introdutório da codificação temporal, apesar de terem a mesma taxa média de disparos?",
+    "ground_truth": "Para alguns animais, essas duas respostas correspondem a estímulos totalmente diferentes.",
+    "gold_chunks": [
+      "para alguns animais, essas duas respostas correspondem a estímulos totalmente diferentes"
+    ]
+  },
+  {
+    "id": 137,
+    "question": "Sob qual ponto de vista o código neural foi caracterizado no trabalho de Bialek et al., segundo o resumo do artigo?",
+    "ground_truth": "Do ponto de vista do organismo.",
+    "gold_chunks": [
+      "o código neural foi caracterizado do ponto de vista do organismo"
+    ]
+  },
+  {
+    "id": 138,
+    "question": "Em que se baseiam os algoritmos de estimativa do estímulo em tempo real descritos no resumo do artigo de Bialek et al. (1991)?",
+    "ground_truth": "Em um único exemplo do trem de disparos.",
+    "gold_chunks": [
+      "algoritmos para estimativa do estímulo em tempo real baseados em um único exemplo do trem de disparos"
+    ]
+  },
+  {
+    "id": 139,
+    "question": "A quais neurônios os métodos de decodificação descritos no resumo de Bialek et al. foram aplicados?",
+    "ground_truth": "A um neurônio sensível a movimento identificado no sistema visual da mosca.",
+    "gold_chunks": [
+      "Esses métodos foram aplicados a um neurônio sensível a movimento identificado no sistema visual da mosca"
+    ]
+  },
+  {
+    "id": 140,
+    "question": "O que os experimentos de decodificação descritos no resumo do artigo de Bialek et al. determinaram sobre a computação neural?",
+    "ground_truth": "O nível de ruído efetivo e a tolerância a falhas da computação neural.",
+    "gold_chunks": [
+      "Os experimentos de decodificação determinaram o nível de ruído efetivo e a tolerância a falhas da computação neural"
+    ]
+  },
+  {
+    "id": 141,
+    "question": "Que tipo de modelo a estrutura dos algoritmos de decodificação sugeriu, segundo o resumo do artigo de Bialek et al.?",
+    "ground_truth": "Um modelo simples de processamento analógico de sinal em tempo real com neurônios que disparam.",
+    "gold_chunks": [
+      "a estrutura dos algoritmos de decodificação sugeriu um modelo simples de processamento analógico de sinal em tempo real com neurônios que disparam"
+    ]
+  },
+  {
+    "id": 142,
+    "question": "Qual é a duração da janela (T) usada no diagrama esquemático de codificação temporal em diferentes resoluções?",
+    "ground_truth": "T=32ms.",
+    "gold_chunks": [
+      "um mesmo segmento de trem de disparos (janela de duração T=32ms)"
+    ]
+  },
+  {
+    "id": 143,
+    "question": "Qual é a duração das palavras (T) usada no gráfico de taxa de informação por resolução temporal?",
+    "ground_truth": "T=25ms.",
+    "gold_chunks": [
+      "para palavras de T=25ms de duração"
+    ]
+  },
+  {
+    "id": 144,
+    "question": "Qual é a faixa do eixo vertical (taxa de informação, em bits por segundo) no gráfico de resolução temporal apresentado na aula?",
+    "ground_truth": "De 80 a 180 bits por segundo.",
+    "gold_chunks": [
+      "taxa de informação, em bits por segundo (eixo vertical, de 80 a 180)"
+    ]
+  },
+  {
+    "id": 145,
+    "question": "Quais valores de potencial de membrana são indicados na sinapse inibitória GABA-B?",
+    "ground_truth": "-65mV e -80mV.",
+    "gold_chunks": [
+      "São indicados potenciais de membrana de -65mV e -80mV"
+    ]
+  },
+  {
+    "id": 146,
+    "question": "No exercício proposto sobre o neurônio tálamo-cortical, em qual porcentagem do tempo ele dispara na frequência rápida?",
+    "ground_truth": "40% do tempo.",
+    "gold_chunks": [
+      "40% do tempo na frequência rápida"
+    ]
+  },
+  {
+    "id": 147,
+    "question": "O que o traçado de sinal de EEG mostrado na aula representa?",
+    "ground_truth": "Várias linhas onduladas (uma por canal/eletrodo), representando a atividade elétrica cerebral ao longo do tempo.",
+    "gold_chunks": [
+      "um traçado de exemplo de sinal de EEG, mostrando várias linhas onduladas (uma por canal/eletrodo) representando a atividade elétrica cerebral ao longo do tempo"
+    ]
+  },
+  {
+    "id": 148,
+    "question": "A que sentido a codificação vetorial nos canais semicirculares do ouvido é aplicada, segundo a aula?",
+    "ground_truth": "Ao sentido do equilíbrio.",
+    "gold_chunks": [
+      "outro exemplo de codificação vetorial/populacional, aqui aplicada ao sentido do equilíbrio"
+    ]
+  },
+  {
+    "id": 149,
+    "question": "O que motivou Bialek e colaboradores a repetir o experimento da mosca em um ambiente natural?",
+    "ground_truth": "O sucesso obtido com os experimentos das rãs.",
+    "gold_chunks": [
+      "Animados pelo sucesso obtido com as rãs, Bialek e colaboradores repetiram o experimento da mosca em um ambiente natural"
+    ]
+  },
+  {
+    "id": 150,
+    "question": "Onde Bialek colocou eletrodos no experimento em ambiente natural (parte II)?",
+    "ground_truth": "Nos neurônios que processam os movimentos horizontais do voo da mosca.",
+    "gold_chunks": [
+      "Bialek colocou eletrodos nos neurônios que processam os movimentos horizontais do voo da mosca"
+    ]
+  },
+  {
+    "id": 151,
+    "question": "O que a membrana pré-sináptica contém, na estrutura geral da sinapse apresentada na aula?",
+    "ground_truth": "Vesículas com neurotransmissor.",
+    "gold_chunks": [
+      "Membrana pré-sináptica (contendo vesículas com neurotransmissor)"
+    ]
+  },
+  {
+    "id": 152,
+    "question": "O que o sujeito tenta controlar durante os experimentos com biofeedback, e o que o aparelho mostra?",
+    "ground_truth": "O sujeito tenta controlar suas ondas cerebrais, enquanto o aparelho mostra seu grau de relaxação.",
+    "gold_chunks": [
+      "O sujeito tenta controlar suas ondas cerebrais enquanto um aparelho mostra seu grau de relaxação"
+    ]
+  },
+  {
+    "id": 153,
+    "question": "Que tipo de recompensa o macaco recebe durante o experimento de Nicolelis?",
+    "ground_truth": "Uma recompensa de suco.",
+    "gold_chunks": [
+      "que também recebe uma recompensa (suco) durante o experimento"
+    ]
+  },
+  {
+    "id": 154,
+    "question": "Para que servem as técnicas de reconhecimento de padrões aplicadas no experimento de Nicolelis?",
+    "ground_truth": "Para reconhecer cada vetor de frequências de disparo.",
+    "gold_chunks": [
+      "Aplicam-se técnicas de reconhecimento de padrões para reconhecer cada vetor de frequências de disparo"
+    ]
+  },
+  {
+    "id": 155,
+    "question": "O que cada odor produz em termos de disparo nos três tipos de receptor, no exemplo de codificação vetorial do epitélio olfativo?",
+    "ground_truth": "Uma combinação distinta e simultânea de taxas de disparo nos três tipos de receptor — um \"vetor\" de resposta populacional único para cada odor.",
+    "gold_chunks": [
+      "Cada odor produz uma combinação distinta e simultânea de taxas de disparo nos três tipos de receptor"
+    ]
+  },
+  {
+    "id": 156,
+    "question": "Qual é a faixa do eixo vertical (Resposta relativa) no gráfico de codificação vetorial nos cones?",
+    "ground_truth": "De 0 a 100%.",
+    "gold_chunks": [
+      "Gráfico de Resposta relativa (0 a 100%, eixo vertical)"
+    ]
+  },
+  {
+    "id": 157,
+    "question": "Qual é a faixa aproximada do eixo horizontal (comprimento de onda) no gráfico de codificação vetorial nos cones?",
+    "ground_truth": "Aproximadamente 400 a 650+ nm.",
+    "gold_chunks": [
+      "Comprimento de onda em nanômetros (eixo horizontal, aproximadamente 400 a 650+ nm)"
+    ]
+  },
+  {
+    "id": 158,
+    "question": "Qual é a faixa do eixo horizontal (Direção do braço) no gráfico de curvas de sintonia direcional de Georgopoulos?",
+    "ground_truth": "De 0° a 270°, cobrindo o círculo completo.",
+    "gold_chunks": [
+      "Direção do braço (eixo horizontal, de 0° a 270°, cobrindo o círculo completo)"
+    ]
+  },
+  {
+    "id": 159,
+    "question": "Onde fica o pico da curva destacada em vermelho no gráfico de curvas de sintonia direcional de Georgopoulos?",
+    "ground_truth": "Próximo de 90°.",
+    "gold_chunks": [
+      "uma dessas curvas é destacada em vermelho, com pico próximo de 90°"
+    ]
+  },
+  {
+    "id": 160,
+    "question": "Quais são as sequências binárias de exemplo dadas para τ=2ms no diagrama de codificação temporal em diferentes resoluções?",
+    "ground_truth": "11110110110010 e 01111110100000.",
+    "gold_chunks": [
+      "por exemplo: 11110110110010 e 01111110100000"
+    ]
+  },
+  {
+    "id": 161,
+    "question": "Em que escala é apresentado o eixo horizontal (τ) no gráfico de taxa de informação por resolução temporal?",
+    "ground_truth": "Escala logarítmica.",
+    "gold_chunks": [
+      "em função da resolução temporal τ em milissegundos (eixo horizontal, escala logarítmica)"
+    ]
+  }
+]

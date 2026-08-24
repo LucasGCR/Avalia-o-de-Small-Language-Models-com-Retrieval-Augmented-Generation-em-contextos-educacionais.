@@ -1,0 +1,1054 @@
+
+[
+  {
+    "id": 1,
+    "question": "Qual é o título da disciplina apresentada no slide?",
+    "ground_truth": "Computadores, Ética e Sociedade"
+  },
+  {
+    "id": 2,
+    "question": "Quem é a professora responsável pela disciplina?",
+    "ground_truth": "Carla Lopes Rodriguez"
+  },
+  {
+ "id": 3,
+    "question": "Qual é o e-mail da professora apresentado nos slides?",
+    "ground_truth": "c.rodriguez@ufabc.edu.br"
+  },
+  {
+    "id": 4,
+    "question": "Qual é o tema principal da Aula 03?",
+    "ground_truth": "Tecnologia e sociedade"
+  },
+  {
+    "id": 5,
+    "question": "Quais assuntos relacionados ao projeto foram apresentados na Aula 03?",
+    "ground_truth": "Proposta de projeto em grupos, roteiro do projeto e formação de grupos"
+  },
+  {
+    "id": 6,
+    "question": "O que foi discutido na Aula 02 segundo os slides?",
+    "ground_truth": "Ética, ética profissional, mudança de paradigma e questões de diversidade"
+  },
+  {
+    "id": 7,
+    "question": "Quais dimensões da ética foram citadas nos slides?",
+    "ground_truth": "Ética profissional e ética em computação"
+  },
+  {
+    "id": 8,
+    "question": "Quais organizações foram comparadas no contexto de ética em computação?",
+    "ground_truth": "ACM e SBC"
+  },
+  {
+    "id": 9,
+    "question": "O que os estudos de caso apresentados envolviam?",
+    "ground_truth": "Violação da ética em cenários e situações de trabalho"
+  },
+  {
+    "id": 10,
+    "question": "Quais políticas foram destacadas como importantes nas empresas e instituições?",
+    "ground_truth": "Políticas de inclusão, acessibilidade e diversidade"
+  },
+  {
+    "id": 11,
+    "question": "Qual melhoria no ambiente físico foi citada nos slides?",
+    "ground_truth": "Melhorias no ambiente físico relacionadas à ergonomia"
+  },
+  {
+    "id": 12,
+    "question": "Que tipo de treinamento foi citado para prevenção de doenças ocupacionais?",
+    "ground_truth": "Ginástica laboral"
+  },
+  {
+    "id": 13,
+    "question": "Quais práticas foram incentivadas para promoção da saúde?",
+    "ground_truth": "Prática de esportes, meditação e yoga"
+  },
+  {
+    "id": 14,
+    "question": "Segundo os slides, problemas de saúde podem ser evitados quando?",
+    "ground_truth": "Quando se exerce a profissão de modo saudável"
+  },
+  {
+    "id": 15,
+    "question": "Qual tema foi associado à pesquisa do Think With Google apresentada?",
+    "ground_truth": "Diversidade e inclusão na área de TI no Brasil"
+  },
+  {
+    "id": 16,
+    "question": "Qual vídeo foi sugerido sobre mudança de paradigma na ética?",
+    "ground_truth": "Alegrias Ativas - Café Filosófico com André Martins"
+  },
+  {
+    "id": 17,
+    "question": "O que foi discutido na Aula 01 segundo o slide de síntese?",
+    "ground_truth": "A sociedade contemporânea e a presença da tecnologia"
+  },
+  {
+    "id": 18,
+    "question": "Qual seria o foco da Aula 03 segundo a síntese apresentada?",
+    "ground_truth": "Tecnologia e impacto social para introduzir a proposta de projeto em grupo"
+  },
+  {
+    "id": 19,
+    "question": "Qual tecnologia de rede foi citada entre os exemplos apresentados?",
+    "ground_truth": "Conexão 5G"
+  },
+  {
+    "id": 20,
+    "question": "Quais tecnologias relacionadas à inteligência artificial foram citadas?",
+    "ground_truth": "Inteligência artificial, IA generativa e modelos de linguagem de grande escala (LLMs)"
+  },
+  {
+    "id": 21,
+    "question": "Qual tecnologia de armazenamento e processamento de dados foi mencionada nos slides?",
+    "ground_truth": "Big data"
+  },
+  {
+    "id": 22,
+    "question": "Qual tecnologia de computação foi citada junto às redes sociais e inteligência artificial?",
+    "ground_truth": "Computação em nuvem"
+  },
+  {
+    "id": 23,
+    "question": "Qual tecnologia de edição genética foi mencionada nos exemplos apresentados?",
+    "ground_truth": "CRISPR-Cas9"
+  },
+  {
+    "id": 24,
+    "question": "Qual tecnologia de fabricação digital foi citada nos slides?",
+    "ground_truth": "Impressão 3D"
+  },
+  {
+    "id": 25,
+    "question": "Em quais áreas os robôs foram citados como exemplo de aplicação?",
+    "ground_truth": "Medicina, indústria e atividades de risco"
+  },
+  {
+    "id": 26,
+    "question": "Que aspecto da sociedade contemporânea foi associado à tecnologia na Aula 01?",
+    "ground_truth": "A forte presença da tecnologia na sociedade"
+  },
+  {
+    "id": 27,
+    "question": "Qual discussão seria retomada na Aula 03?",
+    "ground_truth": "Tecnologia e impacto social"
+  },
+  {
+    "id": 28,
+    "question": "Qual era o objetivo de introduzir o projeto em grupo na Aula 03?",
+    "ground_truth": "Relacionar tecnologia e impacto social"
+  },
+  {
+    "id": 29,
+    "question": "Qual área profissional foi analisada sob a perspectiva ética?",
+    "ground_truth": "Computação"
+  },
+  {
+    "id": 30,
+    "question": "Que tipo de situações foram analisadas nos estudos de caso?",
+    "ground_truth": "Situações de trabalho"
+  },
+  {
+    "id": 31,
+    "question": "Que questão foi levantada sobre a profissão de computação?",
+    "ground_truth": "Se ela é regulamentada"
+  },
+  {
+    "id": 32,
+    "question": "Que responsabilidade foi discutida entre empresa e profissional?",
+    "ground_truth": "Divisão de responsabilidades"
+  },
+  {
+    "id": 33,
+    "question": "Qual objetivo estava associado às melhorias ergonômicas?",
+    "ground_truth": "Prevenção de doenças e lesões ocupacionais"
+  },
+  {
+    "id": 34,
+    "question": "Qual prática corporal foi mencionada como treinamento ocupacional?",
+    "ground_truth": "Ginástica laboral"
+  },
+  {
+    "id": 35,
+    "question": "Quais práticas foram apresentadas para bem-estar dos profissionais?",
+    "ground_truth": "Meditação e yoga"
+  },
+  {
+    "id": 36,
+    "question": "O que as políticas de diversidade buscavam promover?",
+    "ground_truth": "Inclusão e acessibilidade"
+  },
+  {
+    "id": 37,
+    "question": "Qual organização profissional da computação foi citada juntamente com a SBC?",
+    "ground_truth": "ACM"
+  },
+  {
+    "id": 38,
+    "question": "Qual entidade brasileira foi mencionada no contexto de ética em computação?",
+    "ground_truth": "SBC"
+  },
+  {
+    "id": 39,
+    "question": "Qual aspecto da ética foi relacionado ao exercício profissional?",
+    "ground_truth": "Ética profissional"
+  },
+  {
+    "id": 40,
+    "question": "Qual aspecto da ética foi relacionado ao desenvolvimento tecnológico?",
+    "ground_truth": "Ética em computação"
+  },
+  {
+    "id": 41,
+    "question": "Qual plataforma foi utilizada como referência para diversidade em TI?",
+    "ground_truth": "Think With Google"
+  },
+  {
+    "id": 42,
+    "question": "Qual tema foi associado à pesquisa do Think With Google?",
+    "ground_truth": "Diversidade e inclusão"
+  },
+  {
+    "id": 43,
+    "question": "Qual filósofo participou do Café Filosófico indicado?",
+    "ground_truth": "André Martins"
+  },
+  {
+    "id": 44,
+    "question": "Qual conceito filosófico foi discutido junto à ética?",
+    "ground_truth": "Mudança de paradigma"
+  },
+  {
+    "id": 45,
+    "question": "Qual foi o formato de mídia recomendado para complementar os estudos?",
+    "ground_truth": "Vídeo"
+  },
+  {
+    "id": 46,
+    "question": "Qual tecnologia de comunicação móvel foi citada?",
+    "ground_truth": "5G"
+  },
+  {
+    "id": 47,
+    "question": "Qual tecnologia baseada em dados massivos foi apresentada?",
+    "ground_truth": "Big data"
+  },
+  {
+    "id": 48,
+    "question": "Qual categoria de inteligência artificial foi citada nos slides?",
+    "ground_truth": "IA generativa"
+  },
+  {
+    "id": 49,
+    "question": "Qual tecnologia foi associada ao processamento inteligente de informações?",
+    "ground_truth": "Inteligência artificial"
+  },
+  {
+    "id": 50,
+    "question": "Qual tecnologia digital foi associada ao compartilhamento de conteúdo?",
+    "ground_truth": "Redes sociais"
+  },
+  {
+    "id": 51,
+    "question": "Que tecnologia foi relacionada ao armazenamento remoto de recursos computacionais?",
+    "ground_truth": "Computação em nuvem"
+  },
+  {
+    "id": 52,
+    "question": "Qual tema seria aprofundado após a síntese das aulas anteriores?",
+    "ground_truth": "Tecnologia e impacto social"
+  },
+  {
+    "id": 53,
+    "question": "Qual tópico foi destacado como desafio para a computação?",
+    "ground_truth": "Impacto social da tecnologia"
+  },
+  {
+    "id": 54,
+    "question": "Qual conceito foi associado ao uso responsável da tecnologia?",
+    "ground_truth": "Desenvolvimento responsável"
+  },
+  {
+    "id": 55,
+    "question": "Que tipo de regulamentação foi defendida nos slides?",
+    "ground_truth": "Regulamentações éticas e transparentes"
+  },
+  {
+    "id": 56,
+    "question": "Qual aspecto relacionado à informação foi apresentado como preocupação?",
+    "ground_truth": "Segurança dos dados"
+  },
+  {
+    "id": 57,
+    "question": "Qual ação educacional foi considerada importante para a sociedade digital?",
+    "ground_truth": "Educação digital"
+  },
+  {
+    "id": 58,
+    "question": "Que tipo de inclusão foi defendida nas políticas públicas?",
+    "ground_truth": "Inclusão digital"
+  },
+  {
+    "id": 59,
+    "question": "Qual tipo de capacitação foi defendido nas políticas públicas?",
+    "ground_truth": "Capacitação tecnológica"
+  },
+  {
+    "id": 60,
+    "question": "Qual processo de adaptação profissional foi mencionado?",
+    "ground_truth": "Requalificação profissional"
+  },
+  {
+    "id": 61,
+    "question": "Qual problema de saúde foi relacionado ao trabalho inadequado?",
+    "ground_truth": "Doenças ocupacionais"
+  },
+  {
+    "id": 62,
+    "question": "Qual tipo de lesão foi citado no contexto ocupacional?",
+    "ground_truth": "Lesões ocupacionais"
+  },
+  {
+    "id": 63,
+    "question": "O que deveria ser promovido para garantir melhores condições de trabalho?",
+    "ground_truth": "Ergonomia"
+  },
+  {
+    "id": 64,
+    "question": "Qual prática esportiva foi incentivada nos slides?",
+    "ground_truth": "Prática de esportes"
+  },
+  {
+    "id": 65,
+    "question": "Qual elemento deveria ser fortalecido nas empresas além da produtividade?",
+    "ground_truth": "Diversidade"
+  },
+  {
+    "id": 66,
+    "question": "Que conceito aparece associado ao respeito às diferenças?",
+    "ground_truth": "Inclusão"
+  },
+  {
+    "id": 67,
+    "question": "Qual conceito aparece associado à eliminação de barreiras?",
+    "ground_truth": "Acessibilidade"
+  },
+  {
+    "id": 68,
+    "question": "Qual tema aparece associado à ética profissional?",
+    "ground_truth": "Condições de trabalho"
+  },
+  {
+    "id": 69,
+    "question": "Qual área do conhecimento é foco da disciplina?",
+    "ground_truth": "Computação"
+  },
+  {
+    "id": 70,
+    "question": "Qual área interdisciplinar é abordada juntamente com computação?",
+    "ground_truth": "Ética"
+  },
+  {
+    "id": 71,
+    "question": "Qual conceito une os temas da Aula 03?",
+    "ground_truth": "Tecnologia e sociedade"
+  },
+  {
+    "id": 72,
+    "question": "Qual documento orienta a organização do trabalho em grupo?",
+    "ground_truth": "Roteiro do projeto"
+  },
+  {
+    "id": 73,
+    "question": "Qual atividade foi realizada para organizar os estudantes?",
+    "ground_truth": "Formação de grupos"
+  },
+  {
+    "id": 74,
+    "question": "Qual proposta foi apresentada aos estudantes na Aula 03?",
+    "ground_truth": "Projeto em grupos"
+  },
+  {
+    "id": 75,
+    "question": "Qual tema conecta ética e tecnologia na disciplina?",
+    "ground_truth": "Impacto social"
+  },
+  {
+    "id": 76,
+    "question": "Qual aspecto da computação foi discutido além da ética?",
+    "ground_truth": "Profissão"
+  },
+  {
+    "id": 77,
+    "question": "Qual elemento deveria ser compartilhado entre empresa e profissional?",
+    "ground_truth": "Responsabilidades"
+  },
+  {
+    "id": 78,
+    "question": "Qual característica das políticas institucionais foi destacada?",
+    "ground_truth": "Inclusão"
+  },
+  {
+    "id": 79,
+    "question": "Qual característica das políticas institucionais foi associada à equidade?",
+    "ground_truth": "Diversidade"
+  },
+  {
+    "id": 80,
+    "question": "Qual característica das políticas institucionais foi associada ao acesso universal?",
+    "ground_truth": "Acessibilidade"
+  },
+  {
+    "id": 81,
+    "question": "Qual prática preventiva foi associada à saúde ocupacional?",
+    "ground_truth": "Ginástica laboral"
+  },
+  {
+    "id": 82,
+    "question": "Qual atividade contemplava reflexão filosófica sobre ética?",
+    "ground_truth": "Café Filosófico"
+  },
+  {
+    "id": 83,
+    "question": "Qual área da tecnologia foi relacionada à inteligência computacional?",
+    "ground_truth": "Inteligência artificial"
+  },
+  {
+    "id": 84,
+    "question": "Qual área tecnológica foi relacionada ao compartilhamento de conteúdo online?",
+    "ground_truth": "Redes sociais"
+  },
+  {
+    "id": 85,
+    "question": "Qual área tecnológica foi relacionada ao armazenamento distribuído?",
+    "ground_truth": "Computação em nuvem"
+  },
+  {
+    "id": 86,
+    "question": "Qual tecnologia foi associada à edição genética?",
+    "ground_truth": "CRISPR-Cas9"
+  },
+  {
+    "id": 87,
+    "question": "Qual tecnologia foi associada à manufatura digital?",
+    "ground_truth": "Impressão 3D"
+  },
+  {
+    "id": 88,
+    "question": "Qual tecnologia foi associada à automação de tarefas?",
+    "ground_truth": "Robôs"
+  },
+  {
+    "id": 89,
+    "question": "Qual setor foi citado como aplicação de robôs?",
+    "ground_truth": "Medicina"
+  },
+  {
+    "id": 90,
+    "question": "Qual setor foi citado como aplicação de robôs industriais?",
+    "ground_truth": "Linhas de montagem"
+  },
+  {
+    "id": 91,
+    "question": "Qual tipo de atividade foi citado como adequada ao uso de robôs?",
+    "ground_truth": "Atividades de risco"
+  },
+  {
+    "id": 92,
+    "question": "Qual tema social foi associado à diversidade?",
+    "ground_truth": "Inclusão"
+  },
+  {
+    "id": 93,
+    "question": "Qual tema social foi associado ao acesso igualitário?",
+    "ground_truth": "Acessibilidade"
+  },
+  {
+    "id": 94,
+    "question": "Qual tema social foi associado à representatividade?",
+    "ground_truth": "Diversidade"
+  },
+  {
+    "id": 95,
+    "question": "Qual tema ético foi relacionado às empresas?",
+    "ground_truth": "Condições de trabalho"
+  },
+  {
+    "id": 96,
+    "question": "Qual tema ético foi relacionado ao exercício da profissão?",
+    "ground_truth": "Ética profissional"
+  },
+  {
+    "id": 97,
+    "question": "Qual tema ético foi relacionado ao desenvolvimento tecnológico?",
+    "ground_truth": "Ética em computação"
+  },
+  {
+    "id": 98,
+    "question": "Qual tema foi utilizado para conectar tecnologia e sociedade?",
+    "ground_truth": "Impacto social"
+  },
+  {
+    "id": 99,
+    "question": "Qual conceito foi apresentado como eixo central da Aula 03?",
+    "ground_truth": "Tecnologia e sociedade"
+  },
+  {
+    "id": 100,
+    "question": "Qual atividade acadêmica foi apresentada como principal proposta da Aula 03?",
+    "ground_truth": "Projeto em grupo"
+  },
+  {
+    "id": 101,
+    "question": "Em que data a apresentação da disciplina foi realizada?",
+    "ground_truth": "24 de junho de 2025"
+  },
+  {
+    "id": 102,
+    "question": "Qual período letivo aparece nos slides da disciplina?",
+    "ground_truth": "2025.Q2"
+  },
+  {
+    "id": 103,
+    "question": "Quais temas estavam associados ao projeto em grupo?",
+    "ground_truth": "Proposta de projeto em grupos, roteiro do projeto e formação de grupos"
+  },
+  {
+    "id": 104,
+    "question": "O que foi questionado sobre regulamentação da computação como profissão?",
+    "ground_truth": "Se a computação como profissão é regulamentada"
+  },
+  {
+    "id": 105,
+    "question": "Que aspecto das condições de trabalho foi discutido na Aula 02?",
+    "ground_truth": "As condições de trabalho oferecidas aos profissionais"
+  },
+  {
+    "id": 106,
+    "question": "Quais medidas de prevenção ocupacional foram citadas?",
+    "ground_truth": "Treinamentos para prevenção de doenças e lesões ocupacionais"
+  },
+  {
+    "id": 107,
+    "question": "Quais ações relacionadas à saúde mental foram mencionadas?",
+    "ground_truth": "Técnicas de meditação e yoga"
+  },
+  {
+    "id": 108,
+    "question": "Qual era o objetivo das políticas de inclusão e acessibilidade?",
+    "ground_truth": "Promover inclusão, acessibilidade e diversidade"
+  },
+  {
+    "id": 109,
+    "question": "Qual plataforma foi citada na pesquisa sobre diversidade em TI?",
+    "ground_truth": "Think With Google"
+  },
+  {
+    "id": 110,
+    "question": "Quem participou do Café Filosófico mencionado nos slides?",
+    "ground_truth": "André Martins"
+  },
+  {
+    "id": 111,
+    "question": "Qual foi o tema central da Aula 01?",
+    "ground_truth": "Sociedade contemporânea e tecnologia"
+  },
+  {
+    "id": 112,
+    "question": "O que a Aula 03 retomaria segundo os slides?",
+    "ground_truth": "A discussão sobre tecnologia e impacto social"
+  },
+  {
+    "id": 113,
+    "question": "Qual tecnologia relacionada à conectividade foi mencionada?",
+    "ground_truth": "Internet das Coisas (IoT)"
+  },
+  {
+    "id": 114,
+    "question": "Quais tecnologias foram associadas à computação em nuvem?",
+    "ground_truth": "Computação em nuvem, big data e IoT"
+  },
+  {
+    "id": 115,
+    "question": "Qual tecnologia relacionada ao DNA foi mencionada?",
+    "ground_truth": "Crisp-cas 9"
+  },
+  {
+    "id": 116,
+    "question": "Quais aplicações de robôs foram citadas?",
+    "ground_truth": "Cirurgias na medicina, linhas de montagem industrial e atividades de risco"
+  },
+  {
+    "id": 117,
+    "question": "Quais tecnologias foram relacionadas à acessibilidade?",
+    "ground_truth": "Neuralink e tecnologias assistivas"
+  },
+  {
+    "id": 118,
+    "question": "Qual tecnologia financeira digital foi citada?",
+    "ground_truth": "PIX"
+  },
+  {
+    "id": 119,
+    "question": "Quais problemas sociais ligados à tecnologia foram mencionados?",
+    "ground_truth": "Vício nos celulares e fake news"
+  },
+  {
+    "id": 120,
+    "question": "Quais políticas públicas foram defendidas nos slides?",
+    "ground_truth": "Capacitação tecnológica, requalificação profissional e inclusão digital"
+  },
+  {
+    "id": 121,
+    "question": "Qual problema ambiental relacionado à tecnologia foi destacado?",
+    "ground_truth": "Lixo eletrônico"
+  },
+  {
+    "id": 122,
+    "question": "Que pergunta filosófica foi feita sobre tecnologia?",
+    "ground_truth": "Qual é o sentido que atribuímos à tecnologia em nossa vida?"
+  },
+  {
+    "id": 123,
+    "question": "Segundo os slides, de onde vem a importância da tecnologia?",
+    "ground_truth": "Da significação que damos a ela"
+  },
+  {
+    "id": 124,
+    "question": "Qual autor foi citado na Filosofia da Tecnologia?",
+    "ground_truth": "Feenberg"
+  },
+  {
+    "id": 125,
+    "question": "Quais são as duas categorias iniciais apresentadas para a tecnologia?",
+    "ground_truth": "Autônoma e humanamente controlada"
+  },
+  {
+    "id": 126,
+    "question": "Como a tecnologia neutra foi caracterizada?",
+    "ground_truth": "Meios separados dos fins"
+  },
+  {
+    "id": 127,
+    "question": "Qual corrente relaciona avanço tecnológico e história?",
+    "ground_truth": "Determinismo"
+  },
+  {
+    "id": 128,
+    "question": "Qual teoria está associada à fé no progresso?",
+    "ground_truth": "Instrumentalismo"
+  },
+  {
+    "id": 129,
+    "question": "Como os slides definem tecnologias carregadas de valores?",
+    "ground_truth": "Meios formam um modo de vida que inclui fins"
+  },
+  {
+    "id": 130,
+    "question": "Qual teoria relaciona meios e fins em sistemas?",
+    "ground_truth": "Substantivismo"
+  },
+  {
+    "id": 131,
+    "question": "Qual teoria combate os males do desenvolvimentismo substantivista?",
+    "ground_truth": "Teoria crítica"
+  },
+  {
+    "id": 132,
+    "question": "Qual exemplo foi utilizado para discutir os impactos da tecnologia?",
+    "ground_truth": "Internet"
+  },
+  {
+    "id": 133,
+    "question": "Como os slides descrevem as redes sociais?",
+    "ground_truth": "Formadas por participantes autônomos em torno de valores e interesses compartilhados"
+  },
+  {
+    "id": 134,
+    "question": "O que a diversidade nas redes sociais permite?",
+    "ground_truth": "Que qualquer usuário publique qualquer tipo de informação"
+  },
+  {
+    "id": 135,
+    "question": "Qual paradoxo da informação foi mencionado?",
+    "ground_truth": "O paradoxo da relevância da informação do ponto de vista de cada pessoa"
+  },
+  {
+    "id": 136,
+    "question": "Qual benefício das redes sociais foi destacado?",
+    "ground_truth": "Democratização do acesso à informação"
+  },
+  {
+    "id": 137,
+    "question": "As redes sociais podem ser espaço para o quê?",
+    "ground_truth": "Debate, ação política de grupo e prática individual"
+  },
+  {
+    "id": 138,
+    "question": "Quem foi citado como defensor da cibercultura?",
+    "ground_truth": "Lévy"
+  },
+  {
+    "id": 139,
+    "question": "Segundo Lévy, a internet conduz a qual cenário?",
+    "ground_truth": "Uma era de desmassificação"
+  },
+  {
+    "id": 140,
+    "question": "Segundo Lévy, o que podemos construir livremente?",
+    "ground_truth": "Nossa personalidade"
+  },
+  {
+    "id": 141,
+    "question": "Qual crítica Siegel faz sobre a internet?",
+    "ground_truth": "Que ela cria uma forma ainda mais potente de homogeneização"
+  },
+  {
+    "id": 142,
+    "question": "Qual ideia Siegel considera uma falácia?",
+    "ground_truth": "Que estamos deixando de ser receptores passivos para nos tornarmos produtores independentes"
+  },
+  {
+    "id": 143,
+    "question": "O que as redes sociais promovem em relação às recomendações?",
+    "ground_truth": "Bombardeamento de recomendações"
+  },
+  {
+    "id": 144,
+    "question": "Com o que a publicidade está se confundindo?",
+    "ground_truth": "Com informação"
+  },
+  {
+    "id": 145,
+    "question": "Qual consequência econômica da internet foi citada?",
+    "ground_truth": "Aumento do consumismo"
+  },
+  {
+    "id": 146,
+    "question": "Quais problemas aparecem quando a internet vira espaço público de venda?",
+    "ground_truth": "Interesses conflitantes, golpes e desinformação"
+  },
+  {
+    "id": 147,
+    "question": "Quem afirmou que a atividade técnica foi subordinada a dispositivos sociais e políticos?",
+    "ground_truth": "Mumford"
+  },
+  {
+    "id": 148,
+    "question": "Segundo Horkheimer, o que constitui a sociedade industrial?",
+    "ground_truth": "Um vasto sistema de domínio do ser humano pelo ser humano"
+  },
+  {
+    "id": 149,
+    "question": "Qual teoria foi proposta por Feenberg?",
+    "ground_truth": "Teoria Crítica da Tecnologia"
+  },
+  {
+    "id": 150,
+    "question": "Segundo Feenberg, a tecnologia está carregada de quê?",
+    "ground_truth": "Valores"
+  },
+  {
+    "id": 151,
+    "question": "Segundo Feenberg, a tecnologia pode moldar o quê?",
+    "ground_truth": "Possíveis estilos de vida"
+  },
+  {
+    "id": 152,
+    "question": "As limitações da tecnologia dependem apenas do conhecimento?",
+    "ground_truth": "Não, também dependem das estruturas de poder"
+  },
+  {
+    "id": 153,
+    "question": "O que estaria embutido no design de programas e máquinas?",
+    "ground_truth": "Valores e interesses de classes dominantes"
+  },
+  {
+    "id": 154,
+    "question": "Segundo a teoria crítica da tecnologia, a tecnologia é autônoma?",
+    "ground_truth": "Não, ela é manifestação de uma racionalidade política"
+  },
+  {
+    "id": 155,
+    "question": "Como a tecnologia pode ser modificada?",
+    "ground_truth": "Por mudanças culturais e avanços democráticos"
+  },
+  {
+    "id": 156,
+    "question": "Como a tecnologia é definida na teoria crítica?",
+    "ground_truth": "Um ambiente e não uma coleção de ferramentas"
+  },
+  {
+    "id": 157,
+    "question": "O que as tecnologias formatam segundo os slides?",
+    "ground_truth": "A vida de seus habitantes"
+  },
+  {
+    "id": 158,
+    "question": "A quais elementos as tecnologias são comparadas?",
+    "ground_truth": "Leis e direitos"
+  },
+  {
+    "id": 159,
+    "question": "Qual se tornou a principal forma de poder?",
+    "ground_truth": "O poder tecnológico"
+  },
+  {
+    "id": 160,
+    "question": "O que a mudança social aumenta nas pessoas?",
+    "ground_truth": "A capacidade de assumir responsabilidade política"
+  },
+  {
+    "id": 161,
+    "question": "O que a mudança social permite em relação ao pensamento?",
+    "ground_truth": "Liberdade de pensamento"
+  },
+  {
+    "id": 162,
+    "question": "O que a mudança social deve respeitar?",
+    "ground_truth": "A individualidade"
+  },
+  {
+    "id": 163,
+    "question": "O que a mudança social estimula?",
+    "ground_truth": "A criatividade"
+  },
+  {
+    "id": 164,
+    "question": "O que significa código técnico?",
+    "ground_truth": "Critério que seleciona entre projetos tecnicamente viáveis as técnicas aplicadas conforme um objetivo social"
+  },
+  {
+    "id": 165,
+    "question": "Quais organizações ligadas aos ODS foram mencionadas?",
+    "ground_truth": "ONU e ODS Brasil"
+  },
+  {
+    "id": 166,
+    "question": "Qual obra de Feenberg foi recomendada?",
+    "ground_truth": "Critical Theory of Technology"
+  },
+  {
+    "id": 167,
+    "question": "Qual livro de Lévy foi citado?",
+    "ground_truth": "Cibercultura"
+  },
+  {
+    "id": 168,
+    "question": "Qual obra de Mumford aparece nos slides?",
+    "ground_truth": "The myth of the machine"
+  },
+  {
+    "id": 169,
+    "question": "Quantos estudantes havia na turma?",
+    "ground_truth": "89 estudantes"
+  },
+  {
+    "id": 170,
+    "question": "Qual é o principal objetivo do projeto em grupo?",
+    "ground_truth": "Consolidar o conhecimento sobre as temáticas apresentadas e debatidas durante as aulas"
+  },
+  {
+    "id": 171,
+    "question": "Quais competências o projeto pretende desenvolver?",
+    "ground_truth": "Pensamento crítico, colaboração e solução de problemas"
+  },
+  {
+    "id": 172,
+    "question": "Quantos integrantes deveriam compor cada grupo?",
+    "ground_truth": "8 a 9 integrantes"
+  },
+  {
+    "id": 173,
+    "question": "Qual é a ideia principal do projeto?",
+    "ground_truth": "Investigar e documentar o impacto das tecnologias digitais"
+  },
+  {
+    "id": 174,
+    "question": "O que deveria ser destacado além dos desafios éticos?",
+    "ground_truth": "Possíveis soluções"
+  },
+  {
+    "id": 175,
+    "question": "Qual foi a primeira área de aplicação sugerida?",
+    "ground_truth": "Agronegócio"
+  },
+  {
+    "id": 176,
+    "question": "Qual área relacionada à mobilidade urbana foi sugerida?",
+    "ground_truth": "Cidades"
+  },
+  {
+    "id": 177,
+    "question": "Qual área ligada à mídia e jornalismo foi citada?",
+    "ground_truth": "Comunicação"
+  },
+  {
+    "id": 178,
+    "question": "Qual área relacionada à cidadania foi apresentada?",
+    "ground_truth": "Política"
+  },
+  {
+    "id": 179,
+    "question": "Quantas áreas de aplicação foram sugeridas?",
+    "ground_truth": "10 áreas"
+  },
+  {
+    "id": 180,
+    "question": "Qual item deveria aparecer obrigatoriamente no início do projeto?",
+    "ground_truth": "Título, identificação dos integrantes e resumo"
+  },
+  {
+    "id": 181,
+    "question": "O que deveria ser discutido sobre as tecnologias identificadas?",
+    "ground_truth": "Potencialidades e limites de uso"
+  },
+  {
+    "id": 182,
+    "question": "Os desafios éticos deveriam estar alinhados a quais referências?",
+    "ground_truth": "ODS e Desafios da Ciência da Computação/IHC"
+  },
+  {
+    "id": 183,
+    "question": "Qual produto audiovisual deveria ser produzido?",
+    "ground_truth": "Um vídeo de 10 minutos"
+  },
+  {
+    "id": 184,
+    "question": "Para quem o vídeo seria disponibilizado?",
+    "ground_truth": "Para toda a turma"
+  },
+  {
+    "id": 185,
+    "question": "Quantos grupos seriam sorteados para apresentação?",
+    "ground_truth": "5 grupos"
+  },
+  {
+    "id": 186,
+    "question": "Em que data ocorreriam as apresentações?",
+    "ground_truth": "12/8/2025"
+  },
+  {
+    "id": 187,
+    "question": "Qual seria o papel dos demais grupos durante as apresentações?",
+    "ground_truth": "Participar como debatedores"
+  },
+  {
+    "id": 188,
+    "question": "O que deveria compor a entrega final além do vídeo?",
+    "ground_truth": "O roteiro completo utilizado na gravação"
+  },
+  {
+    "id": 189,
+    "question": "Qual atividade individual deveria ser realizada no Moodle?",
+    "ground_truth": "Definição de grupos e tema para o projeto"
+  },
+  {
+    "id": 190,
+    "question": "O que os grupos deveriam definir em sala?",
+    "ground_truth": "Distribuição de tarefas, formas de comunicação e responsabilidades"
+  },
+  {
+    "id": 191,
+    "question": "Sobre o que os estudantes deveriam refletir individualmente?",
+    "ground_truth": "Conteúdo estudado, área escolhida, tema do grupo e ODS da ONU"
+  },
+  {
+    "id": 192,
+    "question": "Qual tema seria tratado na Aula 04?",
+    "ground_truth": "Aplicações da tecnologia e grandes desafios da Ciência da Computação"
+  },
+  {
+    "id": 193,
+    "question": "Qual área da Computação recebeu destaque na Aula 04?",
+    "ground_truth": "Interação Humano-Computador (IHC)"
+  },
+  {
+    "id": 194,
+    "question": "Qual é o significado da sigla IHC?",
+    "ground_truth": "Interação Humano-Computador"
+  },
+  {
+    "id": 195,
+    "question": "Que tecnologias foram citadas junto ao blockchain?",
+    "ground_truth": "IoT, Computação em Nuvem, drones e PIX"
+  },
+  {
+    "id": 196,
+    "question": "Qual tecnologia relacionada à neurotecnologia foi mencionada?",
+    "ground_truth": "Neuralink"
+  },
+  {
+    "id": 197,
+    "question": "Quais tecnologias assistivas foram mencionadas?",
+    "ground_truth": "Tecnologias voltadas à acessibilidade"
+  },
+  {
+    "id": 198,
+    "question": "Quais exemplos de dispositivos eletrônicos foram citados?",
+    "ground_truth": "Celulares e computadores"
+  },
+  {
+    "id": 199,
+    "question": "Que tecnologia de fabricação digital foi mencionada?",
+    "ground_truth": "Impressão 3D"
+  },
+  {
+    "id": 200,
+    "question": "Qual conceito aparece associado à democratização da informação?",
+    "ground_truth": "Redes sociais e internet"
+  },
+
+  {
+    "id": 201,
+    "question": "Qual expressão foi usada para resumir os temas ligados à tecnologia?",
+    "ground_truth": "Potencialidades, limites e desafios éticos"
+  },
+  {
+    "id": 202,
+    "question": "Qual tema relacionado à segurança foi citado nos slides?",
+    "ground_truth": "Segurança dos dados"
+  },
+  {
+    "id": 203,
+    "question": "Qual prática tecnológica responsável foi incentivada?",
+    "ground_truth": "Desenvolvimento responsável da tecnologia"
+  },
+  {
+    "id": 204,
+    "question": "Quais tecnologias imersivas foram mencionadas?",
+    "ground_truth": "Realidade virtual"
+  },
+  {
+    "id": 205,
+    "question": "Quais equipamentos de autoatendimento foram citados?",
+    "ground_truth": "Totens de autoatendimento em mercados e franquias de fast-food"
+  },
+  {
+    "id": 206,
+    "question": "Qual tipo de veículo tecnológico foi citado?",
+    "ground_truth": "Automóveis e veículos autônomos"
+  },
+  {
+    "id": 207,
+    "question": "Quais tecnologias relacionadas à informação aberta foram mencionadas?",
+    "ground_truth": "Software livre"
+  },
+  {
+    "id": 208,
+    "question": "Qual pergunta foi feita sobre o significado da tecnologia?",
+    "ground_truth": "Qual é o sentido que atribuímos à tecnologia em nossa vida?"
+  },
+  {
+    "id": 209,
+    "question": "Qual conceito filosófico foi associado ao iluminismo?",
+    "ground_truth": "Tecnologia neutra"
+  },
+  {
+    "id": 210,
+    "question": "Qual conceito filosófico foi associado aos gregos?",
+    "ground_truth": "Tecnologia carregada de valores"
+  }
+]
