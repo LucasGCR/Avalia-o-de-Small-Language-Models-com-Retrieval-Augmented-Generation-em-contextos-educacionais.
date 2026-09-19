@@ -11,15 +11,14 @@ OLLAMA_URL = "http://localhost:11434/api/embed"
 
 EMBEDDING_MODEL = "bge-m3:567m"
 
-SIMILARITY_THRESHOLD = 0.60
+SIMILARITY_THRESHOLD = 0.60 #limitação da similaridade entre os chunks recuperados pelo anything e o groud_truth por cosseno
 
 # Cache de embeddings
 embedding_cache = {} #salva os ground truth para não recupera-los mais vezes do que o necessário
 
-#remove o cabeçalho de metadata (<document_metadata>...</document_metadata>) e o prefixo
-#"passage:" que o AnythingLLM grava junto ao texto do chunk. Sem essa limpeza, esse
-#ruído entra no embedding e reduz artificialmente a similaridade de cosseno contra o
-#ground truth, mesmo quando o chunk é de fato relevante.
+#remove o cabeçalho de metadata (<document_metadata>) e o prefixo
+#"passage:" que o AnythingLLM grava junto com o texto do chunk.
+#isso previne que a o valor vetorial dos chunks em similaridade por cosseno sejam afetados pelas informações a mais que não são relevantes para comparação com o groud_truth.
 def clean_chunk_text(text): #text são os chunks recuperados, após o embbeding do anything(vetor PERGUNTA X vetor chunks DOCUMENTO), salvos no retrieval_results -> eles sofrerão embeddings novamente para serem comparados agora com os chnks gold e comparados pelo cosseno (vetor DOCUMENTOS RECUPERADO RELEVANTE (text) X vetor GOLD LIST (fact) )
     text = re.sub(r'<document_metadata>.*?</document_metadata>', '', text, flags=re.DOTALL)
     text = re.sub(r'^\s*passage:\s*', '', text.strip(), flags=re.IGNORECASE)
@@ -77,7 +76,7 @@ def cosine_similarity(vec1, vec2): #mudou bastante aqui, antes era similaridade 
     return np.dot(vec1, vec2) / denominator
 
 # melhor correspondência 
-def best_match(chunk, gold_list): #é oq vai relacionar a avaliação com mais de um chunk como ground_truth
+def best_match(chunk, gold_list): #é o que vai relacionar a avaliação com mais de um chunk como ground_truth
 
     chunk_embedding = get_embedding(chunk)
 
@@ -103,7 +102,6 @@ def best_match(chunk, gold_list): #é oq vai relacionar a avaliação com mais d
 def calculate_metrics(retrieved_lists, gold_lists, K=10):
     hits_k = 0
     similarity_scores = []
-
 
     map_k_list = []
     mrr_list = []
@@ -237,4 +235,4 @@ if __name__ == '__main__':
         json_files = glob.glob(os.path.join(args.path, '*.json'))
         for file in json_files:
             main_eval(file, args.k)
-            #python src/Retrieval/evaluate_retrieval2_1.py --file runtime/retrieval_results.json --k 10 
+            #python src/Retrieval/evaluate_retrieval2_1.py --file runtime/retrieval_results.json --k 10 é o run
