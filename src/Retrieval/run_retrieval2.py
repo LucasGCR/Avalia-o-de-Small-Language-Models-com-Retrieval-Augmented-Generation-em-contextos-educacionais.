@@ -34,9 +34,7 @@ for item in tqdm(questions):
         })
 
     # Usa todos os gold_chunks (fatos individuais) quando disponíveis,
-    # em vez de colapsar tudo no ground_truth único. Isso preserva o
-    # número real de fatos relevantes para perguntas com múltiplos gold_chunks,
-    # o que é essencial para o cálculo correto de MAP/nDCG/Hits.
+    # em vez de limitar no ground_truth único. mantém o número real de chunks relevantes através dos gold_chunks, caso haja mais de um
     gold_chunks = item.get("gold_chunks")
     if gold_chunks:
         gold_list = [{"fact": g} for g in gold_chunks]
@@ -45,8 +43,8 @@ for item in tqdm(questions):
 
     results.append({
         "question_type": "normal",
-        "retrieval_list": retrieval_list,
-        "gold_list": gold_list
+        "retrieval_list": retrieval_list, #lista dos chunks recuperados pelo modelo
+        "gold_list": gold_list #chunks corretos 
     })
 
 with open("runtime/retrieval_results.json", "w", encoding="utf-8") as f:
