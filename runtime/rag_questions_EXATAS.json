@@ -1,6 +1,952 @@
 [
   {
     "id": 1,
+    "question": "O que Craig Venter e sua equipe anunciaram em 20 de maio de 2010?",
+    "ground_truth": "A criação do primeiro cromossomo bacteriano sintético.",
+    "gold_chunks": [
+      "O slide se refere ao anúncio, em maio de 2010, da criação por Craig Venter do primeiro cromossomo bacteriano sintético"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Segundo o diagrama de processo em três etapas da Aula 1, o que os pedaços de DNA formam ao se combinarem?",
+    "ground_truth": "Um gene, que por sua vez compõe um cromossomo sintético completo.",
+    "gold_chunks": [
+      "pedaços de DNA se combinam para formar um gene, que por sua vez compõe um cromossomo sintético completo"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Quais são os três pilares da teoria da informação apresentados na Aula 1?",
+    "ground_truth": "Os estudos de criptografia da 2ª Guerra Mundial, os estudos de termodinâmica, e as tecnologias de transmissão de informação.",
+    "gold_chunks": [
+      "Os estudos de criptografia desenvolvidos na 2ª Guerra Mundial; os estudos de \"termodinâmica\"; as tecnologias de transmissão de informação"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Qual mensagem em código, sobre a falta de água, ajudou a confirmar que os americanos haviam decifrado o código naval japonês?",
+    "ground_truth": "\"Está faltando água em AF\" (\"AF is short of water\").",
+    "gold_chunks": [
+      "Estas palavras reverteram o curso da guerra do Pacífico. Criptografia e o código J-25, decifrado pelos americanos"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Qual é a relação entre o nome do computador HAL, do filme \"2001: Uma Odisseia no Espaço\", e a IBM?",
+    "ground_truth": "Deslocando cada letra de \"HAL\" uma posição para trás no alfabeto, obtém-se \"IBM\".",
+    "gold_chunks": [
+      "referência ao nome \"HAL\", que desloca uma letra para trás resulta em \"IBM\""
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Como é definida a informação, numa primeira forma de quantificá-la, apresentada na Aula 1?",
+    "ground_truth": "Informação é aquilo que sobra numa mensagem depois de eliminar a redundância.",
+    "gold_chunks": [
+      "Informação é aquilo que sobra numa mensagem depois de eliminar a redundância"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Quem inventou a máquina Enigma, e quantas configurações diferentes ela tinha?",
+    "ground_truth": "O alemão Arthur Scherbius; a máquina tinha 3x10^114 configurações diferentes.",
+    "gold_chunks": [
+      "O alemão Arthur Scherbius inventou a máquina para cifrar mensagens \"Enigma\"",
+      "A máquina tinha 3x10^114 configurações diferentes"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "O que a máquina de Turing possuía que a tornava teoricamente capaz de qualquer computação?",
+    "ground_truth": "Computabilidade universal.",
+    "gold_chunks": [
+      "A máquina de Turing possuía \"computabilidade universal\""
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Segundo a Aula 1, onde estão as bases da teoria da informação, atribuídas a Boltzmann?",
+    "ground_truth": "Nos estudos da termodinâmica.",
+    "gold_chunks": [
+      "As bases da teoria da informação estão nos estudos da termodinâmica"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Qual elemento químico Lavoisier descreveu incorretamente?",
+    "ground_truth": "O elemento chamado \"calórico\".",
+    "gold_chunks": [
+      "Mas errou quando falou do elemento chamado \"calórico\""
+    ]
+  },
+  {
+    "id": 11,
+    "question": "O que Benjamim Thompson descobriu, segundo a Aula 1?",
+    "ground_truth": "A equivalência de trabalho e calor.",
+    "gold_chunks": [
+      "Thompson descobriu a equivalência de trabalho e calor"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Segundo Rudolf Clausius, em 1860, o que é impossível deter?",
+    "ground_truth": "A tendência ao equilíbrio termodinâmico do universo.",
+    "gold_chunks": [
+      "É impossível deter a tendência ao equilíbrio termodinâmico do universo (1860)"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Como a 2ª lei da termodinâmica é enunciada na Aula 1?",
+    "ground_truth": "A quantidade de entropia de qualquer sistema isolado termodinamicamente tende a incrementar-se com o tempo, até alcançar um valor máximo.",
+    "gold_chunks": [
+      "a quantidade de entropia de qualquer sistema isolado termodinamicamente tende a incrementar-se com o tempo, até alcançar um valor máximo"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Segundo Clausius, todos os átomos de um gás se movimentam com que característica de velocidade — e essa afirmação estava correta?",
+    "ground_truth": "Segundo Clausius, todos os átomos de um gás se movimentam com a mesma velocidade — afirmação incorreta, como Boltzmann depois demonstraria.",
+    "gold_chunks": [
+      "Segundo Clausius, \"todos os átomos de um gás se movimentam com a mesma velocidade\" — afirmação incorreta, como Boltzmann depois demonstraria"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Segundo Maxwell, que tipo de curva a distribuição de velocidades dos átomos de um gás segue?",
+    "ground_truth": "Uma curva gaussiana ou curva de Bell.",
+    "gold_chunks": [
+      "Segundo Maxwell, a distribuição dos átomos de um gás segue uma curva gaussiana ou curva de Bell"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Que método Boltzmann usou para provar que a distribuição de Maxwell-Boltzmann era a única possível para as velocidades dos átomos de um gás?",
+    "ground_truth": "Mecânica estatística (cálculo de probabilidades).",
+    "gold_chunks": [
+      "Ele fez isso usando mecânica estatística (cálculo de probabilidades), o que não agradou aos físicos que usavam conceitos deterministas"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Qual é a fórmula inscrita na lápide de Boltzmann?",
+    "ground_truth": "S = k log(W).",
+    "gold_chunks": [
+      "Inscrição na lápide de Boltzmann é a fórmula S = k log(W)"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Como a entropia de Boltzmann é definida na Aula 1?",
+    "ground_truth": "Quantidade de informação necessária para especificar exatamente o estado de um sistema.",
+    "gold_chunks": [
+      "Quantidade de informação necessária para especificar exatamente o estado de um sistema"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "No experimento imaginário do diabo de Maxwell, o que o diabo faz com as moléculas rápidas e lentas?",
+    "ground_truth": "Abre a comporta seletivamente, deixando passar as moléculas vermelhas (rápidas/quentes) para uma câmara e as azuis (lentas/frias) para a outra, separando-as.",
+    "gold_chunks": [
+      "o diabo abriu a comporta seletivamente, deixando passar as moléculas vermelhas para a câmara B e as azuis para a câmara A"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "O que o poço duplo de Landauer resolve?",
+    "ground_truth": "Resolve a charada do diabo de Maxwell.",
+    "gold_chunks": [
+      "Este arranjo resolve a charada do diabo de Maxwell"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Segundo o poço duplo de Landauer, o que acontece se não soubermos a posição inicial da bola ao tentar mudar o bit armazenado?",
+    "ground_truth": "A energia da batida é perdida.",
+    "gold_chunks": [
+      "Contudo, se não soubermos a posição inicial da bola, a energia da batida é perdida"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Segundo o poço duplo de Landauer, obter informação envolve o quê?",
+    "ground_truth": "Dissipação de energia.",
+    "gold_chunks": [
+      "Obter informação envolve dissipação de energia"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Segundo o exemplo das duas caixas com moléculas, qual estado corresponde a maior entropia: as moléculas separadas por tipo ou misturadas?",
+    "ground_truth": "O estado mais misturado corresponde a maior entropia (Entropia 1 < Entropia 2).",
+    "gold_chunks": [
+      "ilustrando que o estado mais misturado corresponde a uma entropia maior (Entropia 1 < Entropia 2)"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Qual é a relação matemática entre a entropia antes e depois da ação do diabo de Maxwell?",
+    "ground_truth": "E1 = E2 + I, onde I é a informação que o diabo precisou obter sobre o estado dos átomos.",
+    "gold_chunks": [
+      "A relação entre as duas entropias é dada por E1 = E2 + I, onde I é a informação que o diabo precisou obter sobre o estado dos átomos"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Onde Claude Shannon trabalhava, e qual termo ele inventou?",
+    "ground_truth": "Trabalhava nos Laboratórios Bell; inventou o termo \"bigit\" ou \"bit\".",
+    "gold_chunks": [
+      "Trabalhava nos Laboratórios Bell",
+      "Inventou o termo \"bigit\" ou \"bit\""
+    ]
+  },
+  {
+    "id": 26,
+    "question": "O que era a \"Ultimate Machine\" de Claude Shannon?",
+    "ground_truth": "Uma caixa que, ao ser ligada, uma mão mecânica emerge apenas para desligá-la novamente — uma brincadeira sobre máquinas inúteis.",
+    "gold_chunks": [
+      "uma caixa inventada por ele que, ao ser ligada, uma mão mecânica emerge apenas para desligá-la novamente, uma brincadeira sobre máquinas inúteis"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Como o bit é definido na Aula 2?",
+    "ground_truth": "É a quantidade de informação necessária para tomar uma decisão perante duas opções igualmente prováveis.",
+    "gold_chunks": [
+      "O bit é a quantidade de informação necessária para tomar uma decisão perante duas opções igualmente prováveis"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Segundo a Aula 2, qual foi a verdadeira contribuição de Shannon?",
+    "ground_truth": "Quanta informação cabe numa mensagem, e como arranjar melhor a informação para que a mensagem seja mais enxuta.",
+    "gold_chunks": [
+      "Quanta informação cabe numa mensagem. Como arranjar melhor a informação para que a mensagem seja mais enxuta"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "No jogo do truco, o que o gesto de piscar um olho significa?",
+    "ground_truth": "Zap (Paus).",
+    "gold_chunks": [
+      "piscar um olho = Zap (Paus)"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "No jogo do truco, o que o gesto de mostrar a ponta da língua significa?",
+    "ground_truth": "Pica Fumo (Ouros).",
+    "gold_chunks": [
+      "mostrar a ponta da língua = Pica Fumo (Ouros)"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Quantas perguntas seriam necessárias para identificar um átomo específico no meio do universo, que tem 10^80 átomos?",
+    "ground_truth": "log2(10^80) = 266 perguntas.",
+    "gold_chunks": [
+      "precisaríamos de log2(10^80) = 266 perguntas"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Qual código binário os computadores utilizam para representar letras ao digitar?",
+    "ground_truth": "ASCII.",
+    "gold_chunks": [
+      "A resposta poderia ser escrita em ASCII, que é o código binário utilizado pelos computadores na hora de digitar as letras"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Cite dois benefícios da codificação binária mencionados na Aula 2.",
+    "ground_truth": "Favorece a transmissão e armazenagem da informação em forma de níveis de voltagem, e permite conversão A-D e D-A.",
+    "gold_chunks": [
+      "Favorece a transmissão e armazenagem da informação em forma de níveis de voltagem",
+      "Permite conversão A-D e D-A"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Quantos bits de informação fornece uma emissora que sempre transmite a mesma mensagem?",
+    "ground_truth": "Zero bits de informação.",
+    "gold_chunks": [
+      "fornece zero bits de informação"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Numa sequência de 10 números onde o número 1 aparece uma única vez, quantos bits de informação esse número 1 possui, segundo a fórmula de Shannon?",
+    "ground_truth": "log2(10) = 3,3219 bits.",
+    "gold_chunks": [
+      "o número 1 possui log2(10) de informação, ou, segundo a fórmula de Shannon, -log2(p) = -log2(0,1) = log2(10) = 3,3219 bits"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Quando a entropia (imprevisibilidade) do lançamento de uma moeda é máxima?",
+    "ground_truth": "Quando P(cara) = P(coroa) = 0,5, sendo a entropia máxima igual a 1 bit.",
+    "gold_chunks": [
+      "Quando ambas as possibilidades têm a mesma probabilidade de acontecer (P(cara)=P(coroa)=0,5), a entropia ou imprevisibilidade é máxima, e igual a 1 bit"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "No exemplo da matriz 4x4 com uma bola de gude, qual é a entropia inicial?",
+    "ground_truth": "S = log2(16) = 4 bits.",
+    "gold_chunks": [
+      "Entropia inicial: S = log2(16) = 4 bits, correspondendo às 16 posições possíveis da bola de gude na matriz"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "No exemplo da matriz 4x4 com bola de gude, qual é a quantidade de informação obtida ao lançar uma segunda bola?",
+    "ground_truth": "I = log2(16) - log2(15) = log2(16/15) = 0,09 bits.",
+    "gold_chunks": [
+      "I = Entropia inicial - Entropia final = log2(16) - log2(15) = log2(16/15) = 0,09 bits"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "No exemplo do \"truco\", quantos bits seriam suficientes para transmitir os quatro naipes?",
+    "ground_truth": "Dois bits.",
+    "gold_chunks": [
+      "se quisermos transmitir os quatro naipes, dois bits seriam suficientes, usando, tal vez, os dois olhos"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "No exemplo da moeda viciada, qual é a probabilidade de sair coroa, e quanto ela soma com a probabilidade de sair cara?",
+    "ground_truth": "A probabilidade de coroa é 40% (0,4); somada aos 60% (0,6) de cara, a soma é sempre 1.",
+    "gold_chunks": [
+      "informação contida na jogada de uma moeda alterada para cair 60% das vezes em cara e 40% do tempo em coroa. Observar que a soma das duas probabilidades é 1 (0,6+0,4=1)"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Segundo a Aula 3, qual hemisfério do cérebro processa a informação serial, e qual processa a paralela?",
+    "ground_truth": "A informação serial é processada no hemisfério esquerdo; a paralela, no hemisfério direito.",
+    "gold_chunks": [
+      "A informação serial é processada no hemisfério esquerdo. A informação paralela é processada no hemisfério direito"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Quem criou o código Morse, e em que ano?",
+    "ground_truth": "Samuel F.B. Morse, em 1837.",
+    "gold_chunks": [
+      "Criado por Samuel F.B. Morse em 1837"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "O que limita muito a velocidade de transmissão na codificação Morse e binária, segundo a Aula 3?",
+    "ground_truth": "O sinal vai se amortecendo e deformando ao longo do caminho.",
+    "gold_chunks": [
+      "Ao longo do caminho, o sinal vai se amortecendo e deformando. O que limita muito a velocidade de transmissão"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "O que significa a sigla FSK, e como ela transmite dígitos binários?",
+    "ground_truth": "Frequency-shift keying (Modulação por chaveamento de frequência); dígitos binários são transmitidos por uma onda senoidal cuja frequência é diferente para o zero ou para o um.",
+    "gold_chunks": [
+      "FSK: Frequency-shift keying, ou Modulação por chaveamento de frequência. Dígitos binários podem ser transmitidos por uma onda senoidal cuja frequência é diferente para o zero ou para o um"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Qual é a distância de Hamming entre as sequências 0110 e 1110?",
+    "ground_truth": "1.",
+    "gold_chunks": [
+      "a sequência 0110 e a sequência 1110 estão separadas pela distância de Hamming 1"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Quantos erros um bit de paridade simples consegue detectar, e quantos não consegue?",
+    "ground_truth": "Consegue detectar um número ímpar de erros (1, 3...), mas não consegue detectar 2 erros.",
+    "gold_chunks": [
+      "Um bit de paridade só consegue detectar um número ímpar de erros, isto é, 1 erro, 3 erros numa sequência, mas não consegue detectar 2 erros"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "O que o código de Hamming permite, além da simples detecção de erro?",
+    "ground_truth": "Especificar qual foi o bit no qual o erro ocorreu e corrigir o erro.",
+    "gold_chunks": [
+      "O código de Hamming permite que, além da detecção de um erro, seja possível especificar qual foi o bit no qual o erro ocorreu e corrigir o erro"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Quantos bits de paridade são necessários para corrigir um erro numa sequência de 4 bits de dados, segundo o exemplo da Aula 3?",
+    "ground_truth": "3 bits de paridade.",
+    "gold_chunks": [
+      "são necessários 3 bits de paridade para proporcionar a correção de um erro em uma sequência de 4 bits"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Quais posições de bit o bit de paridade P2 verifica, num código de Hamming de 7 bits?",
+    "ground_truth": "As posições 2, 3, 6 e 7.",
+    "gold_chunks": [
+      "P2 verifica os bits das posições 2, 3, 6 e 7"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "No exemplo de correção de erro do Código de Hamming (palavra 0011001 transmitida, 0010001 recebida), em qual posição estava o erro?",
+    "ground_truth": "Na posição 4 da palavra.",
+    "gold_chunks": [
+      "o código de posição de erro é 100 e está na posição 4 da palavra"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Na \"brincadeira do baralho\", que nome está associado ao naipe de Ouros?",
+    "ground_truth": "Paula.",
+    "gold_chunks": [
+      "Ouros: Paula"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "Para funções pares, qual coeficiente da série de Fourier é sempre zero?",
+    "ground_truth": "O coeficiente bn.",
+    "gold_chunks": [
+      "para funções pares, bn=0"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "O que a técnica de Análise de Componentes Principais (PCA) faz no exemplo de reconhecimento facial (eigenfaces)?",
+    "ground_truth": "Decompõe uma foto de rosto como combinação de um conjunto de componentes principais (imagens-base em tons de cinza), cada uma capturando um padrão comum de variação entre rostos.",
+    "gold_chunks": [
+      "uma foto de rosto é decomposta como combinação de um conjunto de \"componentes principais\" (imagens-base em tons de cinza, mostradas numa grade), cada uma capturando um padrão comum de variação entre rostos"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "No exemplo de reconstrução por componentes principais, o que é somado à \"Mean Image\" para aproximar um rosto?",
+    "ground_truth": "Uma soma ponderada de componentes principais (eigenfaces).",
+    "gold_chunks": [
+      "um rosto (foto de um homem) pode ser aproximado pela \"Mean Image\" (imagem média) mais uma soma ponderada (w1, w2, w3, w4, w5... wk) de componentes principais (eigenfaces)"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "No exemplo de Maria e Júlio, quais são as probabilidades atribuídas a m1 (e-mail bom) e m2 (e-mail ruim)?",
+    "ground_truth": "P(m1)=0,1; P(m2)=0,9.",
+    "gold_chunks": [
+      "Probabilidades: P(m1)=0,1; P(m2)=0,9"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "No desfecho do exemplo de Maria e Júlio, com que porcentagem real Maria ficou feliz ao receber o e-mail?",
+    "ground_truth": "95% dos casos (e preocupada em 5%).",
+    "gold_chunks": [
+      "Maria recebeu um e-mail e ficou feliz num 95% e preocupada num 5% dos casos"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Como Erwin Schrödinger definiu a vida em suas palestras de 1943 no Trinity College?",
+    "ground_truth": "Como \"uma delicada dança de energia, entropia e informação\".",
+    "gold_chunks": [
+      "ele definiu a vida como \"uma delicada dança de energia, entropia e informação\""
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Qual artigo de Schrödinger serviu de inspiração a Watson e Crick para a descoberta da estrutura do DNA?",
+    "ground_truth": "\"What is life\".",
+    "gold_chunks": [
+      "escreveu o artigo \"What is life\", que serviu de inspiração a Watson e Crick para a descoberta da estrutura do DNA"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "A partir de quais gases o experimento de Miller e Urey (1953) obteve aminoácidos e bases nucleotídicas?",
+    "ground_truth": "N2, NH3, CH4, H2, CO2, mais calor e eletricidade.",
+    "gold_chunks": [
+      "a partir de N2, NH3, CH4, H2, CO2, mais calor e eletricidade, obtêm-se aminoácidos e bases nucleotídicas (purinas e pirimidinas)"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Quais são os quatro componentes (grupo fosfato + base nitrogenada) dos nucleotídeos do DNA?",
+    "ground_truth": "Adenina, Guanina, Citosina e Timina.",
+    "gold_chunks": [
+      "uma base nitrogenada: Adenina, Guanina, Citosina e Timina"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Quem formulou a hipótese do gene egoísta, e em que ano?",
+    "ground_truth": "Richard Dawkins, em 1976.",
+    "gold_chunks": [
+      "Formulada por Richard Dawkins (1976)"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Segundo a hipótese do gene egoísta, qual é a única tarefa que o DNA realiza?",
+    "ground_truth": "Se duplicar, passar a sua informação para frente, mesmo em prejuízo do próprio organismo.",
+    "gold_chunks": [
+      "De acordo com esta hipótese, o DNA realiza uma única tarefa: se duplicar, passar a sua informação para frente, mesmo em prejuízo do próprio organismo"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "No RNA, qual base substitui a timina?",
+    "ground_truth": "Uracila.",
+    "gold_chunks": [
+      "No RNA, a timina é substituída por Uracila"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Quantos aminoácidos diferentes seriam teoricamente possíveis com palavras de três letras (4x4x4), e por que existem sinônimos?",
+    "ground_truth": "64 possíveis; existem vários sinônimos para cada aminoácido (por exemplo, a arginina pode ser codificada de 6 formas diferentes), gerando redundância.",
+    "gold_chunks": [
+      "Seria possível escrever 4x4x4=64 palavras de três letras, ou seja, poderia haver 64 aminoácidos. Contudo existem vários \"sinônimos\" para cada aminoácido"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Quais são os códons que codificam o aminoácido STOP?",
+    "ground_truth": "UAA, UAG, UGA.",
+    "gold_chunks": [
+      "STOP (0,24%) = UAA,UAG,UGA"
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Qual é o valor da entropia de Shannon calculada para os 21 aminoácidos (20 + STOP) na Aula 4?",
+    "ground_truth": "S = 4,210.",
+    "gold_chunks": [
+      "resultando em S = 4,210"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Por que se diz que o código genético é \"muito eficiente\", apesar de usar 3 letras (6 bits) por aminoácido?",
+    "ground_truth": "Porque usa quase apenas uma letra a mais do que o mínimo teórico necessário (2,105 letras).",
+    "gold_chunks": [
+      "O código genético é muito eficiente (utiliza quase uma letra a mais do que precisa, já que usa 3 letras/6 bits quando o mínimo teórico seria de apenas 2,105 letras)"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Como o DNA consegue saber qual nucleotídeo falta num degrau, caso algum esteja ausente?",
+    "ground_truth": "Olhando o nucleotídeo complementar (Adenina liga com Timina, Citosina liga com Guanina).",
+    "gold_chunks": [
+      "Se falta um nucleotídeo num degrau do DNA, olhando o nucleotídeo complementar podemos saber qual falta"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Na analogia entre o DNA e a máquina de Turing, o que equivale à fita da máquina, e o que equivale à cabeça de leitura/escrita?",
+    "ground_truth": "O DNA equivale à fita da máquina de Turing, e o enzima equivale à cabeça de leitura e escritura.",
+    "gold_chunks": [
+      "A fita sem fim de Turing tem certa analogia com a fita do nosso DNA. A própria máquina de Turing e as enzimas são semelhantes"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "A partir de qual planta o milho foi desenvolvido, segundo o exemplo de seleção natural aplicada pelo ser humano?",
+    "ground_truth": "A partir do teosinto (4.000 a.C.).",
+    "gold_chunks": [
+      "desenvolvimento do milho a partir do teosinto (4.000 a.C.)"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "O que caracteriza a relevância da máquina de Turing, segundo a Aula 4?",
+    "ground_truth": "Qualquer possível computador pode ser simulado pela máquina de Turing, e ela pode emular qualquer outra máquina de Turing.",
+    "gold_chunks": [
+      "Qualquer possível computador pode ser simulado pela máquina de Turing",
+      "Uma máquina de Turing pode emular qualquer outra máquina de Turing"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "No autômato celular mais simples (unidimensional), de que depende o estado de cada célula no tempo t+1?",
+    "ground_truth": "Do próprio estado no tempo t e do estado dos vizinhos da direita e esquerda no tempo t.",
+    "gold_chunks": [
+      "O estado de cada célula no tempo t+1 depende do próprio estado no tempo t e do estado dos vizinhos da direita e esquerda no tempo t"
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Como é calculado o parâmetro Lambda de Langton para autômatos celulares?",
+    "ground_truth": "Como o número de células \"output\" em preto dividido pelo número de situações (8).",
+    "gold_chunks": [
+      "O parâmetro Lambda (Langton, 1986) é calculado como o número de células \"output\" em preto dividido pelo número de situações (8)"
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Para valores de lambda entre 0,5 e 1, o que acontece no comportamento do autômato celular?",
+    "ground_truth": "Reina o caos e nenhuma estrutura sobrevive.",
+    "gold_chunks": [
+      "Para valores de lambda entre 0,5 e 1: reina o caos e nenhuma estrutura sobrevive"
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Quais são os quatro vizinhos ortogonais de uma célula central C(t) na vizinhança de Von Neumann?",
+    "ground_truth": "Norte N(t), Sul S(t), Leste E(t) e Oeste W(t).",
+    "gold_chunks": [
+      "uma célula central C(t) tem quatro vizinhos ortogonais — Norte N(t), Sul S(t), Leste E(t) e Oeste W(t)"
+    ]
+  },
+  {
+    "id": 76,
+    "question": "Quais são as quatro regras do Jogo da Vida de Conway?",
+    "ground_truth": "Célula viva com menos de 2 vizinhos vivos morre de solidão; com mais de 3 morre de superpopulação; célula morta com exatamente 3 vizinhos vivos se torna viva; célula com 2 vizinhos vivos continua no mesmo estado.",
+    "gold_chunks": [
+      "qualquer célula viva com menos de dois vizinhos vivos morre de solidão",
+      "qualquer célula viva com mais de três vizinhos vivos morre de superpopulação",
+      "qualquer célula morta com exatamente três vizinhos vivos se torna uma célula viva",
+      "qualquer célula com dois vizinhos vivos continua no mesmo estado na próxima geração"
+    ]
+  },
+  {
+    "id": 77,
+    "question": "No trabalho de Chris Langton sobre química artificial em autômatos celulares, o que representam as \"moléculas artificiais\" e a \"química artificial\"?",
+    "ground_truth": "Moléculas artificiais: cada célula dos autômatos celulares. Química artificial: as regras de atualização de cada célula.",
+    "gold_chunks": [
+      "Moléculas artificiais: cada célula dos autômatos celulares. Química artificial: as regras de atualização de cada célula"
+    ]
+  },
+  {
+    "id": 78,
+    "question": "O que é a \"pele\" de um Langton's loop, e o que ela contém?",
+    "ground_truth": "É formada por células em estado 2, dentro da qual circula a informação necessária para construir o \"loop\".",
+    "gold_chunks": [
+      "A estrutura auto-replicante é um \"loop\" com uma \"pele\" (células em estado 2) dentro da qual circula a informação necessária para construir o \"loop\""
+    ]
+  },
+  {
+    "id": 79,
+    "question": "Na adição binária, quanto resulta 15 (1111) somado a 20 (10100)?",
+    "ground_truth": "35 (decimal) = 100011 (binário).",
+    "gold_chunks": [
+      "15 (decimal) = 1111 (binário), somado a 20 (10100), resulta em 35 (decimal) = 100011 (binário)"
+    ]
+  },
+  {
+    "id": 80,
+    "question": "Na subtração binária, quanto resulta 16 (10000) subtraído de 3 (11)?",
+    "ground_truth": "13 (decimal) = 1101 (binário).",
+    "gold_chunks": [
+      "16 (decimal) = 10000 (binário), subtraído de 3 (11), resulta em 13 (decimal) = 1101 (binário)"
+    ]
+  },
+  {
+    "id": 81,
+    "question": "Qual é o complemento de 2 do número binário 00110111, segundo o exemplo da Aula 5?",
+    "ground_truth": "11001001.",
+    "gold_chunks": [
+      "11001001 é o complemento do número 00110111"
+    ]
+  },
+  {
+    "id": 82,
+    "question": "Ao somar um número binário ao seu próprio complemento de 2, qual é o resultado, segundo a validação apresentada?",
+    "ground_truth": "Zero.",
+    "gold_chunks": [
+      "Em seguida, some os dois números. O resultado é ZERO"
+    ]
+  },
+  {
+    "id": 83,
+    "question": "No exemplo de multiplicação binária, quanto é 23 (10111) multiplicado por 11 (1011)?",
+    "ground_truth": "253 (decimal) = 11111101 (binário).",
+    "gold_chunks": [
+      "O produto 23×11 resulta em 253 (decimal) = 11111101 (binário)"
+    ]
+  },
+  {
+    "id": 84,
+    "question": "No exemplo de divisão binária longa (dividendo 11111110, divisor 1011), qual é o quociente obtido?",
+    "ground_truth": "10111.",
+    "gold_chunks": [
+      "obtém-se o quociente 10111"
+    ]
+  },
+  {
+    "id": 85,
+    "question": "Quem criou a álgebra booleana, e em que ano publicou seu trabalho principal?",
+    "ground_truth": "George Boole, em 1854.",
+    "gold_chunks": [
+      "George Boole (1815-1864) criou a álgebra booleana. Em 1854, publicou o trabalho"
+    ]
+  },
+  {
+    "id": 86,
+    "question": "Como é expressa a operação AND entre as variáveis A e B?",
+    "ground_truth": "A AND B = A . B.",
+    "gold_chunks": [
+      "A operação AND aplicada às variáveis A e B é expressa por: A AND B = A . B"
+    ]
+  },
+  {
+    "id": 87,
+    "question": "No slide oculto sobre operações mais complexas, como é escrita a função booleana f(x,y) do exemplo?",
+    "ground_truth": "f(x,y) = ((x and (not y)) or ((not x) and y)).",
+    "gold_chunks": [
+      "a função f(x,y) pode ser escrita como: f(x,y) = ((x and (not y)) or ((not x) and y))"
+    ]
+  },
+  {
+    "id": 88,
+    "question": "Qual é a relação que define a operação NAND a partir de NOT e AND?",
+    "ground_truth": "A NAND B = NOT (A AND B).",
+    "gold_chunks": [
+      "A operação NAND é obtida a partir da combinação das operações NOT e AND, usando a relação: A NAND B = NOT (A AND B)"
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Quando a operação XOR resulta \"Verdadeiro\"?",
+    "ground_truth": "Quando exclusivamente uma das variáveis A ou B assume o valor \"Verdadeiro\" (ou seja, quando os valores de A e B são diferentes entre si).",
+    "gold_chunks": [
+      "A operação XOR resulta \"Verdadeiro\" se e apenas se exclusivamente uma das variáveis A ou B assumir o valor \"Verdadeiro\""
+    ]
+  },
+  {
+    "id": 90,
+    "question": "No diagrama de níveis lógicos de tensão para um circuito digital, o que fica entre a faixa BAIXO e a faixa ALTO?",
+    "ground_truth": "Uma faixa \"Proibida\".",
+    "gold_chunks": [
+      "uma faixa \"Proibida\" (entre V_L(max) e V_H(min))"
+    ]
+  },
+  {
+    "id": 91,
+    "question": "A que porcentagens da amplitude são medidos o tempo de subida e o tempo de descida de um pulso não ideal?",
+    "ground_truth": "Entre 10% e 90% da amplitude.",
+    "gold_chunks": [
+      "Tempo de subida (tr) e Tempo de descida (tf), medidos entre 10% e 90% da amplitude"
+    ]
+  },
+  {
+    "id": 92,
+    "question": "Numa porta lógica NOT, o que a entrada ALTO (1) produz na saída?",
+    "ground_truth": "BAIXO (0).",
+    "gold_chunks": [
+      "entrada ALTO (1) produz saída BAIXO (0)"
+    ]
+  },
+  {
+    "id": 93,
+    "question": "No exemplo prático dos sensores de nível em dois tanques, que tipo de porta lógica é usada, e o que a luz verde indica?",
+    "ground_truth": "Uma porta NAND; a luz verde indica que ambos os tanques estão acima de 1/4 cheios.",
+    "gold_chunks": [
+      "alimentam uma porta NAND com entradas HIGH e HIGH",
+      "\"Green light indicates both tanks are greater than 1/4 full\" (a luz verde indica que ambos os tanques estão acima de 1/4 cheios)"
+    ]
+  },
+  {
+    "id": 94,
+    "question": "No exemplo prático dos sensores de trem de pouso de avião, o que acende o LED verde \"All gear extended\"?",
+    "ground_truth": "Uma porta NAND de 3 entradas, quando todos os trens de pouso estão estendidos.",
+    "gold_chunks": [
+      "uma porta NAND de 3 entradas (cuja saída acende um LED verde \"All gear extended\" quando todos os trens estão estendidos)"
+    ]
+  },
+  {
+    "id": 95,
+    "question": "No divisor de voltagem com Vref=8V e 8 resistores iguais, quanto vale a queda de tensão em cada resistor?",
+    "ground_truth": "Exatamente 1V.",
+    "gold_chunks": [
+      "cada resistor R provoca uma queda de exatamente 1V, dividindo a tensão de referência em 8 níveis igualmente espaçados"
+    ]
+  },
+  {
+    "id": 96,
+    "question": "No exemplo de grandeza analógica do som, o que amplifica o sinal de áudio captado pelo microfone?",
+    "ground_truth": "Um \"Linear amplifier\" (amplificador linear).",
+    "gold_chunks": [
+      "gera um sinal de áudio elétrico analógico, que é amplificado por um \"Linear amplifier\""
+    ]
+  },
+  {
+    "id": 97,
+    "question": "No processo \"sample and hold\", o que acontece com cada nível amostrado depois de capturado?",
+    "ground_truth": "É mantido constante por um curto período (\"Hold\") até a próxima amostra.",
+    "gold_chunks": [
+      "cada nível amostrado sendo mantido constante por um curto período (\"Hold\") até a próxima amostra"
+    ]
+  },
+  {
+    "id": 98,
+    "question": "Na versão completa (4 bits) do gráfico de níveis de quantização, quantos níveis de código binário são mostrados, de qual valor a qual?",
+    "ground_truth": "16 níveis completos, de 0 (0000) a 15 (1111).",
+    "gold_chunks": [
+      "mostra 16 níveis completos, de 0 (0000) a 15 (1111) em código binário de 4 bits"
+    ]
+  },
+  {
+    "id": 99,
+    "question": "No conversor analógico-digital do tipo \"flash\", o que o codificador de prioridade recebe e produz?",
+    "ground_truth": "Recebe as saídas de uma cadeia de comparadores (numeradas de 0 a 7) e produz uma saída binária paralela (D0, D1, D2).",
+    "gold_chunks": [
+      "As saídas dos comparadores (numeradas de 0 a 7) alimentam um \"Priority encoder\" (codificador de prioridade), que produz uma saída binária paralela (D0, D1, D2"
+    ]
+  },
+  {
+    "id": 100,
+    "question": "Segundo o Teorema de Nyquist, qual deve ser a relação entre a frequência de amostragem e a maior frequência do espectro do sinal?",
+    "ground_truth": "A frequência de amostragem deve ser igual ou maior a duas vezes a maior frequência do espectro do sinal (Wo >= 2W).",
+    "gold_chunks": [
+      "deve ser igual ou maior a duas vezes a maior frequência do espectro desse sinal. Fórmula: Wo >= 2W"
+    ]
+  },
+  {
+    "id": 101,
+    "question": "O que é a Memória Principal, segundo a Aula 6?",
+    "ground_truth": "Meio de armazenamento de dados que a CPU pode acessar diretamente.",
+    "gold_chunks": [
+      "Memória Principal – meio de armazenamento de dados que a CPU pode acessar diretamente"
+    ]
+  },
+  {
+    "id": 102,
+    "question": "Qual é a capacidade do exemplo de armazenamento terciário citado (biblioteca de cartuchos SDLT)?",
+    "ground_truth": "310 GB.",
+    "gold_chunks": [
+      "biblioteca de cartuchos SDLT (Super Digital Linear Tape) de 310 GB, controlada por braço robótico"
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Na tabela-verdade do latch tipo D usado na SRAM, o que acontece com a saída quando a Habilitação é 0?",
+    "ground_truth": "A saída continua com o valor anterior (memória mantida).",
+    "gold_chunks": [
+      "Dado=0 ou 1, Habilitação=0 → Saída continua com o valor anterior (memória mantida)"
+    ]
+  },
+  {
+    "id": 104,
+    "question": "Como o endereço de um bit é especificado num arranjo de memória de 2 dimensões?",
+    "ground_truth": "Por uma linha e uma coluna.",
+    "gold_chunks": [
+      "o endereço de um bit no arranjo de 2 dimensões é especificado por uma linha e uma coluna"
+    ]
+  },
+  {
+    "id": 105,
+    "question": "Quais são os três exemplos de arranjo de memória semicondutora ilustrados na Aula 6, e qual a capacidade total de cada um?",
+    "ground_truth": "Arranjo 8×8, arranjo 16×4 e arranjo 64×1, todos com a mesma capacidade total de 64 células.",
+    "gold_chunks": [
+      "(a) arranjo 8×8 (64 células",
+      "os três arranjos têm a mesma capacidade total (64 células), mas organizações físicas diferentes"
+    ]
+  },
+  {
+    "id": 106,
+    "question": "No exemplo de leitura na SRAM com arranjo 2x4, quais valores estavam armazenados na primeira fileira (habilitada)?",
+    "ground_truth": "0, 1, 1, 0.",
+    "gold_chunks": [
+      "A primeira fileira (linha de habilitação = 1) contém os valores armazenados 0, 1, 1, 0"
+    ]
+  },
+  {
+    "id": 107,
+    "question": "Na DRAM, o que os sinais RAS e CAS controlam?",
+    "ground_truth": "Controlam a leitura, junto com um multiplexador e amplificadores de sensor que leem a carga de cada capacitor da linha selecionada.",
+    "gold_chunks": [
+      "Os sinais RAS (Row Address Strobe) e CAS (Column Address Strobe) controlam a leitura"
+    ]
+  },
+  {
+    "id": 108,
+    "question": "Compare SRAM e DRAM quanto à velocidade e ao custo por bit.",
+    "ground_truth": "SRAM é muito rápida e tem maior custo por bit; DRAM é mais lenta e tem menor custo por bit.",
+    "gold_chunks": [
+      "SRAM: muito rápida, mais complexa, maior custo por bit, menor integração. DRAM: mais lenta, menos complexa, menor custo por bit, maior integração"
+    ]
+  },
+  {
+    "id": 109,
+    "question": "O que significa dizer que as memórias flash são não-voláteis?",
+    "ground_truth": "Que os dados podem ser mantidos armazenados indefinidamente sem alimentação.",
+    "gold_chunks": [
+      "não-voláteis, o que significa que os dados podem ser mantidos armazenados indefinidamente sem alimentação"
+    ]
+  },
+  {
+    "id": 110,
+    "question": "No transistor MOSFET de porta flutuante, o que representa muitos elétrons armazenados na porta flutuante?",
+    "ground_truth": "Mais carga, representando o bit armazenado 0.",
+    "gold_chunks": [
+      "muitos elétrons = mais carga = bit armazenado 0"
+    ]
+  },
+  {
+    "id": 111,
+    "question": "Na operação de leitura da célula flash, por que o transistor permanece desligado quando um 0 é lido?",
+    "ground_truth": "Porque a carga na porta flutuante impede que a tensão de leitura ultrapasse o limiar de ativação (turn-on threshold).",
+    "gold_chunks": [
+      "quando um 0 é lido, o transistor permanece desligado, porque a carga na porta flutuante impede que a tensão de leitura ultrapasse o limiar de ativação (turn-on threshold)"
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Na cabeça de leitura/escrita magnética moderna, qual é a largura de trilha (track width) mencionada?",
+    "ground_truth": "180 nm.",
+    "gold_chunks": [
+      "organizado em trilhas de 180 nm de largura"
+    ]
+  },
+  {
+    "id": 113,
+    "question": "Quantos grãos, aproximadamente, compõem um bit no meio de gravação magnético descrito na Aula 6?",
+    "ground_truth": "Menos de 1000 grãos por bit.",
+    "gold_chunks": [
+      "menos de 1000 grãos por bit"
+    ]
+  },
+  {
+    "id": 114,
+    "question": "No mecanismo do disco de cabeça móvel, o que forma um \"cylinder\"?",
+    "ground_truth": "O conjunto de trilhas na mesma posição radial em todos os discos.",
+    "gold_chunks": [
+      "o conjunto de trilhas na mesma posição radial em todos os discos forma um \"cylinder c\""
+    ]
+  },
+  {
+    "id": 115,
+    "question": "No homúnculo cortical, qual cor representa a faixa somatossensorial, e qual representa a faixa motora?",
+    "ground_truth": "Somatossensorial em laranja; motora em magenta.",
+    "gold_chunks": [
+      "Faixa Somatossensorial (\"Somatosensory Strip\", em laranja)",
+      "Faixa Motora (\"Motor Strip\", em magenta)"
+    ]
+  },
+  {
+    "id": 116,
+    "question": "Em que ano ocorreu o acidente de Phineas Gage, e durante que tipo de trabalho?",
+    "ground_truth": "Em 1848, durante trabalho de construção de ferrovia.",
+    "gold_chunks": [
+      "Gage ter sobrevivido ao acidente (em 1848, durante trabalho de construção de ferrovia)"
+    ]
+  },
+  {
+    "id": 117,
+    "question": "Por que o caso de Phineas Gage é historicamente famoso na neurociência?",
+    "ground_truth": "Por ele ter sobrevivido ao acidente mas apresentado mudanças marcantes de personalidade após o dano ao lobo frontal, sendo um dos primeiros casos a associar regiões específicas do cérebro a funções de personalidade e comportamento.",
+    "gold_chunks": [
+      "ter apresentado mudanças marcantes de personalidade após o dano ao lobo frontal, sendo um dos primeiros casos documentados a associar regiões específicas do cérebro a funções de personalidade e comportamento"
+    ]
+  },
+  {
+    "id": 118,
     "question": "O que acontece no promontório axônico do neurônio?",
     "ground_truth": "É onde os potenciais pós-sinápticos somados no corpo celular atingem o limiar e é gerado o potencial de ação, que se propaga pelo axônio.",
     "gold_chunks": [
@@ -8,7 +954,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 119,
     "question": "Qual é o exemplo dado de neurônio excitatório do córtex?",
     "ground_truth": "Os neurônios piramidais do córtex.",
     "gold_chunks": [
@@ -16,7 +962,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 120,
     "question": "Quais são os dois exemplos de neurônios inibitórios do córtex citados na aula?",
     "ground_truth": "Os neurônios em cesto e em candelabro do córtex.",
     "gold_chunks": [
@@ -24,7 +970,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 121,
     "question": "Em qual camada cortical o neurônio piramidal (excitatório) aparece no diagrama apresentado?",
     "ground_truth": "Na camada V.",
     "gold_chunks": [
@@ -32,7 +978,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 122,
     "question": "Quais neurotransmissores e íons estão envolvidos na sinapse excitatória descrita na aula?",
     "ground_truth": "O neurotransmissor glutamato, e os íons Ca2+ e Na+, atuando nos canais NMDA e AMPA.",
     "gold_chunks": [
@@ -40,7 +986,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 123,
     "question": "Quais canais e íons estão envolvidos nas sinapses inibitórias GABA-A e GABA-B, respectivamente?",
     "ground_truth": "A sinapse GABA-A envolve os canais de GABA-A e o íon Cl-; a sinapse GABA-B envolve os canais de GABA-B (metabotrópico) e o íon K+.",
     "gold_chunks": [
@@ -49,7 +995,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 124,
     "question": "O que acontece com o número de canais sinápticos quando há um aumento na concentração de Ca2+?",
     "ground_truth": "Ocorre potenciação — um aumento do número de canais.",
     "gold_chunks": [
@@ -57,7 +1003,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 125,
     "question": "O que acontece com o número de canais sinápticos quando há uma diminuição na concentração de Ca2+?",
     "ground_truth": "Ocorre depressão — uma diminuição do número de canais.",
     "gold_chunks": [
@@ -65,7 +1011,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 126,
     "question": "Segundo a curva de plasticidade de Artola (1993) apresentada na aula, o que acontece com a força sináptica abaixo do Limiar LTD?",
     "ground_truth": "A força sináptica diminui.",
     "gold_chunks": [
@@ -73,7 +1019,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 127,
     "question": "Segundo a citação de Donald Hebb apresentada na aula, o que precisa acontecer para que a eficiência de uma célula A disparando sobre uma célula B aumente?",
     "ground_truth": "O axônio de A precisa estar perto o suficiente de B para excitá-la, e participar repetida ou persistentemente do seu disparo.",
     "gold_chunks": [
@@ -81,7 +1027,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 128,
     "question": "Qual é o valor final acumulado do peso sináptico (wij) ao final da simulação do Modelo de Hebb apresentada na aula?",
     "ground_truth": "0,255.",
     "gold_chunks": [
@@ -89,7 +1035,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 129,
     "question": "Quantos modelos artificiais de plasticidade sináptica são listados na aula, e quais são eles?",
     "ground_truth": "Quatro modelos: Modelo de Hebb, Modelo de Oja, Modelo pré-sináptico e Modelo pós-sináptico.",
     "gold_chunks": [
@@ -97,7 +1043,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 130,
     "question": "Qual é a equação do modelo pós-sináptico de plasticidade sináptica apresentada na aula?",
     "ground_truth": "Δwij = ε·Oj·(Ii − wij).",
     "gold_chunks": [
@@ -105,7 +1051,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 131,
     "question": "Quais são os três tipos de codificação neural apresentados na aula?",
     "ground_truth": "Codificação de frequência, codificação vetorial ou populacional, e codificação temporal.",
     "gold_chunks": [
@@ -115,7 +1061,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 132,
     "question": "O que é o período refratário absoluto, segundo a explicação da codificação frequencial?",
     "ground_truth": "É a distância (tempo) mínima entre dois potenciais de ação sucessivos.",
     "gold_chunks": [
@@ -123,7 +1069,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 133,
     "question": "O que é o exoesqueleto HAL-5 e qual é sua capacidade citada na aula?",
     "ground_truth": "Um exoesqueleto robótico que multiplica por cinco a força muscular de uma pessoa normal, usando codificação de frequências captada por sensores na pele.",
     "gold_chunks": [
@@ -131,7 +1077,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 134,
     "question": "Quais exoesqueletos históricos, além do HAL-5, são citados na aula?",
     "ground_truth": "O Hardiman 1 (1965, da General Electric), o trabalho de Jacob Rosen (Universidade de Washington) e o Kanagawa Power Suit.",
     "gold_chunks": [
@@ -139,7 +1085,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 135,
     "question": "O que representa P(rj/ei) no cálculo de informação transmitida por codificação de frequências?",
     "ground_truth": "A probabilidade condicional de obter uma resposta rj no neurônio quando se apresenta o estímulo ei.",
     "gold_chunks": [
@@ -147,7 +1093,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 136,
     "question": "Quando a entropia (imprevisibilidade) da resposta de um neurônio é máxima, segundo o exemplo de codificação frequencial apresentado?",
     "ground_truth": "Quando P(r1) = P(r2) = 0,5, a entropia é máxima e igual a 1 bit.",
     "gold_chunks": [
@@ -155,7 +1101,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 137,
     "question": "No Caso A do exemplo de cálculo de entropia (neurônio que sempre responde com a mesma frequência), qual é o grau de imprevisibilidade da resposta?",
     "ground_truth": "Zero.",
     "gold_chunks": [
@@ -163,7 +1109,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 138,
     "question": "Como é definida a informação I fornecida por um neurônio após aplicar estímulos, em termos de S e Se?",
     "ground_truth": "É a diferença entre o grau de imprevisibilidade inicial (S) e a imprevisibilidade após ocorrerem as respostas do neurônio aos estímulos (Se).",
     "gold_chunks": [
@@ -171,7 +1117,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 139,
     "question": "Como Se é calculada a partir dos Sei?",
     "ground_truth": "Se é a média dos Sei (entropias condicionais calculadas para cada estímulo individualmente).",
     "gold_chunks": [
@@ -179,7 +1125,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 140,
     "question": "Quais são as quatro faixas de frequência dos ritmos cerebrais apresentadas na aula, e a quais estados cada uma está associada?",
     "ground_truth": "Beta (12-30 Hz, atividade/atenção/ansiedade), Alfa (8-12 Hz, relaxação), Teta (4-7 Hz, sonolência/meditação) e Delta (até 3 Hz, sono profundo).",
     "gold_chunks": [
@@ -190,7 +1136,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 141,
     "question": "Por que o EEG tem resolução espacial limitada, segundo o diagrama apresentado na aula?",
     "ground_truth": "Porque o sinal elétrico real dos neurônios precisa atravessar as camadas de tecido (pia máter, aracnoide e dura máter) antes de chegar ao eletrodo no couro cabeludo, sendo atenuado e borrado nesse trajeto.",
     "gold_chunks": [
@@ -198,7 +1144,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 142,
     "question": "Quando a onda P300 ocorre, e qual é uma aplicação prática citada na aula?",
     "ground_truth": "Ocorre na região parietal, cerca de 300 ms depois do reconhecimento de um estímulo procurado; aplicação: máquina de escrever cerebral.",
     "gold_chunks": [
@@ -206,7 +1152,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 143,
     "question": "O que é o Neurosky, segundo a apresentação?",
     "ground_truth": "Um dispositivo comercial de interface cérebro-computador (BCI) baseado em EEG, usado por exemplo em jogos.",
     "gold_chunks": [
@@ -214,7 +1160,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 144,
     "question": "Na codificação vetorial ou populacional, o que representa cada componente do vetor de resposta a um padrão de estímulo?",
     "ground_truth": "A taxa de disparo de um determinado neurônio.",
     "gold_chunks": [
@@ -222,7 +1168,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 145,
     "question": "No exemplo de codificação vetorial no epitélio olfativo, quantos tipos de receptores e quantos odores são mostrados?",
     "ground_truth": "Três tipos de receptores olfativos (Receptor 1, 2 e 3) e quatro odores (Citrus, Floral, Peppermint e Almond).",
     "gold_chunks": [
@@ -230,7 +1176,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 146,
     "question": "No exemplo de codificação vetorial nos cones, qual é o vetor de resposta [Azul, Verde, Vermelho] para a cor de aproximadamente 590 nm?",
     "ground_truth": "[0, 27, 75].",
     "gold_chunks": [
@@ -238,7 +1184,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 147,
     "question": "Em torno de qual comprimento de onda cada um dos três tipos de cone (B, G, R) tem seu pico de resposta?",
     "ground_truth": "Cone B (azul) em torno de 420 nm, cone G (verde) em torno de 530 nm, e cone R (vermelho) em torno de 560 nm.",
     "gold_chunks": [
@@ -246,7 +1192,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 148,
     "question": "Como os canais semicirculares do ouvido estão dispostos, e o que a movimentação do líquido neles indica?",
     "ground_truth": "Estão dispostos em três planos ortogonais; a movimentação do líquido estimula neurônios ciliados, indicando a aceleração angular da cabeça.",
     "gold_chunks": [
@@ -254,7 +1200,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 149,
     "question": "No experimento de Apostolos Georgopoulos, o que representa o comprimento das setas ao redor de cada neurônio no diagrama?",
     "ground_truth": "A probabilidade de disparo desse neurônio quando o macaco executa o movimento na direção da seta.",
     "gold_chunks": [
@@ -262,7 +1208,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 150,
     "question": "Quantos neurônios do córtex motor foram registrados no experimento de Georgopoulos, e como o vetor de resposta populacional é representado?",
     "ground_truth": "Oito neurônios (N1 a N8); a resposta populacional é representada pelo vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8].",
     "gold_chunks": [
@@ -271,7 +1217,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 151,
     "question": "No experimento de Miguel Nicolelis, quais são os três conceitos-chave destacados na interface cérebro-máquina?",
     "ground_truth": "Múltiplos eletrodos no cérebro, codificação populacional e feedback sensorial.",
     "gold_chunks": [
@@ -279,7 +1225,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 152,
     "question": "Qual técnica de extração de características é citada no processamento dos vetores neurais do experimento de Nicolelis?",
     "ground_truth": "Extração de características com componentes principais.",
     "gold_chunks": [
@@ -287,7 +1233,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 153,
     "question": "Na codificação temporal, o que é mais importante do que a taxa média de disparos, segundo a apresentação?",
     "ground_truth": "A distância (o intervalo) entre disparos sucessivos.",
     "gold_chunks": [
@@ -295,7 +1241,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 154,
     "question": "Quantos bits de informação, no máximo, cada neurônio da mosca transmite por milissegundo, segundo os experimentos de Bialek e colaboradores?",
     "ground_truth": "No máximo 5 bits de informação por milissegundo.",
     "gold_chunks": [
@@ -303,7 +1249,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 155,
     "question": "No experimento com a rã \"touro\" de Rieke e colaboradores, quantos bits por segundo os neurônios transmitiam para o ruído branco, e quantos para o chamado de outras rãs?",
     "ground_truth": "46 bits por segundo (1,4 bits por disparo) para o ruído branco, e 133 bits por segundo (7,8 bits por disparo) para o chamado de outras rãs.",
     "gold_chunks": [
@@ -312,7 +1258,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 156,
     "question": "Como Bialek e colaboradores adaptaram o experimento da mosca para um ambiente natural?",
     "ground_truth": "Em vez de apresentar filmes, levaram a mosca ao mato, transportada em um \"carrinho\".",
     "gold_chunks": [
@@ -320,7 +1266,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 157,
     "question": "O que Bialek extraiu da trajetória real de voo da mosca no experimento em ambiente natural (parte II)?",
     "ground_truth": "A componente horizontal da trajetória de um voo real da mosca.",
     "gold_chunks": [
@@ -328,7 +1274,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 158,
     "question": "No exemplo de codificação temporal em diferentes resoluções, como o mesmo trem de disparos é lido quando τ=32ms, comparado a quando τ=2ms?",
     "ground_truth": "Com τ=32ms, o segmento inteiro é lido como um único número (ex: 11 ou 9); com τ=2ms, o mesmo trem de disparos é representado como uma sequência binária detalhada, com muito mais informação.",
     "gold_chunks": [
@@ -337,7 +1283,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 159,
     "question": "Qual é a fórmula indicada para a taxa de informação Rinfo(T,τ) apresentada no slide sobre resolução temporal?",
     "ground_truth": "Rinfo(T,τ) = I(T,τ) / T, em bits por segundo.",
     "gold_chunks": [
@@ -345,7 +1291,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 160,
     "question": "Qual foi a conclusão final da aula sobre como animais como as moscas processam informação neural?",
     "ground_truth": "A informação neural é processada em nível temporal, e não frequencial, já que a entropia crescia no intervalo entre 0,5 ms e 2 ms.",
     "gold_chunks": [
@@ -353,7 +1299,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 161,
     "question": "O que caracteriza um neurônio excitatório em termos do efeito na membrana do neurônio seguinte?",
     "ground_truth": "Produz um aumento de potencial (despolarização) na membrana do neurônio seguinte.",
     "gold_chunks": [
@@ -361,7 +1307,7 @@
     ]
   },
   {
-    "id": 45,
+    "id": 162,
     "question": "O que caracteriza um neurônio inibitório em termos do efeito na membrana do neurônio seguinte?",
     "ground_truth": "Produz uma diminuição de potencial (hiperpolarização) na membrana do neurônio seguinte.",
     "gold_chunks": [
@@ -369,7 +1315,7 @@
     ]
   },
   {
-    "id": 46,
+    "id": 163,
     "question": "Quem é o professor responsável pela disciplina, segundo o slide de abertura?",
     "ground_truth": "Francisco Javier Ropero Peláez.",
     "gold_chunks": [
@@ -377,7 +1323,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 164,
     "question": "Qual é o nome da disciplina apresentada no slide de abertura?",
     "ground_truth": "Natureza da Informação.",
     "gold_chunks": [
@@ -385,7 +1331,7 @@
     ]
   },
   {
-    "id": 48,
+    "id": 165,
     "question": "Em qual universidade a disciplina é ministrada?",
     "ground_truth": "UFABC.",
     "gold_chunks": [
@@ -393,7 +1339,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": 166,
     "question": "O que os dendritos recebem, segundo o diagrama de anatomia do neurônio?",
     "ground_truth": "Sinapses de outros neurônios.",
     "gold_chunks": [
@@ -401,7 +1347,7 @@
     ]
   },
   {
-    "id": 50,
+    "id": 167,
     "question": "Para onde se propaga o potencial de ação depois de gerado no promontório axônico?",
     "ground_truth": "Ao longo do axônio até o terminal axônico, formando novas sinapses com o neurônio seguinte.",
     "gold_chunks": [
@@ -409,7 +1355,7 @@
     ]
   },
   {
-    "id": 51,
+    "id": 168,
     "question": "Quais dois canais são mostrados na estrutura geral de uma sinapse (slide 8)?",
     "ground_truth": "Canal NMDA e Canal AMPA.",
     "gold_chunks": [
@@ -417,7 +1363,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": 169,
     "question": "O que acontece com a força sináptica acima do Limiar LTP, segundo a curva de plasticidade?",
     "ground_truth": "A força sináptica aumenta progressivamente.",
     "gold_chunks": [
@@ -425,7 +1371,7 @@
     ]
   },
   {
-    "id": 53,
+    "id": 170,
     "question": "O que o eixo vertical representa no gráfico da curva de plasticidade (Artola, 1993)?",
     "ground_truth": "A Variação da força sináptica.",
     "gold_chunks": [
@@ -433,7 +1379,7 @@
     ]
   },
   {
-    "id": 54,
+    "id": 171,
     "question": "Qual é o valor inicial de wij no início da simulação do Modelo de Hebb?",
     "ground_truth": "0 (zero).",
     "gold_chunks": [
@@ -441,7 +1387,7 @@
     ]
   },
   {
-    "id": 55,
+    "id": 172,
     "question": "Qual incremento é somado a wij na primeira apresentação do padrão (Ij=1, Oi=1) na simulação do Modelo de Hebb?",
     "ground_truth": "0,1, resultando em wij=0,1.",
     "gold_chunks": [
@@ -449,7 +1395,7 @@
     ]
   },
   {
-    "id": 56,
+    "id": 173,
     "question": "Quais são os valores de Ij e Oi na segunda apresentação da simulação do Modelo de Hebb?",
     "ground_truth": "Ij=1, Oi=0,5.",
     "gold_chunks": [
@@ -457,7 +1403,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": 174,
     "question": "Qual é o valor acumulado de wij após a segunda apresentação (incremento de 0,05) na simulação do Modelo de Hebb?",
     "ground_truth": "0,15.",
     "gold_chunks": [
@@ -465,7 +1411,7 @@
     ]
   },
   {
-    "id": 58,
+    "id": 175,
     "question": "Quais são os valores de Ij e Oi na terceira apresentação da simulação do Modelo de Hebb?",
     "ground_truth": "Ij=0,1, Oi=0,5.",
     "gold_chunks": [
@@ -473,7 +1419,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 176,
     "question": "Qual é o valor acumulado de wij após a terceira apresentação (incremento de 0,005) na simulação do Modelo de Hebb?",
     "ground_truth": "0,155.",
     "gold_chunks": [
@@ -481,7 +1427,7 @@
     ]
   },
   {
-    "id": 60,
+    "id": 177,
     "question": "Quais são os valores de Ij e Oi na quarta e última apresentação da simulação do Modelo de Hebb?",
     "ground_truth": "Ij=1, Oi=1.",
     "gold_chunks": [
@@ -489,7 +1435,7 @@
     ]
   },
   {
-    "id": 61,
+    "id": 178,
     "question": "Qual dos quatro modelos de plasticidade sináptica tem a equação assintótica aproximada wij = P(Ij / Oi)?",
     "ground_truth": "O Modelo pós-sináptico.",
     "gold_chunks": [
@@ -497,7 +1443,7 @@
     ]
   },
   {
-    "id": 62,
+    "id": 179,
     "question": "Qual analogia é usada para questionar como a informação é transmitida pelos neurônios?",
     "ground_truth": "O código morse.",
     "gold_chunks": [
@@ -505,7 +1451,7 @@
     ]
   },
   {
-    "id": 63,
+    "id": 180,
     "question": "Qual é o título do vídeo/imagem apresentado sobre os neurônios tálamo-corticais terem dois modos de disparo?",
     "ground_truth": "\"Thalamocortical Neurons Have Two Firing Modes\".",
     "gold_chunks": [
@@ -513,7 +1459,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": 181,
     "question": "A que a frequência de disparos dos neurônios é proporcional, segundo a explicação da codificação frequencial?",
     "ground_truth": "À voltagem pós-sináptica.",
     "gold_chunks": [
@@ -521,7 +1467,7 @@
     ]
   },
   {
-    "id": 65,
+    "id": 182,
     "question": "O que representa P(ei) no cálculo de informação transmitida por codificação de frequências?",
     "ground_truth": "A probabilidade de apresentar um determinado estímulo, ei, para o neurônio.",
     "gold_chunks": [
@@ -529,7 +1475,7 @@
     ]
   },
   {
-    "id": 66,
+    "id": 183,
     "question": "O que representa P(rj) no cálculo de informação transmitida por codificação de frequências?",
     "ground_truth": "A probabilidade de termos uma determinada resposta, rj, no neurônio.",
     "gold_chunks": [
@@ -537,7 +1483,7 @@
     ]
   },
   {
-    "id": 67,
+    "id": 184,
     "question": "O que a entropia de Shannon representa, segundo a definição dada na aula?",
     "ground_truth": "O grau de imprevisibilidade da resposta do neurônio.",
     "gold_chunks": [
@@ -545,7 +1491,7 @@
     ]
   },
   {
-    "id": 68,
+    "id": 185,
     "question": "No Caso B do exemplo de cálculo de entropia, quantos tipos de resposta existem e qual é a relação entre suas probabilidades?",
     "ground_truth": "Dois tipos de resposta, r1 e r2, onde P(r1) + P(r2) = 1.",
     "gold_chunks": [
@@ -553,7 +1499,7 @@
     ]
   },
   {
-    "id": 69,
+    "id": 186,
     "question": "No exercício proposto sobre o neurônio tálamo-cortical, em qual porcentagem do tempo ele dispara na frequência lenta?",
     "ground_truth": "60% das vezes.",
     "gold_chunks": [
@@ -561,7 +1507,7 @@
     ]
   },
   {
-    "id": 70,
+    "id": 187,
     "question": "Qual é o exemplo dado de caso em que a quantidade de informação transmitida por um neurônio é mínima (zero)?",
     "ground_truth": "Quando a resposta do neurônio não muda com a mudança do estímulo.",
     "gold_chunks": [
@@ -569,7 +1515,7 @@
     ]
   },
   {
-    "id": 71,
+    "id": 188,
     "question": "O que o exercício proposto no slide sobre codificação frequencial pede para calcular, quando cada estímulo produz uma resposta única?",
     "ground_truth": "A quantidade de informação quando, para cada estímulo ei, o neurônio produz uma única resposta rj diferente para cada um dos estímulos.",
     "gold_chunks": [
@@ -577,7 +1523,7 @@
     ]
   },
   {
-    "id": 72,
+    "id": 189,
     "question": "Que suposição sobre a probabilidade dos ritmos cerebrais é feita no exercício sobre informação em bits do EEG?",
     "ground_truth": "Que os quatro tipos principais de ritmo cerebral (beta, alfa, teta e delta) estejam presentes com a mesma probabilidade nesse canal.",
     "gold_chunks": [
@@ -585,7 +1531,7 @@
     ]
   },
   {
-    "id": 73,
+    "id": 190,
     "question": "Para que servem os experimentos com biofeedback, segundo a aula?",
     "ground_truth": "Permitir que um sujeito controle, de modo rudimentar, algum aparelho \"com a mente\", enquanto um aparelho mostra seu grau de relaxamento.",
     "gold_chunks": [
@@ -593,7 +1539,7 @@
     ]
   },
   {
-    "id": 74,
+    "id": 191,
     "question": "Quais dois exemplos adicionais de codificação populacional ou vetorial são citados, além do epitélio olfativo?",
     "ground_truth": "Codificação vetorial das cores e codificação vetorial da aceleração da cabeça nos canais semicirculares.",
     "gold_chunks": [
@@ -601,7 +1547,7 @@
     ]
   },
   {
-    "id": 75,
+    "id": 192,
     "question": "O que o feedback sensorial fornece ao macaco no experimento de Nicolelis, segundo o diagrama?",
     "ground_truth": "Sensores de posição, toque e proximidade do braço fornecem feedback sensorial de volta ao macaco, que também recebe uma recompensa de suco.",
     "gold_chunks": [
@@ -609,7 +1555,7 @@
     ]
   },
   {
-    "id": 76,
+    "id": 193,
     "question": "O que acontece depois de se estabelecerem correlações entre as características extraídas e os movimentos dos membros do macaco, no experimento de Nicolelis?",
     "ground_truth": "A sequência de características extraídas passa a produzir o movimento dos membros de um braço robótico.",
     "gold_chunks": [
@@ -617,7 +1563,7 @@
     ]
   },
   {
-    "id": 77,
+    "id": 194,
     "question": "O que Bialek e colaboradores descobriram sobre os disparos neurais da mosca, além da taxa de 5 bits por milissegundo?",
     "ground_truth": "Um alfabeto básico de disparos neurais usado pela mosca para codificar informação.",
     "gold_chunks": [
@@ -625,7 +1571,7 @@
     ]
   },
   {
-    "id": 78,
+    "id": 195,
     "question": "Em qual revista científica e ano foi publicado o artigo de Bialek et al. sobre a leitura do código neural da mosca?",
     "ground_truth": "Science, em 1991.",
     "gold_chunks": [
@@ -633,7 +1579,7 @@
     ]
   },
   {
-    "id": 79,
+    "id": 196,
     "question": "Qual é a tarefa que os organismos enfrentam, segundo o resumo do artigo de Bialek et al. (1991)?",
     "ground_truth": "Extrair informação sobre um estímulo desconhecido e variável no tempo a partir de segmentos curtos de um trem de disparos.",
     "gold_chunks": [
@@ -641,7 +1587,7 @@
     ]
   },
   {
-    "id": 80,
+    "id": 197,
     "question": "Em qual publicação foi divulgado o artigo de Rieke, Bodnar & Bialek (1995) sobre o experimento com a rã?",
     "ground_truth": "Proceedings of the Royal Society of London, B262:259-265.",
     "gold_chunks": [
@@ -649,7 +1595,7 @@
     ]
   },
   {
-    "id": 81,
+    "id": 198,
     "question": "Segundo o gráfico de taxa de informação por resolução temporal, qual é a faixa aproximada de bits/s para valores pequenos e para valores maiores de τ?",
     "ground_truth": "Aproximadamente 150 bits/s para τ pequeno, e cerca de 80 bits/s para τ maior (próximo de 30ms).",
     "gold_chunks": [
@@ -657,7 +1603,7 @@
     ]
   },
   {
-    "id": 82,
+    "id": 199,
     "question": "Quais são todas as partes indicadas no diagrama de anatomia funcional do neurônio (slide 2)?",
     "ground_truth": "Sinapses, Dendritos, Corpo, Voltagem pós-sináptica, Promontório axônico, Axônio e Terminal axônico.",
     "gold_chunks": [
@@ -665,7 +1611,7 @@
     ]
   },
   {
-    "id": 83,
+    "id": 200,
     "question": "Quais são os nomes em inglês do neurônio em cesto e do neurônio candelabro, segundo o diagrama de camadas corticais?",
     "ground_truth": "'Basket cell' (neurônio em cesto) e 'chandelier cell' (neurônio candelabro).",
     "gold_chunks": [
@@ -673,7 +1619,7 @@
     ]
   },
   {
-    "id": 84,
+    "id": 201,
     "question": "Quais três íons são indicados na estrutura geral de uma sinapse (slide 8)?",
     "ground_truth": "Ca2+, Na+ e Cl-.",
     "gold_chunks": [
@@ -681,7 +1627,7 @@
     ]
   },
   {
-    "id": 85,
+    "id": 202,
     "question": "Como a plasticidade sináptica modula a transmissão de potencial, segundo a aula?",
     "ground_truth": "Variando o número de canais (NMDA/AMPA), em função da concentração de cálcio (Ca2+).",
     "gold_chunks": [
@@ -689,7 +1635,7 @@
     ]
   },
   {
-    "id": 86,
+    "id": 203,
     "question": "O que representa o eixo horizontal no gráfico da curva de plasticidade (Artola, 1993)?",
     "ground_truth": "A Ativação pós-sináptica / Voltagem.",
     "gold_chunks": [
@@ -697,7 +1643,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 204,
     "question": "O que forma a curva de plasticidade entre o Limiar LTD e o Limiar LTP?",
     "ground_truth": "A curva cruza o zero entre os dois limiares, formando uma curva em S.",
     "gold_chunks": [
@@ -705,7 +1651,7 @@
     ]
   },
   {
-    "id": 88,
+    "id": 205,
     "question": "Segundo o slide de resumo dos tipos de codificação neural, o que é a codificação de frequência?",
     "ground_truth": "As diferentes frequências de disparo do neurônio representam respostas a diferentes estímulos.",
     "gold_chunks": [
@@ -713,7 +1659,7 @@
     ]
   },
   {
-    "id": 89,
+    "id": 206,
     "question": "Segundo o slide de resumo dos tipos de codificação neural, o que é a codificação vetorial ou populacional?",
     "ground_truth": "Um estímulo pode ser codificado como um vetor cujos componentes são as taxas de disparo de vários neurônios.",
     "gold_chunks": [
@@ -721,7 +1667,7 @@
     ]
   },
   {
-    "id": 90,
+    "id": 207,
     "question": "Segundo o slide de resumo dos tipos de codificação neural, o que é a codificação temporal?",
     "ground_truth": "O neurônio codifica a informação mediante a duração dos intervalos entre os disparos.",
     "gold_chunks": [
@@ -729,7 +1675,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 208,
     "question": "O que acontece ao injetar correntes s1, s2 e s3 crescentes no neurônio, no exemplo de codificação frequencial?",
     "ground_truth": "Produzimos voltagens cada vez maiores no interior do neurônio, gerando taxas de disparo r1, r2, r3 correspondentes.",
     "gold_chunks": [
@@ -737,7 +1683,7 @@
     ]
   },
   {
-    "id": 92,
+    "id": 209,
     "question": "Quem desenvolveu o exoesqueleto Hardiman 1, de 1965?",
     "ground_truth": "A General Electric.",
     "gold_chunks": [
@@ -745,7 +1691,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": 210,
     "question": "A qual universidade está associado o trabalho de Jacob Rosen sobre exoesqueletos?",
     "ground_truth": "À Universidade de Washington.",
     "gold_chunks": [
@@ -753,7 +1699,7 @@
     ]
   },
   {
-    "id": 94,
+    "id": 211,
     "question": "Quantos tipos de receptores olfativos são mostrados no exemplo de codificação vetorial do epitélio olfativo?",
     "ground_truth": "Três tipos (Receptor 1, Receptor 2 e Receptor 3).",
     "gold_chunks": [
@@ -761,7 +1707,7 @@
     ]
   },
   {
-    "id": 95,
+    "id": 212,
     "question": "Quais são os quatro odores testados no exemplo de codificação vetorial do epitélio olfativo?",
     "ground_truth": "Citrus, Floral, Peppermint e Almond.",
     "gold_chunks": [
@@ -769,7 +1715,7 @@
     ]
   },
   {
-    "id": 96,
+    "id": 213,
     "question": "Em torno de qual comprimento de onda o cone B (azul) tem seu pico de resposta?",
     "ground_truth": "Em torno de 420 nm.",
     "gold_chunks": [
@@ -777,7 +1723,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": 214,
     "question": "Em torno de qual comprimento de onda o cone G (verde) tem seu pico de resposta?",
     "ground_truth": "Em torno de 530 nm.",
     "gold_chunks": [
@@ -785,7 +1731,7 @@
     ]
   },
   {
-    "id": 98,
+    "id": 215,
     "question": "Em torno de qual comprimento de onda o cone R (vermelho) tem seu pico de resposta?",
     "ground_truth": "Em torno de 560 nm.",
     "gold_chunks": [
@@ -793,7 +1739,7 @@
     ]
   },
   {
-    "id": 99,
+    "id": 216,
     "question": "Como o macaco realiza os movimentos de braço no experimento de Georgopoulos?",
     "ground_truth": "Usando um manche/joystick, com alvos dispostos em círculo.",
     "gold_chunks": [
@@ -801,7 +1747,7 @@
     ]
   },
   {
-    "id": 100,
+    "id": 217,
     "question": "O que os experimentos de Bialek e colaboradores mostram sobre padrões visuais em movimento?",
     "ground_truth": "Que diferentes padrões visuais em movimento produzem sequências de disparo diferentes e características no córtex visual da mosca.",
     "gold_chunks": [
@@ -809,7 +1755,7 @@
     ]
   },
   {
-    "id": 101,
+    "id": 218,
     "question": "Como Bialek e colaboradores estudaram as respostas dos neurônios do córtex visual da mosca?",
     "ground_truth": "Estudaram as respostas dos neurônios enquanto a mosca assistia a um filme.",
     "gold_chunks": [
@@ -817,7 +1763,7 @@
     ]
   },
   {
-    "id": 102,
+    "id": 219,
     "question": "Como as abordagens tradicionais caracterizam a codificação neural, segundo o resumo do artigo de Bialek et al. (1991)?",
     "ground_truth": "Caracterizam a codificação de estímulos conhecidos a partir da resposta neural média.",
     "gold_chunks": [
@@ -825,7 +1771,7 @@
     ]
   },
   {
-    "id": 103,
+    "id": 220,
     "question": "A quais autores e instituição pertence o artigo resumido no slide sobre \"Reading a neural code\"?",
     "ground_truth": "W. Bialek, F. Rieke, R.R. de Ruyter van Steveninck e D. Warland, do Department of Physics, University of California, Berkeley.",
     "gold_chunks": [
@@ -833,7 +1779,7 @@
     ]
   },
   {
-    "id": 104,
+    "id": 221,
     "question": "Quais são os três níveis de resolução temporal (τ) exemplificados no diagrama de codificação temporal (slide 62)?",
     "ground_truth": "τ=32ms, τ=8ms e τ=2ms.",
     "gold_chunks": [
@@ -843,7 +1789,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 222,
     "question": "Como o mesmo trem de disparos é representado quando a resolução temporal é τ=8ms, no exemplo do slide 62?",
     "ground_truth": "Cada segmento se divide em 4 subintervalos, lidos como as sequências \"4 3 3 1\" e \"3 4 2 0\".",
     "gold_chunks": [
@@ -851,7 +1797,7 @@
     ]
   },
   {
-    "id": 106,
+    "id": 223,
     "question": "Quais canais, neurotransmissor e íon estão envolvidos especificamente na sinapse inibitória GABA-A?",
     "ground_truth": "Os canais de GABA-A, o neurotransmissor GABA-A e o íon Cl-.",
     "gold_chunks": [
@@ -859,7 +1805,7 @@
     ]
   },
   {
-    "id": 107,
+    "id": 224,
     "question": "Quais canais e íon estão envolvidos especificamente na sinapse inibitória GABA-B?",
     "ground_truth": "Os canais de GABA-B (metabotrópico) e o íon K+.",
     "gold_chunks": [
@@ -867,7 +1813,7 @@
     ]
   },
   {
-    "id": 108,
+    "id": 225,
     "question": "Qual é a faixa de frequência do ritmo beta, e a que estados ele está associado?",
     "ground_truth": "12-30 Hz, associado a atividade, atenção e ansiedade.",
     "gold_chunks": [
@@ -875,7 +1821,7 @@
     ]
   },
   {
-    "id": 109,
+    "id": 226,
     "question": "Qual é a faixa de frequência do ritmo alfa, e a que estado ele está associado?",
     "ground_truth": "8-12 Hz, associado a relaxação.",
     "gold_chunks": [
@@ -883,7 +1829,7 @@
     ]
   },
   {
-    "id": 110,
+    "id": 227,
     "question": "Qual é a faixa de frequência do ritmo teta, e a que estados ele está associado?",
     "ground_truth": "4-7 Hz, associado a sonolência e meditação.",
     "gold_chunks": [
@@ -891,7 +1837,7 @@
     ]
   },
   {
-    "id": 111,
+    "id": 228,
     "question": "Qual é a faixa de frequência do ritmo delta, e a que estado ele está associado?",
     "ground_truth": "Até 3 Hz, associado a sono profundo.",
     "gold_chunks": [
@@ -899,7 +1845,7 @@
     ]
   },
   {
-    "id": 112,
+    "id": 229,
     "question": "Quantos neurônios do córtex motor foram registrados no experimento de Georgopoulos?",
     "ground_truth": "Oito neurônios (N1 a N8).",
     "gold_chunks": [
@@ -907,7 +1853,7 @@
     ]
   },
   {
-    "id": 113,
+    "id": 230,
     "question": "Como a resposta populacional completa do conjunto de neurônios é representada no experimento de Georgopoulos?",
     "ground_truth": "Pelo vetor α ≡ [r1, r2, r3, r4, r5, r6, r7, r8].",
     "gold_chunks": [
@@ -915,7 +1861,7 @@
     ]
   },
   {
-    "id": 114,
+    "id": 231,
     "question": "Quantos bits por segundo os neurônios do nervo auditivo da rã transmitiam quando ela escutava ruído branco?",
     "ground_truth": "46 bits por segundo (ou 1,4 bits por disparo).",
     "gold_chunks": [
@@ -923,7 +1869,7 @@
     ]
   },
   {
-    "id": 115,
+    "id": 232,
     "question": "Quantos bits por segundo os neurônios do nervo auditivo da rã transmitiam quando ela escutava o chamado de outras rãs?",
     "ground_truth": "133 bits por segundo (ou 7,8 bits por disparo).",
     "gold_chunks": [
@@ -931,7 +1877,7 @@
     ]
   },
   {
-    "id": 116,
+    "id": 233,
     "question": "Como o trem de disparos é lido quando a resolução temporal é τ=32ms, no exemplo do slide 62?",
     "ground_truth": "Dois segmentos consecutivos são lidos, como um todo, como os números 11 e 9.",
     "gold_chunks": [
@@ -939,7 +1885,7 @@
     ]
   },
   {
-    "id": 117,
+    "id": 234,
     "question": "Como o trem de disparos é representado quando a resolução temporal é τ=2ms, no exemplo do slide 62?",
     "ground_truth": "Como uma sequência binária completa.",
     "gold_chunks": [
@@ -947,7 +1893,7 @@
     ]
   },
   {
-    "id": 118,
+    "id": 235,
     "question": "Qual é o primeiro exemplo adicional de codificação populacional ou vetorial citado no slide 49?",
     "ground_truth": "A codificação vetorial das cores.",
     "gold_chunks": [
@@ -955,7 +1901,7 @@
     ]
   },
   {
-    "id": 119,
+    "id": 236,
     "question": "Qual é o segundo exemplo adicional de codificação populacional ou vetorial citado no slide 49?",
     "ground_truth": "A codificação vetorial da aceleração da cabeça nos canais semicirculares do ouvido.",
     "gold_chunks": [
@@ -963,7 +1909,7 @@
     ]
   },
   {
-    "id": 120,
+    "id": 237,
     "question": "Quais camadas corticais (em algarismos romanos) são mostradas no diagrama de tipos de neurônios do córtex?",
     "ground_truth": "As camadas I a VI.",
     "gold_chunks": [
@@ -971,7 +1917,7 @@
     ]
   },
   {
-    "id": 121,
+    "id": 238,
     "question": "Que convenção de sinal (+/-) o diagrama de camadas corticais usa para indicar se um neurônio é excitatório ou inibitório?",
     "ground_truth": "Sinal positivo para neurônios excitatórios (como o piramidal) e sinal negativo para neurônios inibitórios (como o em cesto e o candelabro).",
     "gold_chunks": [
@@ -980,7 +1926,7 @@
     ]
   },
   {
-    "id": 122,
+    "id": 239,
     "question": "Onde estão localizadas as sinapses excitatórias dos neurônios excitatórios, segundo a aula?",
     "ground_truth": "No terminal axônico.",
     "gold_chunks": [
@@ -988,7 +1934,7 @@
     ]
   },
   {
-    "id": 123,
+    "id": 240,
     "question": "Onde estão localizadas as sinapses inibitórias dos neurônios inibitórios, segundo a aula?",
     "ground_truth": "No terminal axônico.",
     "gold_chunks": [
@@ -996,7 +1942,7 @@
     ]
   },
   {
-    "id": 124,
+    "id": 241,
     "question": "Segundo a citação de Hebb, o que acontece em uma ou em ambas as células quando a condição de disparo repetido é satisfeita?",
     "ground_truth": "Acontece algum processo de crescimento ou mudança metabólica.",
     "gold_chunks": [
@@ -1004,7 +1950,7 @@
     ]
   },
   {
-    "id": 125,
+    "id": 242,
     "question": "No diagrama do Modelo de Hebb, o que conecta a Membrana Pré-sináptica (entrada Ij) à Membrana Pós-sináptica (saída Oi)?",
     "ground_truth": "Um peso, w.",
     "gold_chunks": [
@@ -1012,7 +1958,7 @@
     ]
   },
   {
-    "id": 126,
+    "id": 243,
     "question": "Além do modelo pós-sináptico, qual outro modelo de plasticidade sináptica tem uma equação equivalente assimptótica indicada na aula?",
     "ground_truth": "O modelo pré-sináptico.",
     "gold_chunks": [
@@ -1020,7 +1966,7 @@
     ]
   },
   {
-    "id": 127,
+    "id": 244,
     "question": "Quais três símbolos de taxas de disparo aparecem na pergunta motivadora sobre como a informação é transmitida pelos neurônios?",
     "ground_truth": "r1, r2 e r3.",
     "gold_chunks": [
@@ -1028,7 +1974,7 @@
     ]
   },
   {
-    "id": 128,
+    "id": 245,
     "question": "No exemplo dado para a definição de P(rj), o que r1 e r2 podem significar?",
     "ground_truth": "r1 pode significar resposta de 50 Hz e r2 uma resposta de 100 Hz.",
     "gold_chunks": [
@@ -1036,7 +1982,7 @@
     ]
   },
   {
-    "id": 129,
+    "id": 246,
     "question": "Qual é a faixa do eixo horizontal P(r1) no gráfico de entropia máxima apresentado na aula?",
     "ground_truth": "De 0 a 1.",
     "gold_chunks": [
@@ -1044,7 +1990,7 @@
     ]
   },
   {
-    "id": 130,
+    "id": 247,
     "question": "Qual é a faixa do eixo vertical de entropia S no gráfico de entropia máxima apresentado na aula?",
     "ground_truth": "De 0 a 1 bit.",
     "gold_chunks": [
@@ -1052,7 +1998,7 @@
     ]
   },
   {
-    "id": 131,
+    "id": 248,
     "question": "A qual autor e ano é atribuída a curva de plasticidade sináptica apresentada na aula?",
     "ground_truth": "Artola, 1993.",
     "gold_chunks": [
@@ -1060,7 +2006,7 @@
     ]
   },
   {
-    "id": 132,
+    "id": 249,
     "question": "Quais são as três camadas de tecido que o sinal elétrico neural precisa atravessar antes de chegar ao eletrodo do EEG, segundo o diagrama apresentado?",
     "ground_truth": "Pia máter, Aracnoide e Dura máter.",
     "gold_chunks": [
@@ -1068,7 +2014,7 @@
     ]
   },
   {
-    "id": 133,
+    "id": 250,
     "question": "Como o pico da onda P300 é rotulado no gráfico apresentado na aula?",
     "ground_truth": "\"P3\".",
     "gold_chunks": [
@@ -1076,7 +2022,7 @@
     ]
   },
   {
-    "id": 134,
+    "id": 251,
     "question": "Como a atividade neuronal captada pelos eletrodos é processada e usada no experimento de Nicolelis?",
     "ground_truth": "É processada por um sistema de controle computacional e usada para mover um braço robótico/virtual.",
     "gold_chunks": [
@@ -1084,7 +2030,7 @@
     ]
   },
   {
-    "id": 135,
+    "id": 252,
     "question": "Mediante qual técnica são estabelecidas as correlações entre as características extraídas e os movimentos dos membros, no experimento de Nicolelis?",
     "ground_truth": "Mediante redes neurais artificiais.",
     "gold_chunks": [
@@ -1092,7 +2038,7 @@
     ]
   },
   {
-    "id": 136,
+    "id": 253,
     "question": "O que caracteriza as respostas r1 e r2 no exemplo introdutório da codificação temporal, apesar de terem a mesma taxa média de disparos?",
     "ground_truth": "Para alguns animais, essas duas respostas correspondem a estímulos totalmente diferentes.",
     "gold_chunks": [
@@ -1100,7 +2046,7 @@
     ]
   },
   {
-    "id": 137,
+    "id": 254,
     "question": "Sob qual ponto de vista o código neural foi caracterizado no trabalho de Bialek et al., segundo o resumo do artigo?",
     "ground_truth": "Do ponto de vista do organismo.",
     "gold_chunks": [
@@ -1108,7 +2054,7 @@
     ]
   },
   {
-    "id": 138,
+    "id": 255,
     "question": "Em que se baseiam os algoritmos de estimativa do estímulo em tempo real descritos no resumo do artigo de Bialek et al. (1991)?",
     "ground_truth": "Em um único exemplo do trem de disparos.",
     "gold_chunks": [
@@ -1116,7 +2062,7 @@
     ]
   },
   {
-    "id": 139,
+    "id": 256,
     "question": "A quais neurônios os métodos de decodificação descritos no resumo de Bialek et al. foram aplicados?",
     "ground_truth": "A um neurônio sensível a movimento identificado no sistema visual da mosca.",
     "gold_chunks": [
@@ -1124,7 +2070,7 @@
     ]
   },
   {
-    "id": 140,
+    "id": 257,
     "question": "O que os experimentos de decodificação descritos no resumo do artigo de Bialek et al. determinaram sobre a computação neural?",
     "ground_truth": "O nível de ruído efetivo e a tolerância a falhas da computação neural.",
     "gold_chunks": [
@@ -1132,7 +2078,7 @@
     ]
   },
   {
-    "id": 141,
+    "id": 258,
     "question": "Que tipo de modelo a estrutura dos algoritmos de decodificação sugeriu, segundo o resumo do artigo de Bialek et al.?",
     "ground_truth": "Um modelo simples de processamento analógico de sinal em tempo real com neurônios que disparam.",
     "gold_chunks": [
@@ -1140,7 +2086,7 @@
     ]
   },
   {
-    "id": 142,
+    "id": 259,
     "question": "Qual é a duração da janela (T) usada no diagrama esquemático de codificação temporal em diferentes resoluções?",
     "ground_truth": "T=32ms.",
     "gold_chunks": [
@@ -1148,7 +2094,7 @@
     ]
   },
   {
-    "id": 143,
+    "id": 260,
     "question": "Qual é a duração das palavras (T) usada no gráfico de taxa de informação por resolução temporal?",
     "ground_truth": "T=25ms.",
     "gold_chunks": [
@@ -1156,7 +2102,7 @@
     ]
   },
   {
-    "id": 144,
+    "id": 261,
     "question": "Qual é a faixa do eixo vertical (taxa de informação, em bits por segundo) no gráfico de resolução temporal apresentado na aula?",
     "ground_truth": "De 80 a 180 bits por segundo.",
     "gold_chunks": [
@@ -1164,7 +2110,7 @@
     ]
   },
   {
-    "id": 145,
+    "id": 262,
     "question": "Quais valores de potencial de membrana são indicados na sinapse inibitória GABA-B?",
     "ground_truth": "-65mV e -80mV.",
     "gold_chunks": [
@@ -1172,7 +2118,7 @@
     ]
   },
   {
-    "id": 146,
+    "id": 263,
     "question": "No exercício proposto sobre o neurônio tálamo-cortical, em qual porcentagem do tempo ele dispara na frequência rápida?",
     "ground_truth": "40% do tempo.",
     "gold_chunks": [
@@ -1180,7 +2126,7 @@
     ]
   },
   {
-    "id": 147,
+    "id": 264,
     "question": "O que o traçado de sinal de EEG mostrado na aula representa?",
     "ground_truth": "Várias linhas onduladas (uma por canal/eletrodo), representando a atividade elétrica cerebral ao longo do tempo.",
     "gold_chunks": [
@@ -1188,7 +2134,7 @@
     ]
   },
   {
-    "id": 148,
+    "id": 265,
     "question": "A que sentido a codificação vetorial nos canais semicirculares do ouvido é aplicada, segundo a aula?",
     "ground_truth": "Ao sentido do equilíbrio.",
     "gold_chunks": [
@@ -1196,7 +2142,7 @@
     ]
   },
   {
-    "id": 149,
+    "id": 266,
     "question": "O que motivou Bialek e colaboradores a repetir o experimento da mosca em um ambiente natural?",
     "ground_truth": "O sucesso obtido com os experimentos das rãs.",
     "gold_chunks": [
@@ -1204,7 +2150,7 @@
     ]
   },
   {
-    "id": 150,
+    "id": 267,
     "question": "Onde Bialek colocou eletrodos no experimento em ambiente natural (parte II)?",
     "ground_truth": "Nos neurônios que processam os movimentos horizontais do voo da mosca.",
     "gold_chunks": [
@@ -1212,7 +2158,7 @@
     ]
   },
   {
-    "id": 151,
+    "id": 268,
     "question": "O que a membrana pré-sináptica contém, na estrutura geral da sinapse apresentada na aula?",
     "ground_truth": "Vesículas com neurotransmissor.",
     "gold_chunks": [
@@ -1220,7 +2166,7 @@
     ]
   },
   {
-    "id": 152,
+    "id": 269,
     "question": "O que o sujeito tenta controlar durante os experimentos com biofeedback, e o que o aparelho mostra?",
     "ground_truth": "O sujeito tenta controlar suas ondas cerebrais, enquanto o aparelho mostra seu grau de relaxação.",
     "gold_chunks": [
@@ -1228,7 +2174,7 @@
     ]
   },
   {
-    "id": 153,
+    "id": 270,
     "question": "Que tipo de recompensa o macaco recebe durante o experimento de Nicolelis?",
     "ground_truth": "Uma recompensa de suco.",
     "gold_chunks": [
@@ -1236,7 +2182,7 @@
     ]
   },
   {
-    "id": 154,
+    "id": 271,
     "question": "Para que servem as técnicas de reconhecimento de padrões aplicadas no experimento de Nicolelis?",
     "ground_truth": "Para reconhecer cada vetor de frequências de disparo.",
     "gold_chunks": [
@@ -1244,7 +2190,7 @@
     ]
   },
   {
-    "id": 155,
+    "id": 272,
     "question": "O que cada odor produz em termos de disparo nos três tipos de receptor, no exemplo de codificação vetorial do epitélio olfativo?",
     "ground_truth": "Uma combinação distinta e simultânea de taxas de disparo nos três tipos de receptor — um \"vetor\" de resposta populacional único para cada odor.",
     "gold_chunks": [
@@ -1252,7 +2198,7 @@
     ]
   },
   {
-    "id": 156,
+    "id": 273,
     "question": "Qual é a faixa do eixo vertical (Resposta relativa) no gráfico de codificação vetorial nos cones?",
     "ground_truth": "De 0 a 100%.",
     "gold_chunks": [
@@ -1260,7 +2206,7 @@
     ]
   },
   {
-    "id": 157,
+    "id": 274,
     "question": "Qual é a faixa aproximada do eixo horizontal (comprimento de onda) no gráfico de codificação vetorial nos cones?",
     "ground_truth": "Aproximadamente 400 a 650+ nm.",
     "gold_chunks": [
@@ -1268,7 +2214,7 @@
     ]
   },
   {
-    "id": 158,
+    "id": 275,
     "question": "Qual é a faixa do eixo horizontal (Direção do braço) no gráfico de curvas de sintonia direcional de Georgopoulos?",
     "ground_truth": "De 0° a 270°, cobrindo o círculo completo.",
     "gold_chunks": [
@@ -1276,7 +2222,7 @@
     ]
   },
   {
-    "id": 159,
+    "id": 276,
     "question": "Onde fica o pico da curva destacada em vermelho no gráfico de curvas de sintonia direcional de Georgopoulos?",
     "ground_truth": "Próximo de 90°.",
     "gold_chunks": [
@@ -1284,7 +2230,7 @@
     ]
   },
   {
-    "id": 160,
+    "id": 277,
     "question": "Quais são as sequências binárias de exemplo dadas para τ=2ms no diagrama de codificação temporal em diferentes resoluções?",
     "ground_truth": "11110110110010 e 01111110100000.",
     "gold_chunks": [
@@ -1292,11 +2238,293 @@
     ]
   },
   {
-    "id": 161,
+    "id": 278,
     "question": "Em que escala é apresentado o eixo horizontal (τ) no gráfico de taxa de informação por resolução temporal?",
     "ground_truth": "Escala logarítmica.",
     "gold_chunks": [
       "em função da resolução temporal τ em milissegundos (eixo horizontal, escala logarítmica)"
+    ]
+  },
+  {
+    "id": 279,
+    "question": "No diagrama que entende o sistema nervoso como um canal de informações, quais três blocos compõem o esquema?",
+    "ground_truth": "Compressão dos dados, Canal de comunicações, e Descompressão dos dados.",
+    "gold_chunks": [
+      "um sinal de entrada X passa por um bloco de \"Compressão dos dados\", é transmitido como Y através de um \"Canal de comunicações\", e é reconstruído como X' por um bloco de \"Descompressão dos dados\""
+    ]
+  },
+  {
+    "id": 280,
+    "question": "Quem propôs o \"Magical Number Seven, Plus or Minus Two\", e em que publicação?",
+    "ground_truth": "George A. Miller, na revista The Psychological Review, 1956.",
+    "gold_chunks": [
+      "George A. Miller. \"The Magical Number Seven, Plus or Minus Two\". The Psychological Review, 1956, vol. 63, Issue 2, pp. 81-97"
+    ]
+  },
+  {
+    "id": 281,
+    "question": "No exemplo de graus de cinza distintos da Aula 8, qual é o cálculo de S apresentado?",
+    "ground_truth": "S = log2(6) = 2,58 bits.",
+    "gold_chunks": [
+      "Cálculo de exemplo: S = log2(6) = 2,58 (bits)"
+    ]
+  },
+  {
+    "id": 282,
+    "question": "Em volta de quantos níveis de som a Aula 8 calcula a entropia S=Log(5)=2,3 bits?",
+    "ground_truth": "Cinco níveis.",
+    "gold_chunks": [
+      "Em volta de cinco níveis de son: S=Log(5)=2,3 bits"
+    ]
+  },
+  {
+    "id": 283,
+    "question": "Em quais três sub-ciências se divide a semiótica, segundo a Aula 8?",
+    "ground_truth": "Sintática, semântica e pragmática.",
+    "gold_chunks": [
+      "A ciência da semiótica divide-se em três sub-ciências: a sintática, a semântica e a pragmática"
+    ]
+  },
+  {
+    "id": 284,
+    "question": "Qual área cerebral relaciona os objetos com as palavras (semântica), e qual organiza as palavras em frases (sintática)?",
+    "ground_truth": "Área de Wernicke (semântica) e área de Broca (sintática).",
+    "gold_chunks": [
+      "Semântica: área de Wernicke. Relaciona os objetos com as palavras. Sintática: área de Broca. Organiza as palavras em frases"
+    ]
+  },
+  {
+    "id": 285,
+    "question": "Cite três exemplos de correção de erros e reconstrução de padrões na percepção mencionados na Aula 8.",
+    "ground_truth": "Ilusões visuais, ponto cego, síndrome de Charles Bonnet, membro fantasma, imagens estabilizadas na retina.",
+    "gold_chunks": [
+      "Exemplos: ilusões visuais; ponto cego; síndrome de Charles Bonnet; membro fantasma; imagens estabilizadas na retina"
+    ]
+  },
+  {
+    "id": 286,
+    "question": "O que a imagem do cão dálmata camuflado ilustra sobre a percepção?",
+    "ground_truth": "O reconhecimento de padrões e preenchimento perceptual: o cérebro reconhece a forma do cão mesmo sem bordas contínuas definidas.",
+    "gold_chunks": [
+      "um exemplo célebre de reconhecimento de padrões e preenchimento perceptual: o cérebro consegue reconhecer a forma do cão mesmo sem bordas contínuas definidas"
+    ]
+  },
+  {
+    "id": 287,
+    "question": "Em qual publicação e ano Ramachandran discutiu a reconstrução de padrões a nível do ponto cego (\"Blind spots\")?",
+    "ground_truth": "Scientific American, 266, em 1992.",
+    "gold_chunks": [
+      "Ramachandran, V.S.: \"Blind spots\". Scientific American, 266. (1992) 85-91"
+    ]
+  },
+  {
+    "id": 288,
+    "question": "O que o caso do membro fantasma significa, segundo a Aula 8?",
+    "ground_truth": "Que existe uma reconstrução de padrões incompletos a nível somato-sensorial.",
+    "gold_chunks": [
+      "o caso do membro fantasma significa que existe uma reconstrução de padrões incompletos a nível somato-sensorial"
+    ]
+  },
+  {
+    "id": 289,
+    "question": "Na ilusão de Müller-Lyer, o que faz uma das linhas parecer mais longa e a outra mais curta, mesmo tendo o mesmo comprimento?",
+    "ground_truth": "A orientação das pontas em seta: apontando para fora parece mais longa, apontando para dentro parece mais curta.",
+    "gold_chunks": [
+      "uma com pontas em seta apontando para fora (parecendo mais longa) e outra com pontas em seta apontando para dentro (parecendo mais curta)"
+    ]
+  },
+  {
+    "id": 290,
+    "question": "Na ilusão \"checker-shadow\" de Edward H. Adelson, o que é verdade sobre a tonalidade dos quadrados A e B, apesar de parecerem diferentes?",
+    "ground_truth": "Têm exatamente a mesma tonalidade de cinza.",
+    "gold_chunks": [
+      "Os quadrados marcados A",
+      "e B",
+      "têm exatamente a mesma tonalidade de cinza, mas são percebidos como tonalidades diferentes devido ao contexto da sombra projetada"
+    ]
+  },
+  {
+    "id": 291,
+    "question": "Quem criou a ilusão das \"cobras rotativas\" (Rotating Snakes)?",
+    "ground_truth": "Akiyoshi Kitaoka.",
+    "gold_chunks": [
+      "A conhecida ilusão de movimento aparente \"cobras rotativas\", de Akiyoshi Kitaoka"
+    ]
+  },
+  {
+    "id": 292,
+    "question": "A que evento científico se refere a sigla \"ECVP\" usada na ilusão de deriva periférica com texto?",
+    "ground_truth": "European Conference on Visual Perception.",
+    "gold_chunks": [
+      "\"ECVP\" refere-se à European Conference on Visual Perception"
+    ]
+  },
+  {
+    "id": 293,
+    "question": "Segundo o princípio de que \"a percepção é competitiva\", quantas alternativas de uma figura ambígua são percebidas de cada vez?",
+    "ground_truth": "Uma só das duas alternativas.",
+    "gold_chunks": [
+      "duas alternativas \"em superposição\" de uma figura ambígua competem, e uma só das duas alternativas é percebida de cada vez"
+    ]
+  },
+  {
+    "id": 294,
+    "question": "O que é ambíguo na ilusão da \"Spinning Dancer\" (dançarina giratória)?",
+    "ground_truth": "A direção de rotação percebida (sentido horário ou anti-horário), que pode alternar espontaneamente.",
+    "gold_chunks": [
+      "a direção de rotação percebida (sentido horário ou anti-horário) é ambígua e pode alternar espontaneamente na percepção do observador"
+    ]
+  },
+  {
+    "id": 295,
+    "question": "Quais são os cinco conceitos essenciais da informação quântica listados na Aula 9?",
+    "ground_truth": "Superposição quântica, Qubit, Colapso, Emaranhamento quântico e Computação quântica.",
+    "gold_chunks": [
+      "Superposição quântica; Qubit (ou quantum bit); Colapso; Emaranhamento quântico; Computação quântica"
+    ]
+  },
+  {
+    "id": 296,
+    "question": "Por que, segundo a Aula 9, é preciso de matemática complexa ou metáforas adequadas para entender os fenômenos quânticos?",
+    "ground_truth": "Porque os fenômenos quânticos são alheios a toda a nossa experiência quotidiana.",
+    "gold_chunks": [
+      "Por causa dos fenômenos quânticos serem alheios a toda nossa experiência, para começar a entendê-los é preciso de matemática complexa ou metáforas adequadas"
+    ]
+  },
+  {
+    "id": 297,
+    "question": "Qual pergunta central conecta a metáfora do Cubo de Necker à questão quântica fundamental sobre superposição?",
+    "ground_truth": "Para onde fica orientado o cubo quando não olhamos para ele?",
+    "gold_chunks": [
+      "Para onde fica orientado o cubo quando não olhamos para ele?"
+    ]
+  },
+  {
+    "id": 298,
+    "question": "Representando pelo bit=1 o giro da moça à direita e pelo bit=0 o giro à esquerda, o que representa o estado da moça segundo a Aula 9?",
+    "ground_truth": "Uma superposição dos dois estados, 0 e 1.",
+    "gold_chunks": [
+      "o estado da moça é uma superposição dos dois estados, 0 e 1"
+    ]
+  },
+  {
+    "id": 299,
+    "question": "Como é chamada a notação usada para representar o estado de um bit quântico que é 0 e 1 simultaneamente?",
+    "ground_truth": "Notação \"Ket\".",
+    "gold_chunks": [
+      "é representado pela notação chamada \"Ket\""
+    ]
+  },
+  {
+    "id": 300,
+    "question": "No exemplo do colapso da superposição da dançarina, com que probabilidade o giro para a direita acontece?",
+    "ground_truth": "Com probabilidade P de 0,6 (60% das vezes).",
+    "gold_chunks": [
+      "Supúnhamos que o giro para a direita aconteça 60% das vezes que olhamos, ou seja, com probabilidade P de 0,6"
+    ]
+  },
+  {
+    "id": 301,
+    "question": "Na fórmula da superposição aplicada à dançarina, o que representa β² segundo a relação legível no slide?",
+    "ground_truth": "β² = P(giro à esquerda).",
+    "gold_chunks": [
+      "β² = P(giro à esquerda)"
+    ]
+  },
+  {
+    "id": 302,
+    "question": "Além de girar à direita e à esquerda ao mesmo tempo, que outro exemplo de superposição envolvendo a luz é citado na Aula 9?",
+    "ground_truth": "A luz é, ao mesmo tempo, onda e partícula, e pode ter polarização horizontal e vertical ao mesmo tempo.",
+    "gold_chunks": [
+      "Um outro exemplo de superposição é a luz que é, ao mesmo tempo, onda e partícula. A luz também pode ter polarização horizontal e vertical ao mesmo tempo"
+    ]
+  },
+  {
+    "id": 303,
+    "question": "Em que ano, e em qual publicação, Chris Monroe e David Wineland relataram ter colocado um átomo de berílio em dois locais distintos?",
+    "ground_truth": "Em 1996, na revista Science (24 May 1996, Vol. 272, no. 5265).",
+    "gold_chunks": [
+      "Em 1996, Chris Monroe e David Wineland lograram colocar simultaneamente um átomo de berílio em dois locais distintos (Science, 24 May 1996: Vol. 272, no. 5265)"
+    ]
+  },
+  {
+    "id": 304,
+    "question": "No experimento da fenda dupla, o que um elétron pode fazer quando disparado em direção às duas fendas?",
+    "ground_truth": "Pode passar pelas duas fendas ao mesmo tempo.",
+    "gold_chunks": [
+      "Um elétron, quando disparado em direção a uma fenda dupla, pode passar pelas duas fendas ao mesmo tempo"
+    ]
+  },
+  {
+    "id": 305,
+    "question": "No experimento de Zeilinger e colaboradores com fulerenos, qual é a largura das fendas de colimação, e a que distância fica a grade de difração?",
+    "ground_truth": "Fendas de 7 µm; a grade de difração fica a 1,04 m de distância.",
+    "gold_chunks": [
+      "é colimado por fendas de 7 µm (\"collimation slits\"), atravessa uma grade de difração de 100 nm (\"grating\") a 1,04 m de distância"
+    ]
+  },
+  {
+    "id": 306,
+    "question": "Como Einstein chamou a possibilidade de duas partículas emaranhadas colapsarem simultaneamente mesmo a milhões de anos-luz de distância?",
+    "ground_truth": "\"Spooky action at a distance\" (ação fantasmagórica à distância).",
+    "gold_chunks": [
+      "Esta possibilidade é chamada por Einstein de \"spooky action at a distance\" (ação fantasmagórica à distância)"
+    ]
+  },
+  {
+    "id": 307,
+    "question": "Como também é chamado o fenômeno do emaranhamento quântico testado por vários pesquisadores, em referência a três físicos?",
+    "ground_truth": "Experimento EPR, ou experimento de \"Einstein, Podolsky, Rosen\".",
+    "gold_chunks": [
+      "Este fenômeno é chamado experimento EPR, ou experimento de \"Einstein, Podolsky, Rosen\""
+    ]
+  },
+  {
+    "id": 308,
+    "question": "Quem realizou o primeiro experimento sobre emaranhamento quântico e ação à distância?",
+    "ground_truth": "Alain Aspect.",
+    "gold_chunks": [
+      "Alain Aspect realizou o primeiro experimento sobre emaranhamento quântico e ação à distância"
+    ]
+  },
+  {
+    "id": 309,
+    "question": "No experimento de Gisin e colaboradores, de que material era feito o cristal impactado pelo laser?",
+    "ground_truth": "Nióbio, potássio e oxigênio.",
+    "gold_chunks": [
+      "Eles impactaram um cristal feito de nióbio, potássio e oxigênio com um laser"
+    ]
+  },
+  {
+    "id": 310,
+    "question": "No experimento de Gisin, a que distância ficavam as cidades de Bernex e Belleuve, para onde os fótons emaranhados foram conduzidos?",
+    "ground_truth": "A uns 11 km de distância.",
+    "gold_chunks": [
+      "Um fóton foi conduzido para a cidade de Bernex, e outro para Belleuve, a uns 11 km de distância entre elas"
+    ]
+  },
+  {
+    "id": 311,
+    "question": "Segundo o algoritmo de Grover, um problema criptográfico que requer 256 iterações classicamente pode ser resolvido com quantas iterações num computador quântico?",
+    "ground_truth": "16 iterações (√256 = 16).",
+    "gold_chunks": [
+      "Grover demonstrou que um problema criptográfico que requer 256 iterações poderia ser resolvido com somente √256 = 16 iterações num computador quântico"
+    ]
+  },
+  {
+    "id": 312,
+    "question": "Em que ano, e por quem, o algoritmo de Grover foi aplicado no primeiro computador quântico?",
+    "ground_truth": "Em 1998, por Isaac Chuang e Neil Gershenfeld.",
+    "gold_chunks": [
+      "Em 1998, Isaac Chuang e Neil Gershenfeld aplicaram o algoritmo de Grover no primeiro computador quântico"
+    ]
+  },
+  {
+    "id": 313,
+    "question": "Qual pergunta filosófica encerra a Aula 9, relacionando o mistério da vida à computação quântica?",
+    "ground_truth": "Se a vida é o resultado de uma computação, será que o mistério da vida se acha escondido detrás dos mistérios da computação quântica?",
+    "gold_chunks": [
+      "se a vida é o resultado de uma computação, será que o mistério da vida se acha escondido detrás dos mistérios da computação quântica?"
     ]
   }
 ]
