@@ -37,7 +37,7 @@ def f1_score(prediction, ground_truth):
     return 2 * precision * recall / (precision + recall) #calculo final do f1
 
 #LEITURA DO ARQUIVO DE RESULTADOS
-with open("runtime/crud_results.json", "r", encoding="utf-8") as f:
+with open("runtime/generation_results.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 rouge = rouge_scorer.RougeScorer(["rougeL"], use_stemmer=True)
